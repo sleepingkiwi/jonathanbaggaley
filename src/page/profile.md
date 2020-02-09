@@ -40,7 +40,7 @@ genericContentBlocks:
           nisl.
         textAlign: left
         type: text
-      - quoteAttribution: '- someone objective'
+      - quoteAttribution: ''
         quoteText: Jon's a good bloke and he takes a nice picture
         textAlign: left
         type: quote
