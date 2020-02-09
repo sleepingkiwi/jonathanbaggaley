@@ -27,8 +27,6 @@
 
 import ColorThief from 'colorthief/dist/color-thief.umd';
 
-const imageToBase64 = require('image-to-base64');
-
 const colorThief = new ColorThief();
 
 
@@ -82,14 +80,22 @@ const ExtraImageControl = window.createClass({
       //   version,
       //   filename,
       // });
-      img.onload = async () => {
+      img.onload = () => {
         let dominant = [255, 255, 255];
         let baseSixFour = '';
         // colorThief doesn't handle pure white images:
         // https://github.com/lokesh/color-thief/issues/72
         try {
           dominant = colorThief.getColor(img);
-          baseSixFour = await imageToBase64(`${img.base}w_12,c_limit,q_auto:low/${img.version}/${img.filename}`);
+
+          // ref: https://base64.guru/developers/javascript/examples/convert-image
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          canvas.height = img.naturalHeight;
+          canvas.width = img.naturalWidth;
+          ctx.drawImage(img, 0, 0);
+          const uri = canvas.toDataURL('image/png');
+          baseSixFour = uri.replace(/^data:image.+;base64,/, '');
         } catch (error) {
           /** START DEBUGGING **/
           // TODO - remove this debugging code!
@@ -124,7 +130,9 @@ const ExtraImageControl = window.createClass({
       };
       img.crossOrigin = 'Anonymous'; // needed for colour thief to work on images from cloudinary
       // ref:  https://lokeshdhakar.com/projects/color-thief/
-      img.src = src;
+      // img.src = src;
+      // 16px version for base 64 encoded backgrounds
+      img.src = `${img.base}w_16,c_limit,q_auto:low/${img.version}/${img.filename}`;
     });
   },
 
@@ -379,13 +387,13 @@ const ExtraImageControl = window.createClass({
               {},
               value ? `${value.width || '0'}px by ${value.height || '0'}px` : '',
             ),
-            window.h('strong', {}, '12px Encoded Preview: '),
+            window.h('strong', {}, '16px Encoded Preview: '),
             window.h(
               'img',
               {
                 src: value.baseSixFour || '',
                 style: {
-                  width: '12px',
+                  width: '16px',
                   display: 'inline-block',
                   verticalAlign: 'top',
                 },
