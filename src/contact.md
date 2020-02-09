@@ -2,13 +2,13 @@
 layout: layouts/contact
 title: Contact
 formContentArea:
-  header:
+  header: Contact
   labels:
     email: Email
     message: Message
     name: Name
     sendMessage: Send Message
     subject: Subject
-  subHeader:
-  text:
+  text: For details of available editions or general enquiries.
 ---
+
