@@ -1,0 +1,30 @@
+/** default link styling
+ *  ------------------------------------------------------------------------------------------------
+**/
+
+a {
+  color: var(--colour-secondary);
+  text-decoration: none;
+  font-weight: normal;
+  transition:
+    color var(--time-transition) var(--ease-default),
+    background var(--time-transition) var(--ease-default);
+
+  &:hover,
+  &:focus {
+    color: var(--colour-highlight);
+  }
+
+  &:active {
+    /* ... */
+  }
+
+  &:visited {
+    /* ... */
+  }
+
+  &:link {
+    /* highlights links on iOS, basically works like the :hover selector for mobile devices. */
+    /* -webkit-tap-highlight-color: rgba(var(colour-secondary), 0.2); */
+  }
+}

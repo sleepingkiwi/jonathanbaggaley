@@ -1,0 +1,37 @@
+{#
+  Wrap component
+  ---
+  CMS _data:
+    -
+  ---
+  args:
+    flavour=''
+      Optional
+      String
+    flows=false
+      Boolean
+    gaps=false
+      Boolean
+  ---
+
+  look in Wrap.css for all flavours but currently one of:
+    content
+    columns
+    readable
+  or nothing for maximum site width
+
+  references:
+  role="img" : https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Role_Img
+  fallbacks: https://css-tricks.com/a-complete-guide-to-svg-fallbacks/#fallback-inline-svg-imgtag
+#}
+
+{% macro Wrap(
+  flavour='',
+  flows=false,
+  gaps=false
+) %}
+{% set content = caller() %} {# ref: https://github.com/mozilla/nunjucks/issues/664 #}
+<div class="Wrap{{ ' Wrap--' if flavour }}{{ flavour }}{{ ' u-flows' if flows }}{{ ' u-gaps' if gaps }}">
+  {{ content }}
+</div>
+{% endmacro %}

@@ -1,0 +1,58 @@
+{% from "components/SiteHeader.njk" import SiteHeader with context %}
+{% from "components/SiteFooter.njk" import SiteFooter with context %}
+
+<!DOCTYPE html>
+<html class ='no-js' lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  {% include 'partials/social-meta.njk' %}
+
+  {% include 'partials/scripts-styles.njk' %}
+
+  <!--
+    interested in how things work?
+    Source code, including a breakdown of all the tools used, for this website can be found at:
+    https://github.com/sleepingkiwi-eleventy#readme
+  -->
+
+  {#
+    entry point for child templates to inject content into head if needed!
+  #}
+  {% block head %}
+  {% endblock %}
+</head>
+<body
+  id="top"
+>
+
+  <div class="site__cols">
+    <div class="site__one">
+      <a class="skip-link visuallyhidden" href="#main-content">Skip to content</a>
+      {{
+        SiteHeader()
+      }}
+    </div>
+
+    <div class="site__two">
+      {#
+        entry point for child templates to inject their main content!
+      #}
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+
+  {{
+    SiteFooter()
+  }}
+
+  {#
+    entry point for child templates to inject content into foot if needed!
+  #}
+  {% block foot %}
+  {% endblock %}
+</body>
+</html>

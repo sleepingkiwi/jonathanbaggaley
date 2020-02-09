@@ -1,0 +1,127 @@
+/** SiteHeader
+ *  ------------------------------------------------------------------------------------------------
+**/
+
+.SiteHeader {
+  /* the wrap inside already has left/right padding on larger screens */
+  padding: var(--bsu) 0;
+  background-color: var(--colour-background-body);
+  color: var(--colour-primary);
+  position: relative;
+  z-index: var(--z-fixed-header);
+
+  & svg path {
+    fill: var(--colour-primary);
+  }
+
+  & .Wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (--menu-floats) {
+
+  .SiteHeader {
+    color: var(--colour-invert);
+    background-color: transparent;
+    padding-bottom: var(--bsu);
+    position: absolute;
+    z-index: var(--z-fixed-header);
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    & svg path {
+      fill: var(--colour-invert);
+    }
+  }
+}
+
+
+/** Header logo
+ *  ------------------------------------------------------------------------------------------------
+**/
+.SiteHeader__logo {
+  /* padding to bump down nav if required */
+  padding-right: var(--bsu);
+  font-family: var(--ff-heading);
+  font-size: var(--s1);
+  padding-bottom: var(--bsu);
+  padding-top: var(--bsu);
+
+  /* push other content to the right (menu is still minimised) */
+  flex-grow: 0;
+
+  & .Logo > .SvgWrap,
+  & .Logo > img {
+    width: 200px; /* TODO: should we let CMS user decide this? */
+    max-width: 100%;
+  }
+}
+
+.SiteHeader__nav {
+  /* allow nav to grow but not logo */
+  display: block;
+  flex-grow: 1;
+  font-size: var(--s0);
+  margin-top: 0;
+
+  & ul {
+    justify-content: flex-end;
+
+    --gap: var(--bsu-s);
+  }
+
+  & li {
+    display: block;
+  }
+
+  & a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: var(--colour-highlight);
+    }
+  }
+}
+
+/** Colour variations for non-transparent header
+ *  ------------------------------------------------------------------------------------------------
+**/
+.SiteHeader--opaque {
+  background-color: var(--colour-background-body);
+  color: var(--colour-primary);
+  position: relative;
+
+  & svg path {
+    fill: var(--colour-primary);
+  }
+}
+
+
+/** column layout on wider screens
+ *  ------------------------------------------------------------------------------------------------
+**/
+
+@media (--nav-break) {
+
+  .SiteHeader {
+    padding-left: var(--bsu);
+  }
+
+  .SiteHeader__logo {
+    padding-right: 0;
+    white-space: nowrap;
+  }
+
+  .SiteHeader__nav {
+
+    & li {
+      flex-basis: 100%;
+    }
+  }
+}

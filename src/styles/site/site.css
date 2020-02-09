@@ -1,0 +1,69 @@
+/** global or base site css
+ *  ------------------------------------------------------------------------------------------------
+ *  Here's where you can put all of your site specific code that should apply globally or isn't
+ *  specific to any components etc.
+**/
+
+/* scale fonts based on screen size - included as an example - remove if you want! */
+@import '_scale-fonts.css';
+
+/** body defaults
+ *  ------------------------------------------------------------------------------------------------
+**/
+body {
+  line-height: 1.5;
+  font-family: var(--ff-body);
+  font-weight: 300;
+  color: var(--colour-primary);
+  background-color: var(--colour-background-body);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /*
+    Sometimes required for skinny fonts - particularly for light on dark text.
+    Only applies on Mac OS.
+  */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (--nav-break) {
+
+  .site__cols {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    max-width: var(--layout-max);
+    max-width: calc(var(--layout-max) + calc(var(--bsu) * 2));
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .site__one {
+    flex: 0;
+  }
+
+  .site__two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (--column-break) {
+
+  .site__cols {
+    align-items: center;
+  }
+}
+
+/** if we want main content not to float centrally:
+ *  ------------------------------------------------------------------------------------------------
+**/
+/* .site-main {
+  flex: 1;
+} */

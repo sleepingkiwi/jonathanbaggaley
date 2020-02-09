@@ -1,0 +1,53 @@
+/** .ContentSection
+ *  ------------------------------------------------------------------------------------------------
+ *  every block of content that shares spacing etc.
+**/
+
+.ContentSection {
+  min-height: 0;
+  padding: var(--bsu-l) 0;
+  position: relative;
+  z-index: var(--z-sections);
+
+  /* centralise in vertical space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ContentSection--back-secondary {
+  color: var(--colour-invert);
+  background-color: var(--colour-subtler);
+}
+
+
+/** If our content contains an immediate wrap we disable padding on mobile sizes
+ *  ------------------------------------------------------------------------------------------------
+**/
+.ContentSection__content > .Wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (--edge-to-edge-ends) {
+
+  .ContentSection__content > .Wrap {
+    padding-left: var(--bsu);
+    padding-right: var(--bsu);
+  }
+}
+
+
+/** This class is for content that's meant to trail the section above.
+ *  ------------------------------------------------------------------------------------------------
+ *  min-height and padding are dropped...
+**/
+.ContentSection--top-collapse {
+  padding-top: 0;
+  min-height: 0;
+}
+
+.ContentSection__content {
+  z-index: 3;
+  position: relative;
+}

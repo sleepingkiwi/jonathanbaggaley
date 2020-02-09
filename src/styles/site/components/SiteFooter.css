@@ -1,0 +1,43 @@
+/** SiteFooter
+ *  ------------------------------------------------------------------------------------------------
+**/
+
+.SiteFooter {
+  /* the wrap inside already has left/right padding */
+  padding: 0 0 var(--bsu) 0;
+  color: var(--colour-subtler);
+  text-align: right;
+  overflow: hidden;
+
+  & a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: var(--colour-highlight);
+
+      & svg path {
+        fill: var(--colour-highlight);
+      }
+    }
+  }
+}
+
+
+/** Footer sub nav
+ *  ------------------------------------------------------------------------------------------------
+**/
+.SiteFooter__sub-nav {
+  font-size: var(--s-1);
+  margin-top: var(--bsu-s);
+
+  --gap: var(--bsu-l);
+
+  & ul {
+    justify-content: flex-end;
+  }
+
+  & li {
+    display: block;
+  }
+}

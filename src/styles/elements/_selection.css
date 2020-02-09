@@ -1,0 +1,27 @@
+/** default selection colours
+ *  ------------------------------------------------------------------------------------------------
+ *  ::-moz-selection fails if included in a group, hence each selector has it's own rules...
+**/
+::-moz-selection {
+  background: var(--colour-highlight);
+  color: var(--colour-invert);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--colour-highlight);
+  color: var(--colour-invert);
+  text-shadow: none;
+}
+
+a::-moz-selection {
+  background: var(--colour-highlight);
+  color: var(--colour-primary);
+  text-shadow: none;
+}
+
+a::selection {
+  background: var(--colour-highlight);
+  color: var(--colour-primary);
+  text-shadow: none;
+}

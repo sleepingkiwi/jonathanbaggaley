@@ -1,0 +1,17 @@
+/** Layouts
+ *  ------------------------------------------------------------------------------------------------
+ *  max widths for various situations!
+**/
+
+:root {
+  --layout-max: 100rem;
+  --layout-columns: 90rem;/* for double columns - 1440px-ish */
+  --layout-content: 50rem; /* for single columns - 960px @ 16px */
+  --layout-readable: 40rem; /* for text content - 640px @ 16px */
+
+  /** column widths
+   *  ----------------------------------------------------------------------------------------------
+  **/
+  --column-light: 35%;
+  --column-heavy: 65%;
+}

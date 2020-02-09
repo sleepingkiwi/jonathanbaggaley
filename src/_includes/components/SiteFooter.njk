@@ -1,0 +1,47 @@
+{#
+  SiteFooter component
+  ---
+  CMS _data:
+    site
+  ---
+  args:
+    -
+  ---
+#}
+
+{% from "components/Logo.njk" import Logo with context %}
+{% from "components/Nav.njk" import Nav with context %}
+{% from "components/SocialLinks.njk" import SocialLinks with context %}
+{% from "components/Wrap.njk" import Wrap with context %}
+{% from "components/CTA.njk" import CTA with context %}
+
+{% macro SiteFooter() %}
+<footer role="contentinfo" class="SiteFooter">
+  {% call Wrap(flows=true) %} {# maximum width Wrap with flow #}
+    {#
+      copyright notice
+    #}
+    {% if site.copyright %}
+    <div class="SiteFooter__copyright">
+      <small>
+        {{ site.copyright }}
+      </small>
+    </div>
+    {% endif %}
+
+
+    {#
+      sub nav
+      we do not render at all if there are no subnav items
+    #}
+    {% if subnavigation.items %}
+    <div class="SiteFooter__sub-nav">
+      {{
+        Nav(subnavigation)
+      }}
+    </div>
+    {% endif %}
+
+  {% endcall %} {# Wrap #}
+</footer>
+{% endmacro %}
