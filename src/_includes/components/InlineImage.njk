@@ -42,7 +42,18 @@
 ) %}
   {# render nothing if there's not src #}
   {% if img.src %}
-    <div class="InlineImage">
+    <div
+      class="InlineImage"
+      style="
+        {% if img.dominant | length === 3 -%}
+        color:rgb(
+          {{ img.dominant[0] }},
+          {{ img.dominant[1] }},
+          {{ img.dominant[2] }}
+        );
+        {%- endif %}
+      "
+    >
       {% call Wrap(flavour='content', flows=true) %} {# content width Wrap with flow #}
         {# we wrap everything in a padded image container #}
         {% call PaddedImage(
