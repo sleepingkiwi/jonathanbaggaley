@@ -17,11 +17,12 @@
   }
 
   &.js--wants-intersection {
-    background-image:
-      radial-gradient(currentColor 10%, transparent 10%),
-      radial-gradient(currentColor 10%, transparent 10%);
-    background-position: 6px 6px, -6px -6px;
-    background-size: 24px 24px;
+    background-color: currentColor;
+    background-size: cover;
+
+    & .PaddedImage__padder {
+      backdrop-filter: blur(20px);
+    }
   }
 }
 

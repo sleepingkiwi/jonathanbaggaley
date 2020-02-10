@@ -76,6 +76,7 @@ genericContentBlocks:
     collapseTop: true
     columnAlignment: top
     columnWeighting: even
+    columnWidth: text
     leftColumnContent:
       - header: ''
         subHeader: Work and qualifications
@@ -107,4 +108,3 @@ genericContentBlocks:
         type: text
     type: twoColumns
 ---
-

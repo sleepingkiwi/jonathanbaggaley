@@ -31,13 +31,13 @@
   font-family: var(--ff-heading);
   font-weight: bold;
   font-size: var(--s3);
-  font-size: 6vw;
+  font-size: 4vw;
 }
 
 @media (--column-break) {
 
   .QuoteText__quote {
-    font-size: var(--s6);
+    font-size: var(--s5);
   }
 }
 

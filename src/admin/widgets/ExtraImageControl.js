@@ -51,6 +51,7 @@ const ExtraImageControl = window.createClass({
 
     this.imageLoadPromise = new Promise((resolve, reject) => {
       const img = new Image();
+      const baseImg = new Image();
 
       /** splitting the full url into pieces.
        *  ------------------------------------------------------------------------------------------
@@ -74,6 +75,10 @@ const ExtraImageControl = window.createClass({
       const base = (src.match(/https:\/\/res.cloudinary.com\/.+\/image\/upload\//) || [''])[0];
       const version = (src.match(/\/(v[0-9]+)\//) || ['', ''])[1];
       const filename = (version === '' ? src.split(base) : src.split(`${version}/`))[1] || '';
+      let baseSixFour = null;
+      let dominant = null;
+      let width;
+      let height;
       // console.log({
       //   src,
       //   base,
@@ -81,21 +86,13 @@ const ExtraImageControl = window.createClass({
       //   filename,
       // });
       img.onload = () => {
-        let dominant = [255, 255, 255];
-        let baseSixFour = '';
+        dominant = [255, 255, 255];
+        width = img.width;
+        height = img.height;
         // colorThief doesn't handle pure white images:
         // https://github.com/lokesh/color-thief/issues/72
         try {
           dominant = colorThief.getColor(img);
-
-          // ref: https://base64.guru/developers/javascript/examples/convert-image
-          const canvas = document.createElement('canvas');
-          const ctx = canvas.getContext('2d');
-          canvas.height = img.naturalHeight;
-          canvas.width = img.naturalWidth;
-          ctx.drawImage(img, 0, 0);
-          const uri = canvas.toDataURL('image/png');
-          baseSixFour = uri.replace(/^data:image.+;base64,/, '');
         } catch (error) {
           /** START DEBUGGING **/
           // TODO - remove this debugging code!
@@ -115,24 +112,77 @@ const ExtraImageControl = window.createClass({
           base,
           version: version === '' ? `v${Date.now()}` : version, // fallback if we didn't get v
           filename,
-          width: img.width,
-          height: img.height,
+          width,
+          height,
           dominant,
           baseSixFour,
           alt: value.alt || '',
         });
-        resolve(true);
-        this.imageLoaded = true;
+        if (baseSixFour !== null) {
+          // we already got base64
+          resolve(true);
+          this.imageLoaded = true;
+        }
       };
       img.onerror = () => {
         this.props.onChange({ src: '' });
         reject(Error('could not load image'));
       };
+
+      baseImg.onload = () => {
+        baseSixFour = '';
+        try {
+          // ref: https://base64.guru/developers/javascript/examples/convert-image
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          canvas.height = baseImg.naturalHeight;
+          canvas.width = baseImg.naturalWidth;
+          ctx.drawImage(baseImg, 0, 0);
+          const uri = canvas.toDataURL('image/png');
+          baseSixFour = uri; // uri.replace(/^data:image.+;base64,/, '');
+        } catch (error) {
+          /** START DEBUGGING **/
+          // TODO - remove this debugging code!
+          if (process.env.NODE_ENV !== 'production') {
+            // eslint-disable-next-line no-console
+            console.log({
+              message: 'Error thrown generating the base64 preview...',
+            });
+            // eslint-disable-next-line no-console
+            console.error(error);
+          }
+          /** END DEBUGGING **/
+          // image was probably white...
+        }
+        this.props.onChange({
+          src,
+          base,
+          version: version === '' ? `v${Date.now()}` : version, // fallback if we didn't get v
+          filename,
+          width,
+          height,
+          dominant,
+          baseSixFour,
+          alt: value.alt || '',
+        });
+        if (dominant !== null) {
+          // we already got base64
+          resolve(true);
+          this.imageLoaded = true;
+        }
+      };
+      baseImg.onerror = () => {
+        this.props.onChange({ src: '' });
+        reject(Error('could not load image'));
+      };
+
       img.crossOrigin = 'Anonymous'; // needed for colour thief to work on images from cloudinary
+      baseImg.crossOrigin = 'Anonymous'; // needed for colour thief to work on images from cloudinary
       // ref:  https://lokeshdhakar.com/projects/color-thief/
       // img.src = src;
       // 16px version for base 64 encoded backgrounds
-      img.src = `${img.base}w_16,c_limit,q_auto:low/${img.version}/${img.filename}`;
+      baseImg.src = `${base}w_16,c_limit,q_auto:low/${version}/${filename}`;
+      img.src = src;
     });
   },
 
@@ -387,6 +437,7 @@ const ExtraImageControl = window.createClass({
               {},
               value ? `${value.width || '0'}px by ${value.height || '0'}px` : '',
             ),
+            window.h('br'),
             window.h('strong', {}, '16px Encoded Preview: '),
             window.h(
               'img',
@@ -395,7 +446,7 @@ const ExtraImageControl = window.createClass({
                 style: {
                   width: '16px',
                   display: 'inline-block',
-                  verticalAlign: 'top',
+                  verticalAlign: 'middle',
                 },
               },
             ),

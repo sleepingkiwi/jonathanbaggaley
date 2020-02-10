@@ -20,6 +20,8 @@
           oneOf['left', 'even', 'right']
         columnAlignment:
           oneOf['top', 'center', 'bottom']
+        columnWidth: 'wide'
+          oneOf['wide', 'content', 'text']
 
         // IF twoColumns:
         leftColumnContent:
@@ -60,7 +62,8 @@
           {% call ContentColumns(
             class='',
             weight=(section.columnWeighting | default('left')),
-            alignment=(section.columnAlignment | default('center'))
+            alignment=(section.columnAlignment | default('center')),
+            width=(section.columnWidth | default('wide'))
           ) %}
             {#
               columns expect exactly 2 children so we wrap in divs

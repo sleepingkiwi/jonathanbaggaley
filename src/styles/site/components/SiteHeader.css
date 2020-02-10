@@ -72,7 +72,7 @@
   & ul {
     justify-content: flex-end;
 
-    --gap: var(--bsu-s);
+    --gap: var(--bsu);
   }
 
   & li {

@@ -7,7 +7,7 @@
 
 @custom-media --vagabond screen and (min-width: 25em); /* 400px */
 
-@custom-media --serf screen and (min-width: 30.1em); /* 480px */
+@custom-media --serf screen and (min-width: 40em); /* 640px */
 
 @custom-media --yeoman screen and (min-width: 50em); /* 800px */
 
@@ -31,6 +31,10 @@
 /* this one is when our columns generally break */
 
 @custom-media --nav-break --squire;
+
+@custom-media --text-column-break --serf;
+
+@custom-media --content-column-break --yeoman;
 
 @custom-media --column-break --queen;
 

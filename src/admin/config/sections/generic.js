@@ -7,19 +7,12 @@ import pageSettings from './pageSettings';
 
 const contentBlockOptions = [
   {
-    label: 'Alternative Background Colour?',
-    name: 'backgroundColour',
-    widget: 'boolean',
-    default: false,
-    hint: 'Uses the secondary background colour for this block. It can be nice to alternate for contrast.',
-  },
-  {
     label: 'Collapse Top Padding?',
     name: 'collapseTop',
     widget: 'boolean',
     default: false,
     required: false,
-    hint: 'Generally you should leave this. If you want more complex layouts however, you can collapse the padding at the top which helps group content that shares a background colour with the block above.',
+    hint: 'If you want to combine layouts, you can collapse the padding at the top which helps group content without too much padding.',
   },
 ];
 
@@ -206,6 +199,14 @@ const genericContentBlocks = [
             options: ['top', 'center', 'bottom'],
             default: 'center',
             hint: 'Should the content in each column align at the top/bottom edge or in the center?',
+          },
+          {
+            label: 'Combined Column Width',
+            name: 'columnWidth',
+            widget: 'select',
+            options: ['wide', 'content', 'text'],
+            default: 'wide',
+            hint: 'Normally double columns are almost twice the width of single column content. Choose `content` for two columns to match single column images, or `text` to match text blocks.',
           },
           {
             ...contentBlockContentTypes,

@@ -51,15 +51,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: var(--bsu);
   }
 }
 
-@media (--column-break) {
+/* @media (--column-break) {
 
   .site__cols {
     align-items: center;
   }
-}
+} */
 
 /** if we want main content not to float centrally:
  *  ------------------------------------------------------------------------------------------------

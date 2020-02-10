@@ -5,7 +5,7 @@
 
 .ContentSection {
   min-height: 0;
-  padding: var(--bsu-l) 0;
+  padding: var(--bsu) 0;
   position: relative;
   z-index: var(--z-sections);
 
