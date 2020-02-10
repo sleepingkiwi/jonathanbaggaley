@@ -152,10 +152,9 @@
 
   & button[type='submit'] {
     pointer-events: none;
-    color: var(--colour-subtle);
+    color: var(--colour-background-subtle);
     background: var(--colour-subtler);
-
-    /* margin-bottom: var(--bsu-s); *//* if we want ewxtra space for the message... */
+    margin-bottom: var(--bsu-s); /* if we want ewxtra space for the message... */
 
     &::after {
       opacity: 1;
