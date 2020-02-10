@@ -4,7 +4,7 @@ tags: page
 title: Cachet
 genericContentBlocks:
   - collapseTop: false
-    columnAlignment: center
+    columnAlignment: top
     columnWeighting: left
     columnWidth: wide
     leftColumnContent:
@@ -30,7 +30,7 @@ genericContentBlocks:
         textAlign: left
         type: header
       - text: >-
-          An example of handling portrait images.
+          **How shall we handle portrait images? Are they allowed to overflow the screen? Currently images cannot grow past 90% of the screen height unless the screen is very small...**
 
 
           Sit amet consectetur adipiscing elit pellentesque habitant morbi
@@ -51,4 +51,3 @@ genericContentBlocks:
         type: cta
     type: twoColumns
 ---
-

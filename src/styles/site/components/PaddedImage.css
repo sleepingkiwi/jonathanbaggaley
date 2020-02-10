@@ -6,23 +6,70 @@
 .PaddedImage {
   position: relative;
   margin: 0 auto;
+  overflow: hidden;
+
+  /* max-height is 25em until the screen is bigger than 25 em high */
+  max-height: 25em;
 
   & img {
     position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    transform: translateY(-50%) translateX(-50%);
+
+    @supports (object-fit: contain) {
+      top: 0;
+      left: 0;
+      transform: none;
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
   }
 
   &.js--wants-intersection {
-    background-color: currentColor;
-    background-size: cover;
+    /* background-color: currentColor; */
+
+    & .PaddedImage__back {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity var(--time-transition-slow) var(--time-transition) ease-in-out;
+    }
 
     & .PaddedImage__padder {
       backdrop-filter: blur(20px);
+      position: relative;
+      z-index: 2;
+      background-color: currentColor;
+      opacity: 0.05;
     }
+  }
+}
+
+@media (--edge-to-edge-ends) {
+
+  .PaddedImage.js--wants-intersection .PaddedImage__padder {
+    /* coloured background is quite nice edge-to)edge */
+    opacity: 0;
+  }
+}
+
+@media screen and (min-height: 25em) {
+
+  .PaddedImage {
+    max-height: 90vh;
   }
 }
 
@@ -35,10 +82,18 @@
   opacity: 1;
 }
 
+.js .PaddedImage.js--has-intersected .PaddedImage__back {
+  opacity: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   /* if you have specifically opted out of animation we don't want these to just pop in */
   .js .PaddedImage.js--wants-intersection img {
     opacity: 1;
+  }
+
+  .js .PaddedImage.js--has-intersected .PaddedImage__back {
+    opacity: 0;
   }
 }
 
@@ -73,9 +128,8 @@
 }
 
 /* if the ratio was forced we want the image to cover the available space where possible */
-.PaddedImage--forced-ratio {
+/* .PaddedImage--forced-ratio {
   overflow: hidden;
-  border-radius: 30% 70% 51% 49% / 24% 50% 50% 76%;
 
   & img {
     top: 50%;
@@ -95,7 +149,7 @@
       width: 100%;
     }
   }
-}
+} */
 
 .PaddedImage--forced-ratio--contain {
 

@@ -75,12 +75,12 @@ h6 {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* we don't have italic versions of our heading/body font so try not to use italics! */
 strong em,
 em strong {
   font-style: italic;
-  font-weight: bold;
+  font-weight: normal;
 }

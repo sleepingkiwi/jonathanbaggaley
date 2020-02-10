@@ -140,7 +140,7 @@ const contentBlockContentTypes = {
           name: 'ctaURL',
           widget: 'string',
           required: false,
-          hint: 'If you leave this field blank but provide CTA text the button will open a popup to the CTA/Brochure popup configured in the Fixed Pages menu.',
+          hint: 'Link for the CTA',
         },
         {
           label: 'Text alignment',

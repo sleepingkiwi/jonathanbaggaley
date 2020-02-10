@@ -10,7 +10,7 @@
     display: inline-block;
     padding: var(--bsu-s) var(--bsu-l);
     vertical-align: top;
-    background: var(--colour-secondary);
+    background: var(--colour-primary);
     color: var(--colour-invert);
     border-radius: var(--radius-default);
     font-family: var(--ff-body);
@@ -24,7 +24,7 @@
 
     &:hover,
     &:focus {
-      background: var(--colour-primary);
+      background: var(--colour-highlight);
     }
   }
 }
