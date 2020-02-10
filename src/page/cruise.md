@@ -40,21 +40,9 @@ genericContentBlocks:
           diam quam nulla porttitor. Tristique magna sit amet purus.
 
 
-          Suspendisse interdum consectetur libero id faucibus nisl tincidunt
-          eget. Arcu non sodales neque sodales ut etiam sit amet. Euismod in
-          pellentesque massa placerat duis ultricies. Nec sagittis aliquam
-          malesuada bibendum arcu vitae elementum curabitur. Tincidunt vitae
-          semper quis lectus nulla at. In arcu cursus euismod quis. Euismod quis
-          viverra nibh cras pulvinar mattis nunc. Et ultrices neque ornare
-          aenean euismod elementum nisi quis eleifend. In fermentum et
-          sollicitudin ac orci. Justo donec enim diam vulputate ut pharetra sit
-          amet. Senectus et netus et malesuada fames ac.
-
-
           Subtle[ inline links](#nowhere) probably look nicer than [cachet
           ](/cachet/)style Call To Action buttons.
         textAlign: left
         type: text
     type: twoColumns
 ---
-

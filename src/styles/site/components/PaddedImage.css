@@ -6,7 +6,7 @@
 .PaddedImage {
   position: relative;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   /* max-height is 25em until the screen is bigger than 25 em high */
   max-height: 25em;
@@ -36,24 +36,37 @@
     /* background-color: currentColor; */
 
     & .PaddedImage__back {
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      content: ' ';
       position: absolute;
+      z-index: 1;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+      opacity: 0.99;
       transition: opacity var(--time-transition-slow) var(--time-transition) ease-in-out;
+
+      &::after {
+        content: ' ';
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(20px);
+        pointer-events: none;
+      }
     }
 
     & .PaddedImage__padder {
-      backdrop-filter: blur(20px);
-      position: relative;
-      z-index: 2;
       background-color: currentColor;
       opacity: 0.05;
+
+      /* forcing ratio */
+      /* padding-bottom: 66.666666666%; */
     }
   }
 }
