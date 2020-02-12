@@ -12,17 +12,17 @@ genericContentBlocks:
           alt: ''
           base: 'https://res.cloudinary.com/sleepingkiwi/image/upload/'
           baseSixFour: >-
-            data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAAEg0lEQVQ4TzWUWW8bVRTHf3fG47E9trPHSd0sOGkcO4sbN6VNU4FKpfKGkEC8Iz4AHwCJN4QQDy0gQVVRxBOfpUqp4mZ1nMRp2pT2gay2x/YsvmhuxdPozj0653/+yxV//vVI+r5POBJFCoHrukStGGEzSrPZxLLi1Go1nFabSCSCFY4hpcRpt/E8D/Hgt/sSIGJZhE1TXcbiFlErQbvdJp0e4e3bt5wdnwRlmCGTYKDTbL1r8P1PD1SDZHcX0biFQFcIYok4nU6H0ZEx9vf3+efVP+psmRH1ddueaiS+++VXGfxIJBLELAvH99BDYeLxOGiC4eE0uzsVXr9+TSwSo6+7B03T8FxXIRI/PHws7XaLWCzY26TRaOB1pEJgGAb9fQPs7e1x+u8xA32DDA4OogmB13ZUI/Hjo8eyZjcwTZNwxKR20cD1Pbp6e0gkutB1nYODA+pnNYaHhujt7cVtO7TbLmZIR3z97TeyXq8TiUbV1OBCaBrpdJqBVEoR+aJ6QL1uM9g/oFa1a3V8t4MVjyLufnJPNbAScbp7+5UKAYmZzCTpkRG152H1kKBmoL+faMTCrtfREPT09CAe/vGzvKjXEEIwV1jg8PBQkRf4IJ/Pc35+zunpGYYewm40GB0Z5+XBC7VyNBJBfPnVF7LWqKtJuZkZyuUyLcdFaoLsVI5MJsPR0RGa1Oh4vjq/qFYxAqWsGOKzz+/JwHGarpObybO5uUmtYStEU9M5Rdr25haO42GGDLLZLJXyDroIkeyKI5Zvz8rAUZFYlLn5eSqVCm7Hx7ISFBau4joeKysrNGo28WiMXC7Hxvo60u+QTCYRY5mElALFbqG4wN7+AZoRIpUaZmlpiVarxZMnT6id1VQW8tk8z1dXlTrxmIWYmO2RgdZd3d3MXS1QLldACFLDQywv31YklkolhSCom564wtraBs2GTSgUQkwWu2TAaP/ggFqhVFqj0WqqbNy8cUtNCrLwv/ezE5OUtys0bVtlQszeSsnA98PpSxQKBVaePuX47FTBLS4WabXavHnzRqkURHpycorqbpVW08FxHMTHn16TAeNaSGd0dJT1rXUMM0R3dxf5/DQnZ8dKmaDYSia4fn2Jys4+52c1Wi0HsfD+mPQ7LiE9TGYqw9bWhmqQGupn8UYRXReU1kpcXFygGwbzc4ts71SwLxzanou4uTwl7ZaNYYTJ53NsbK7h45O+nOLO3Q+R0udZ6RknJyf4EnLT8+xU9nCaUjlWzMxeUk4Mdp4rzPK8tEqtcUFqqI+79z7CMHTWN9dUzEEjm5tnt7KP72kq7uLq/JgMWA98UFxcYK30nNOLY5LJGB/cWQ4UZb+6+45x3SA7Ncv29g6uK97JeGUiJV3XUa4qXi+yW96h1jwnGo1wbbGA49gcvnqpHg9dN3hv/Aql1XXspksoFEbMZEel5zkqXTNzs1T39pCap6BnpycxTZ3Do1dqWrDC5fQ4z/4u0W77hA0T8fvD+zKQKICYyYwr0xjhYJpkdCyN13E5Onqppgeev5weo7S6gedJ9Tb8BzJ1I/HL9g5RAAAAAElFTkSuQmCC
+            data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAADz0lEQVQ4Tz1TS2gcZRz/fTuzs/Pa2Z2Z3c2rWdKEGBGsxHqIYPAe8KRnBS/2IqgHD2Ip9eDjUgSpoJ70JmJAPHhq0mugF2nz2rSpabOb7CabuI/Zec8n33/BgWHm8P1/3+/1Z1/cPeJl24IkSbi46GAw7COfZzBNE0ohB8/z4HlDzFyZQqVSQa/XQz6fh23b8H0f7J0P/uTTM5Oo1WqQJI4kjekryQycp1CUPMIwhDhTKpXQ6XQQxzF0XSdw9u7H97hbsVEul2mQIyMGeUVCLgcCSJIElaqDQqGAZrOJ4XAIJa8iiiKw9z7Z4LqhwjR1qKqCgqpA0/IwTA2KIiNJYjqo6QWkaUoAo9EIhl6ELMtg73+6yYV+MWwYGlStAFkGMZDlHOr1WRoQIIJyu92m/1KpTD6xz7/d54NBD0EwQl6RCaRYNCCMFV/TNAhAGCZeQV94oKoa+cA+u7PNB4MB0jRGqWzBtkvQdRVClgDb3n4ExhjRFQOKUiCAKEqQy+XAbn3X4MIsx7UxMVFBlqV4cniAnZ1HRBfgMAwD1WoV9XodtdoEmdrrDcYmfvXTP1zEM1svo9v1sbl5D+fdDmZnZ+C6LtbXf4d4HMfF0tISFheXYFkW4ihFEARgt+82uJyXMDU1QbE9ftJAq9VCFAWkvVqt4OzsDL4fEIu5uXkCCIN43IO3b/zGxWFRpIWFqzCLOvr9Pk5OmlQax3GgaRo1r1gsgnOGkRcgTTm1l628dYeLAZG5oDi/MAcgI8eFcY1Gg24UFzhOBQzSWDuTqFjsxs0NLii2WseEKNz3vAFlfO3aywAY9vb28PTpEZn5wuKLqNfnoKo6FYv98lfALy7OsbOzg9N2C73eJQ4ODmBZRaytreH69dewu7uL3d192omKO4nJyUmUyw5UVQX7dSPlWZZRRYNQFMbD1tYWoigkgOnpGWImtItNbJ92qUylkk2y2A/rl1zsQZyEcN0iNA24f/8BjpvPsLq6iuFgRK1TFJViOz3poNu9JFDDKoL9+MeQNw72IEkMtlOEZWo4PHyM4+dHWH3jTei6iSCIECcpGZdyRlJEmTgD2IdfbnFZljB/dRaOayFLfDx8+DeOnz/DysrrsMsufD+GH4QkI075GCATgAzso28ecGGY61hguRSMRzg/7yAMfCwvv4o04RgOA3gjH0mSEYCIMeXZuAdf/3zMRd8vLzoIwiHqVyZgWSYYOKrVGv697BPA0BtReZIMFB9y4wVjN7/f56paQKfdhCRzLL/yEqpVG/1eH/3+AEmcwfPC/yVwJhLhyMkSFEXBf2aL9UoUUh+cAAAAAElFTkSuQmCC
           dominant:
-            - 65
-            - 75
-            - 52
-          filename: sleepingkiwi-eleventy/vital-sinkevich-QOQz2R_6N-k-unsplash.jpg
-          height: 2982
+            - 131
+            - 155
+            - 217
+          filename: sleepingkiwi-eleventy/aaron-burden-Bycd2wF5vQU-unsplash.jpg
+          height: 3992
           src: >-
-            https://res.cloudinary.com/sleepingkiwi/image/upload/v1581173471/sleepingkiwi-eleventy/vital-sinkevich-QOQz2R_6N-k-unsplash.jpg
-          version: v1581173471
-          width: 2003
+            https://res.cloudinary.com/sleepingkiwi/image/upload/v1581173037/sleepingkiwi-eleventy/aaron-burden-Bycd2wF5vQU-unsplash.jpg
+          version: v1581173037
+          width: 2992
         type: image
     rightColumnContent:
       - header: Cachet
@@ -30,20 +30,12 @@ genericContentBlocks:
         textAlign: left
         type: header
       - text: >-
-          **How shall we handle portrait images? Are they allowed to overflow the screen? Currently images cannot grow past 90% of the screen height unless the screen is very small...**
+          **How shall we handle portrait images? Are they allowed to overflow
+          the screen? Currently images cannot grow past 90% of the screen height
+          unless the screen is very small...**
 
 
-          Sit amet consectetur adipiscing elit pellentesque habitant morbi
-          tristique senectus. Pellentesque nec nam aliquam sem et. Orci a
-          scelerisque purus semper eget duis at. Vitae suscipit tellus mauris a
-          diam maecenas. Rhoncus est pellentesque elit ullamcorper. Diam
-          phasellus vestibulum lorem sed risus ultricies tristique nulla
-          aliquet. Nulla porttitor massa id neque aliquam vestibulum. Est lorem
-          ipsum dolor sit amet consectetur. Potenti nullam ac tortor vitae
-          purus. Massa id neque aliquam vestibulum morbi blandit cursus risus.
-          Consectetur adipiscing elit pellentesque habitant. Lectus quam id leo
-          in vitae turpis massa. Faucibus scelerisque eleifend donec pretium
-          vulputate. Mattis vulputate enim nulla aliquet porttitor.
+          as you're editing it updates
         textAlign: left
         type: text
       - cta: Call to Action
@@ -51,3 +43,4 @@ genericContentBlocks:
         type: cta
     type: twoColumns
 ---
+
