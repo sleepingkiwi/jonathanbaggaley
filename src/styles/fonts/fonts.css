@@ -61,7 +61,7 @@
   /** Site font variables
   *  ------------------------------------------------------------------------------------------------
   **/
-  --ff-work-sans: 'Work Sans', var(--sans-serif);
+  --ff-work-sans: 'Helvetica', 'Arial', var(--sans-serif);
   --ff-optician-sans: 'Optician Sans', var(--sans-serif);
 
   /*
