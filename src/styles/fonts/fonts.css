@@ -2,46 +2,6 @@
  *  ------------------------------------------------------------------------------------------------
 **/
 
-@font-face {
-  font-family: 'Work Sans';
-  src:
-    url('/fonts/worksans-regular-webfont.woff2') format('woff2'),
-    url('/fonts/worksans-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Work Sans';
-  src:
-    url('/fonts/worksans-bold-webfont.woff2') format('woff2'),
-    url('/fonts/worksans-bold-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Work Sans';
-  src:
-    url('/fonts/worksans-light-webfont.woff2') format('woff2'),
-    url('/fonts/worksans-light-webfont.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Optician Sans';
-  src:
-    url('/fonts/Optiker-K.woff2') format('woff2'),
-    url('/fonts/Optiker-K.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 
 /** font families
  *  ------------------------------------------------------------------------------------------------
@@ -61,13 +21,12 @@
   /** Site font variables
   *  ------------------------------------------------------------------------------------------------
   **/
-  --ff-work-sans: 'Helvetica', 'Arial', var(--sans-serif);
-  --ff-optician-sans: 'Optician Sans', var(--sans-serif);
+  --ff-jonathan: 'Helvetica', 'Arial', var(--sans-serif);
 
   /*
   the named font variables above aren't used directly
   instead we distinguish between the main (body) font and heading fonts
   */
-  --ff-body: var(--ff-work-sans);
-  --ff-heading: var(--ff-work-sans);
+  --ff-body: var(--ff-jonathan);
+  --ff-heading: var(--ff-jonathan);
 }
