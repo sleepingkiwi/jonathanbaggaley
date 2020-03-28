@@ -15,31 +15,38 @@
 {% from "components/Nav.njk" import Nav with context %}
 {% from "components/Wrap.njk" import Wrap with context %}
 
-{% macro SiteHeader() %}
-<header role="banner" class="SiteHeader{{ ' SiteHeader--transparent' if transparent else ' SiteHeader--opaque' }}">
+{% macro SiteHeader(
+  hideNav = false,
+  hideLogo = false
+) %}
+<header role="banner" class="SiteHeader{{ ' SiteHeader--no-nav' if hideNav }}{{ ' SiteHeader--no-logo' if hideLogo }}">
 
   {% call Wrap(flavour='columns') %} {# columns width Wrap #}
 
     {#
       site logo or name
     #}
-    <div class="SiteHeader__logo">
-      <a href="/">
-        {{
-          Logo()
-        }}
-      </a>
-    </div>
+    {% if not hideLogo %}
+      <div class="SiteHeader__logo">
+        <a href="/">
+          {{
+            Logo()
+          }}
+        </a>
+      </div>
+    {% endif %}
 
 
     {#
       site nav
     #}
-    <div class="SiteHeader__nav">
-      {{
-        Nav()
-      }}
-    </div>
+    {% if not hideNav %}
+      <div class="SiteHeader__nav">
+        {{
+          Nav()
+        }}
+      </div>
+    {% endif %}
 
   {% endcall %} {# Wrap #}
 </header>

@@ -25,18 +25,8 @@
 @media (--menu-floats) {
 
   .SiteHeader {
-    color: var(--colour-invert);
-    background-color: transparent;
     padding-bottom: var(--bsu);
-    position: absolute;
-    z-index: var(--z-fixed-header);
-    top: 0;
-    left: 0;
     width: 100%;
-
-    & svg path {
-      fill: var(--colour-invert);
-    }
   }
 }
 
@@ -86,19 +76,6 @@
     &:focus {
       color: var(--colour-highlight);
     }
-  }
-}
-
-/** Colour variations for non-transparent header
- *  ------------------------------------------------------------------------------------------------
-**/
-.SiteHeader--opaque {
-  background-color: var(--colour-background-body);
-  color: var(--colour-primary);
-  position: relative;
-
-  & svg path {
-    fill: var(--colour-primary);
   }
 }
 

@@ -23,13 +23,15 @@ const ContactPreview = window.createClass({
       hero,
       formContentArea,
       genericContentBlocks,
-      transparentHeader,
+      noNav,
+      noLogo,
     }) => ({
       title,
       hero,
       formContentArea,
       genericContentBlocks,
-      transparentHeader,
+      noNav,
+      noLogo,
       ...previewDummyContent,
     });
     const path = 'layouts/contact.njk';

@@ -24,6 +24,7 @@ import RelationWrappedControl from './widgets/RelationWrappedControl';
 
 // and custom previews
 import PagePreview from './previews/PagePreview';
+import WorkPreview from './previews/WorkPreview';
 import HomePreview from './previews/HomePreview';
 import ContactPreview from './previews/ContactPreview';
 
@@ -47,6 +48,7 @@ CMS.registerWidget('instructions', InstructionsControl);
  *  ------------------------------------------------------------------------------------------------
 **/
 CMS.registerPreviewTemplate('generic_page', PagePreview);
+CMS.registerPreviewTemplate('work', WorkPreview);
 CMS.registerPreviewTemplate('index', HomePreview);
 CMS.registerPreviewTemplate('contact', ContactPreview);
 

@@ -13,15 +13,22 @@ const pageSettings = [
     instructions: 'Settings for this page that affect the overall appearence or overwrite global defaults.',
     required: false,
   },
-  // {
-  //   label: 'Transparent Header?',
-  //   name: 'transparentHeader',
-  //   widget: 'boolean',
-  //   default: true,
-  //   hint: 'Set to false if you would like a solid background behind the header on this page.',
-  // },
   // include all of the social & meta options at the end
   ...metaConfigPage,
+  {
+    label: 'Hide navigation menu?',
+    name: 'noNav',
+    widget: 'boolean',
+    default: false,
+    hint: 'Set to true for standalone pages where you don\'t want the nav to appear.',
+  },
+  {
+    label: 'Hide site name',
+    name: 'noLogo',
+    widget: 'boolean',
+    default: false,
+    hint: 'Set to true if you also want to hide the site name that normally appears above the nav.',
+  },
 ];
 
 export default pageSettings;

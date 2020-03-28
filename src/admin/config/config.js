@@ -11,6 +11,7 @@
 import { metaConfigGlobal } from './sections/meta';
 import homeConfig from './sections/home';
 import contactConfig from './sections/contact';
+import workConfig from './sections/work';
 import siteDetailsConfig from './sections/siteDetails';
 import socialAccountsConfig from './sections/socialAccounts';
 import { genericPageConfig } from './sections/generic';
@@ -27,8 +28,8 @@ const config = {
 
   // logo_url: https://your-site.com/images/logo.svg,
 
-  site_url: 'https://musing-jennings-33f578.netlify.com/',
-  display_url: 'https://musing-jennings-33f578.netlify.com/',
+  site_url: 'https://sharp-fermat-acef53.netlify.com',
+  display_url: 'https://sharp-fermat-acef53.netlify.com',
 
   // Media files will be stored in the repo under this dir
   // however because we use cloudinary currently this is ignored
@@ -75,7 +76,7 @@ const config = {
     **/
     {
       name: 'generic_page',
-      label: 'Custom Page',
+      label: 'Custom Pages',
       folder: 'src/page',
       slug: '{{slug}}',
       preview_path: '{{slug}}',
@@ -85,6 +86,23 @@ const config = {
         ...genericPageConfig,
       ], // fields
     }, // END CUSTOM PAGES
+
+
+    /** Work / Projects
+     *  --------------------------------------------------------------------------------------------
+    **/
+    {
+      name: 'work',
+      label: 'Work',
+      folder: 'src/work',
+      slug: '{{slug}}',
+      preview_path: 'work/{{slug}}',
+      create: true,
+      description: 'Individual project pages.',
+      fields: [
+        ...workConfig,
+      ], // fields
+    }, // END WORK / PROJECTS
 
 
     /** Global Settings
@@ -162,6 +180,66 @@ const config = {
               instructions: 'Add links for site navigation.',
               flavour: 'header',
               required: false,
+            },
+            {
+              label: 'Items',
+              name: 'items',
+              widget: 'list',
+              fields: [
+                {
+                  label: 'Text',
+                  name: 'text',
+                  widget: 'string',
+                },
+                {
+                  label: 'Url',
+                  name: 'url',
+                  widget: 'string',
+                },
+                {
+                  label: 'Is url to external site?',
+                  name: 'external',
+                  widget: 'boolean',
+                  required: false,
+                },
+              ], // fields
+            },
+          ], // fields
+        }, // END PRIMARY NAV
+
+
+        /** Work Nav
+         *  ----------------------------------------------------------------------------------------
+         *  add content links to the expandable Work navigation.
+        **/
+        {
+          label: 'Work Navigation',
+          name: 'workNav',
+          delete: false,
+          file: 'src/_data/worknavigation.json',
+          fields: [
+            {
+              label: 'Links for the expandable `work` navigation',
+              name: 'workNavInstructions',
+              widget: 'instructions',
+              instructions: 'Add links and change settings for the expandable navigation.',
+              flavour: 'header',
+              required: false,
+            },
+            {
+              label: 'Menu Title',
+              name: 'title',
+              widget: 'string',
+              default: 'Work',
+              hint: 'Optionally change the name for this menu',
+            },
+            {
+              label: 'Show after other menu items?',
+              name: 'bottom',
+              widget: 'boolean',
+              default: false,
+              required: false,
+              hint: 'The default position for this menu is at the top of the site navigation. You can toggle this option to put it under the other navigation menu items instead.',
             },
             {
               label: 'Items',

@@ -32,7 +32,10 @@
     <div class="site__one">
       <a class="skip-link visuallyhidden" href="#main-content">Skip to content</a>
       {{
-        SiteHeader()
+        SiteHeader(
+          hideNav = noNav | default(false),
+          hideLogo = noLogo | default(false)
+        )
       }}
     </div>
 

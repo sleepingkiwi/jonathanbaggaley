@@ -22,16 +22,14 @@ const HomePreview = window.createClass({
       hero,
       firstContentArea,
       genericContentBlocks,
-      transparentHeader,
-      footerPartners,
-      footerCTA,
+      noNav,
+      noLogo,
     }) => ({
       hero,
       firstContentArea,
       genericContentBlocks,
-      transparentHeader,
-      footerPartners,
-      footerCTA,
+      noNav,
+      noLogo,
       ...previewDummyContent,
     });
     const path = 'layouts/home.njk';

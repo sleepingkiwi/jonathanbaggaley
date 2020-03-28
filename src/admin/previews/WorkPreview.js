@@ -15,26 +15,24 @@ const env = nunjucks.configure();
 
 env.addFilter('markdownify', markdownFilter);
 
-const PagePreview = window.createClass({
+const WorkPreview = window.createClass({
   render: function render() {
     const { entry } = this.props;
     const context = ({
       title,
-      permalink,
-      hero,
-      genericContentBlocks,
+      description,
+      content,
       noNav,
       noLogo,
     }) => ({
       title,
-      permalink,
-      hero,
-      genericContentBlocks,
+      description,
+      content,
       noNav,
       noLogo,
       ...previewDummyContent,
     });
-    const path = 'layouts/page.njk';
+    const path = 'layouts/work.njk';
     const data = context(entry.get('data').toJS());
     const html = env.render(path, { ...data });
 
@@ -48,4 +46,4 @@ const PagePreview = window.createClass({
   },
 });
 
-export default PagePreview;
+export default WorkPreview;

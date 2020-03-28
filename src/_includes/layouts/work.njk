@@ -1,0 +1,27 @@
+{#
+  Extend base template
+#}
+{% extends 'layouts/base.njk' %}
+
+{#
+  Import components
+#}
+{% from "components/HeaderText.njk" import HeaderText with context %}
+{% from "components/ContentSection.njk" import ContentSection with context %}
+
+{% block content %}
+  <main id="main-content" class="site-main site-main--work" tabindex="-1">
+    {% call ContentSection(
+      class='WorkSection',
+      secondaryColour=false
+    ) %}
+      {{
+        HeaderText(
+          header=title,
+          priority='h2',
+          align='left'
+        )
+      }}
+    {% endcall %} {# ContentSection #}
+  </main>
+{% endblock %}
