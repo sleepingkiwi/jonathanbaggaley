@@ -20,6 +20,7 @@ const pageSettings = [
     name: 'noNav',
     widget: 'boolean',
     default: false,
+    required: false,
     hint: 'Set to true for standalone pages where you don\'t want the nav to appear.',
   },
   {
@@ -27,6 +28,7 @@ const pageSettings = [
     name: 'noLogo',
     widget: 'boolean',
     default: false,
+    required: false,
     hint: 'Set to true if you also want to hide the site name that normally appears above the nav.',
   },
 ];
