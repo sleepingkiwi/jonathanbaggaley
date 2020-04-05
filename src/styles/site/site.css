@@ -36,14 +36,20 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    max-width: var(--layout-max);
-    max-width: calc(var(--layout-max) + calc(var(--bsu) * 2));
+
+    /* max-width: var(--layout-max);
+    max-width: calc(var(--layout-max) + calc(var(--bsu) * 2)); */
+
     margin: 0 auto;
     width: 100%;
+    padding: calc(var(--s5) * 2) calc(var(--s4) * 2) 0;
+    padding: 10vh 7vw 0;
   }
 
   .site__one {
     flex: 0;
+    padding-right: calc(var(--s4) * 2);
+    padding-right: 7vw;
   }
 
   .site__two {
@@ -51,7 +57,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: var(--bsu);
+
+    /* padding-top: var(--bsu); */
   }
 }
 

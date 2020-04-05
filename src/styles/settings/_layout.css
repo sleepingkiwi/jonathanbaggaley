@@ -4,9 +4,9 @@
 **/
 
 :root {
-  --layout-max: 100rem;
+  --layout-max: 120rem;
   --layout-columns: 90rem;/* for double columns - 1440px-ish */
-  --layout-content: 50rem; /* for single columns - 960px @ 16px */
+  --layout-content: 65rem; /* for single columns - 960px @ 16px */
   --layout-readable: 40rem; /* for text content - 640px @ 16px */
 
   /** column widths

@@ -6,8 +6,7 @@
 .PaddedImage {
   position: relative;
   margin: 0 auto;
-
-  /* overflow: hidden; */
+  overflow: hidden;
 
   /* max-height is 25em until the screen is bigger than 25 em high */
   max-height: 25em;
@@ -57,7 +56,8 @@
 @media screen and (min-height: 25em) {
 
   .PaddedImage {
-    max-height: 90vh;
+    /* max height based on 10vh of padding at top, 8vh at bottom and then space for footer text. */
+    max-height: 80vh;
   }
 }
 

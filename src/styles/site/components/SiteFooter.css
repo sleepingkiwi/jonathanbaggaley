@@ -23,6 +23,14 @@
   }
 }
 
+@media (--nav-break) {
+
+  .SiteFooter {
+    padding-bottom: calc(var(--s4) * 2);
+    padding-bottom: 8vh;
+  }
+}
+
 
 /** Footer sub nav
  *  ------------------------------------------------------------------------------------------------

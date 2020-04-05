@@ -1,18 +1,8 @@
 {
   "items": [
     {
-      "text": "Cruise",
-      "url": "/cruise/",
-      "external": false
-    },
-    {
-      "text": "Father To Me",
-      "url": "/father-to-me/",
-      "external": false
-    },
-    {
-      "text": "Cachet",
-      "url": "/cachet/",
+      "text": "Work",
+      "url": "/work/",
       "external": false
     },
     {

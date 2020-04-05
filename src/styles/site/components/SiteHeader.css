@@ -38,7 +38,7 @@
   /* padding to bump down nav if required */
   padding-right: var(--bsu);
   font-family: var(--ff-heading);
-  font-size: var(--s1);
+  font-size: var(--s2);
   padding-bottom: var(--bsu);
   padding-top: var(--bsu);
 
@@ -56,7 +56,7 @@
   /* allow nav to grow but not logo */
   display: block;
   flex-grow: 1;
-  font-size: var(--s0);
+  font-size: var(--s1);
   margin-top: 0;
 
   & ul {
@@ -70,7 +70,7 @@
   }
 
   & a {
-    color: inherit;
+    /* color: inherit; */
 
     &:hover,
     &:focus {
@@ -87,11 +87,15 @@
 @media (--nav-break) {
 
   .SiteHeader {
-    padding-left: var(--bsu);
+    padding: 0;
+
+    & .Wrap {
+      padding: 0;
+    }
   }
 
   .SiteHeader__logo {
-    padding-right: 0;
+    padding: 0 0 10vh;
     white-space: nowrap;
   }
 

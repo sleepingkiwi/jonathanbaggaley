@@ -34,7 +34,7 @@
       sub nav
       we do not render at all if there are no subnav items
     #}
-    {% if subnavigation.items %}
+    {% if subnavigation.items and (subnavigation.items | length > 0) %}
     <div class="SiteFooter__sub-nav">
       {{
         Nav(subnavigation)
