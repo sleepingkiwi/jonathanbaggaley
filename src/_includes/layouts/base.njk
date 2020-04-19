@@ -48,6 +48,14 @@
     </div>
   </div>
 
+  <div class="site__sub">
+    {#
+      entry point for child templates to inject content outside the columns
+    #}
+    {% block sub %}
+    {% endblock %}
+  </div>
+
   {{
     SiteFooter()
   }}

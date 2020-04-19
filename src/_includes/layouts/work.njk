@@ -8,6 +8,9 @@
 #}
 {% from "components/HeaderText.njk" import HeaderText with context %}
 {% from "components/ContentSection.njk" import ContentSection with context %}
+{% from "components/RichText.njk" import RichText with context %}
+{% from "components/InlineImage.njk" import InlineImage with context %}
+
 
 {% block content %}
   <main id="main-content" class="site-main site-main--work" tabindex="-1">
@@ -15,13 +18,83 @@
       class='WorkSection',
       secondaryColour=false
     ) %}
-      {{
-        HeaderText(
-          header=title,
-          priority='h2',
-          align='left'
-        )
-      }}
+      <div class="work-gallery">
+        {% if content | length > 0 %}
+          {% for contentBlock in content %}
+
+            {% if contentBlock.image %}
+              <div class="work-gallery__content work-gallery__content--image">
+                {{
+                  InlineImage(
+                    img=contentBlock.image
+                  )
+                }}
+              </div>
+            {% elif contentBlock.embed %}
+              <div class="work-gallery__content work-gallery__content--embed">
+                {{
+                  contentBlock.embed | safe
+                }}
+              </div>
+            {% endif %}
+
+          {% endfor %}
+        {% endif %}
+      </div>
     {% endcall %} {# ContentSection #}
   </main>
+{% endblock %}
+
+
+{% block sub %}
+  <section id="work-details" class="work-details" tabindex="-1">
+    {% call ContentSection(
+      class='WorkSection',
+      secondaryColour=false
+    ) %}
+      <div class="work-details__title-and-count">
+        <h2 class="work-details__title">
+          {{title}}
+          {% if date %}
+            ({{date}})
+          {% endif %}
+        </h2>
+        <div class="work-details__count">
+          <button class="work-details__count__prev">
+            &lt;
+          </button>
+          <span class="work-details__count__current">
+            1
+          </span>
+          <span class="work-details__count__divider">
+            /
+          </span>
+          <span class="work-details__count__total">
+            {{content | length}}
+          </span>
+          <button class="work-details__count__next">
+            &gt;
+          </button>
+        </div>
+      </div>
+
+      {% if description %}
+        <div class="work-details__project-information">
+          <button class="work-details__project-information__show">
+            Project information
+          </button>
+
+          <div class="work-details__project-information__description">
+            {{
+              RichText(
+                content=description,
+                align='left'
+              )
+            }}
+          </div>
+        </div>
+      {% endif %}
+
+    {% endcall %} {# ContentSection #}
+  </section>
 {% endblock %}

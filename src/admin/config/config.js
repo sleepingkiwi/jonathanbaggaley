@@ -96,7 +96,7 @@ const config = {
       label: 'Work',
       folder: 'src/work',
       slug: '{{slug}}',
-      preview_path: 'work/{{slug}}',
+      preview_path: '{{slug}}',
       create: true,
       description: 'Individual project pages.',
       fields: [
