@@ -40,6 +40,24 @@
 {% if currentNavigation.items %}
   <nav class="nav u-gaps">
     <ul>
+      {% if currentNavigation === navigation and worknavigation.bottom === false %}
+        <li>
+          <a href="#">{{worknavigation.title}}</a>
+          <ul>
+            {% for item in worknavigation.items %}
+              {% set currentAttribute = '' %}
+
+              {% if page.url == item.url %}
+                {% set currentAttribute = ' aria-current="page"' %}
+              {% endif %}
+
+              <li class="nav__item {{'nav__item--current' if page.url == item.url}}">
+                <a href="{{ item.url }}" {{ currentAttribute | safe }}>{{ item.text }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
       {% for item in currentNavigation.items %}
         {% set currentAttribute = '' %}
 
@@ -51,6 +69,24 @@
           <a href="{{ item.url }}" {{ currentAttribute | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
+      {% if currentNavigation === navigation and worknavigation.bottom === true %}
+        <li>
+          <a href="#">{{worknavigation.title}}</a>
+          <ul>
+            {% for item in worknavigation.items %}
+              {% set currentAttribute = '' %}
+
+              {% if page.url == item.url %}
+                {% set currentAttribute = ' aria-current="page"' %}
+              {% endif %}
+
+              <li class="nav__item {{'nav__item--current' if page.url == item.url}}">
+                <a href="{{ item.url }}" {{ currentAttribute | safe }}>{{ item.text }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
     </ul>
   </nav>
 {% endif %}

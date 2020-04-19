@@ -19,8 +19,8 @@
       secondaryColour=false
     ) %}
       <div class="work-gallery">
-        {% if content | length > 0 %}
-          {% for contentBlock in content %}
+        {% if projectContent | length > 0 %}
+          {% for contentBlock in projectContent %}
 
             {% if contentBlock.image %}
               <div class="work-gallery__content work-gallery__content--image">
