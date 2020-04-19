@@ -71,7 +71,7 @@ const kitchenConfig = [
   },
   {
     label: 'Project Content',
-    name: 'content',
+    name: 'projectContent',
     required: false,
     widget: 'list',
     showDetails: true,

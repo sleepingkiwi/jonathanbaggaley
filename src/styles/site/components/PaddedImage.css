@@ -57,7 +57,7 @@
 
   .PaddedImage {
     /* max height based on 10vh of padding at top, 8vh at bottom and then space for footer text. */
-    max-height: 80vh;
+    max-height: 76vh;
   }
 }
 

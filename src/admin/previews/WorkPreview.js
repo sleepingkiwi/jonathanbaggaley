@@ -20,14 +20,16 @@ const WorkPreview = window.createClass({
     const { entry } = this.props;
     const context = ({
       title,
+      projectDate,
       description,
-      content,
+      projectContent,
       noNav,
       noLogo,
     }) => ({
       title,
+      projectDate,
       description,
-      content,
+      projectContent,
       noNav,
       noLogo,
       ...previewDummyContent,
