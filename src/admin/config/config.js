@@ -28,8 +28,8 @@ const config = {
 
   // logo_url: https://your-site.com/images/logo.svg,
 
-  site_url: 'https://sharp-fermat-acef53.netlify.com',
-  display_url: 'https://sharp-fermat-acef53.netlify.com',
+  site_url: 'https://sharp-fermat-acef53.netlify.app',
+  display_url: 'https://sharp-fermat-acef53.netlify.app',
 
   // Media files will be stored in the repo under this dir
   // however because we use cloudinary currently this is ignored
