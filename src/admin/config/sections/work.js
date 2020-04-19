@@ -41,7 +41,7 @@ const kitchenConfig = [
   },
   {
     label: 'Project Date',
-    name: 'date',
+    name: 'projectDate',
     widget: 'string',
     default: '1988',
     required: false,
@@ -72,7 +72,7 @@ const kitchenConfig = [
   {
     label: 'Project Content',
     name: 'content',
-    required: true,
+    required: false,
     widget: 'list',
     showDetails: true,
     hint: 'This will normally be images but you can optionally include code to embed video too.',
@@ -89,6 +89,7 @@ const kitchenConfig = [
         name: 'image',
         widget: 'extraImage',
         showDetails: true,
+        required: false,
       },
       {
         label: 'Or',
