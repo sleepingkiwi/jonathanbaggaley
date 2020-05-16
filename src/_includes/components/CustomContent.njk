@@ -14,6 +14,8 @@
           ExtraImageWidget object
         collapseTop: false
           Boolean
+        collapseBottom: false
+          Boolean
         type:
           oneOf['oneColumn', 'twoColumns']
         columnWeighting:
@@ -51,7 +53,8 @@
         class='CustomContent',
         secondaryColour=section.backgroundColour,
         backgroundImage=section.backgroundImage,
-        collapseTop=section.collapseTop
+        collapseTop=section.collapseTop,
+        collapseBottom=section.collapseBottom
       ) %}
         {% if section.type === 'oneColumn' %}
           {# data in a single column #}

@@ -21,6 +21,7 @@ genericContentBlocks:
           version: v1585392009
   - type: oneColumn
     collapseTop: true
+    collapseBottom: true
     content:
       - type: text
         textAlign: center

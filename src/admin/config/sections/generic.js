@@ -14,6 +14,14 @@ const contentBlockOptions = [
     required: false,
     hint: 'If you want to combine layouts, you can collapse the padding at the top which helps group content without too much padding.',
   },
+  {
+    label: 'Collapse Bottom Padding?',
+    name: 'collapseBottom',
+    widget: 'boolean',
+    default: false,
+    required: false,
+    hint: 'If you want to combine layouts, you can also collapse the padding at the bottom. Collapse top & bottom if you want edge to edge content.',
+  },
 ];
 
 const contentBlockContentTypes = {

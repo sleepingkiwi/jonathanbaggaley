@@ -17,6 +17,7 @@
       String
       Optional
     collapseTop=false, // give the CMS editor some control over padding consecutive sections...
+    collapseBottom=false, // give the CMS editor some control over padding consecutive sections...
     lazy=true, // we default to lazy loading the background - page headers opt out of this
     isAChild=false // does it not constitute a whole <section>?
   ---
@@ -27,6 +28,7 @@
   secondaryColour=false,
   id='',
   collapseTop=false,
+  collapseBottom=false,
   lazy=true,
   isAChild=false
 ) %}
@@ -38,7 +40,10 @@
     }} ContentSection--back-{{
       'secondary' if secondaryColour else 'primary'
     }} ContentSection--{{
-      'top-collapse' if collapseTop else 'uncollapsed'
+      'top-collapse' if collapseTop else 'top-uncollapsed'
+    }}
+    ContentSection--{{
+      'bottom-collapse' if collapseBottom else 'bottom-uncollapsed'
     }}"
 
     {% if id %}
