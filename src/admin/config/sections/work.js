@@ -3,7 +3,7 @@
 **/
 import pageSettings from './pageSettings';
 
-const kitchenConfig = [
+const workConfig = [
   {
     label: 'Work',
     name: 'workPageInstructions',
@@ -111,4 +111,4 @@ const kitchenConfig = [
   ...pageSettings,
 ];
 
-export default kitchenConfig;
+export default workConfig;

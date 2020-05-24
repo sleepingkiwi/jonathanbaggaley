@@ -42,6 +42,7 @@
 @import 'site/components/ContentSection.css';
 @import 'site/components/ContentColumns.css';
 @import 'site/components/PaddedImage.css';
+@import 'site/components/ResponsiveEmbed.css';
 
 /* block level components */
 @import 'site/components/HeaderText.css';
@@ -52,8 +53,13 @@
 /* site sections and pages */
 @import 'site/components/SiteHeader.css';
 @import 'site/components/SiteFooter.css';
+@import 'site/components/WorkNavigation.css';
 
+/* home */
 @import 'site/components/Home.css';
+
+/* work */
+@import 'site/components/Work/WorkGallery.css';
 
 
 /** Helpers & overrides

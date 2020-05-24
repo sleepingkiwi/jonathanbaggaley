@@ -3,14 +3,7 @@
 **/
 import { init as formsInit } from './forms';
 import { init as genericIntersectionInit } from './generic-intersection';
-import { soModern, soFunctional } from './test';
-
-
-/** babel transpiles things...
- *  ------------------------------------------------------------------------------------------------
-**/
-console.log(`Oh. ${soModern()}`);
-soFunctional().forEach((l) => console.log(l));
+import { init as genericActivatorsInit } from './generic-activation';
 
 
 /** Init everything
@@ -20,3 +13,5 @@ soFunctional().forEach((l) => console.log(l));
 formsInit();
 // allowing elements to opt in to generic interesection observation by adding .js--wants-interestion
 genericIntersectionInit();
+// a generic set of classes for toggling, activating and deactivating things!
+genericActivatorsInit();

@@ -41,8 +41,12 @@
   <nav class="nav u-gaps">
     <ul>
       {% if currentNavigation === navigation and worknavigation.bottom === false %}
-        <li>
-          <a href="#">{{worknavigation.title}}</a>
+        <li class="WorkNavigation-toggle">
+          <button type="button" class="js--toggle anchor-button" data-target="WorkNavigation">
+            {{worknavigation.title}}
+          </button>
+        </li>
+        <li class="WorkNavigation js--inactive u-gaps" id="WorkNavigation">
           <ul>
             {% for item in worknavigation.items %}
               {% set currentAttribute = '' %}

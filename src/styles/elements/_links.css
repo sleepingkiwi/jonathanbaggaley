@@ -2,13 +2,15 @@
  *  ------------------------------------------------------------------------------------------------
 **/
 
-a {
+a,
+.anchor-button {
   color: var(--colour-secondary);
   text-decoration: none;
   font-weight: normal;
   transition:
     color var(--time-transition) var(--ease-default),
-    background var(--time-transition) var(--ease-default);
+    background var(--time-transition) var(--ease-default),
+    border-color var(--time-transition) var(--ease-default);
 
   &:hover,
   &:focus {
@@ -27,4 +29,13 @@ a {
     /* highlights links on iOS, basically works like the :hover selector for mobile devices. */
     /* -webkit-tap-highlight-color: rgba(var(colour-secondary), 0.2); */
   }
+}
+
+.anchor-button {
+  background: transparent;
+  border: 0;
+  display: inline;
+  padding: 0;
+  cursor: pointer;
+  outline: 0;
 }

@@ -28,9 +28,11 @@
 
 @custom-media --max screen and (min-width: var(--layout-max));
 
-/* this one is when our columns generally break */
+/* this next one is when the header/nav column jumps to the side */
 
 @custom-media --nav-break --squire;
+
+/* this one is when our columns generally break */
 
 @custom-media --text-column-break --serf;
 
@@ -42,6 +44,6 @@
 
 @custom-media --edge-to-edge-ends --yeoman;
 
-/* this is where the menu starts floating (it's always relative/solid back on mobile) */
+/* this is when we stop the logo text from wrapping */
 
-@custom-media --menu-floats --yeoman;
+@custom-media --logo-stops-wrapping --vagabond;

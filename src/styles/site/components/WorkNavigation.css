@@ -1,0 +1,24 @@
+/** WorkNavigation
+ *  ------------------------------------------------------------------------------------------------
+ *  base styles for the nav menu are in SiteHeader.css
+**/
+
+.WorkNavigation {
+  font-size: var(--s0);
+  order: 999; /* force self to bottom on narrow screens */
+
+  & ul {
+    --gap: var(--bsu);
+  }
+}
+
+@media (--nav-break) {
+
+  .WorkNavigation {
+    order: initial; /* back in-line for wider screens */
+
+    & ul {
+      --gap: var(--bsu-xs);
+    }
+  }
+}

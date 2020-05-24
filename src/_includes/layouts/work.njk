@@ -10,20 +10,21 @@
 {% from "components/ContentSection.njk" import ContentSection with context %}
 {% from "components/RichText.njk" import RichText with context %}
 {% from "components/InlineImage.njk" import InlineImage with context %}
+{% from "components/Wrap.njk" import Wrap with context %}
 
 
 {% block content %}
-  <main id="main-content" class="site-main site-main--work" tabindex="-1">
+  <main id="main-content" class="site-main site-main--work" >
     {% call ContentSection(
       class='WorkSection',
       secondaryColour=false
     ) %}
-      <div class="work-gallery">
+      <div class="WorkGallery">
         {% if projectContent | length > 0 %}
           {% for contentBlock in projectContent %}
 
             {% if contentBlock.image %}
-              <div class="work-gallery__content work-gallery__content--image">
+              <div class="WorkGallery__content WorkGallery__content--image">
                 {{
                   InlineImage(
                     img=contentBlock.image
@@ -31,10 +32,14 @@
                 }}
               </div>
             {% elif contentBlock.embed %}
-              <div class="work-gallery__content work-gallery__content--embed">
-                {{
-                  contentBlock.embed | safe
-                }}
+              <div class="WorkGallery__content WorkGallery__content--embed">
+                {% call Wrap(flavour='content', flows=true) %} {# content width Wrap with flow #}
+                  <div class="ResponsiveEmbed">
+                    {{
+                      contentBlock.embed | safe
+                    }}
+                  </div>
+                {% endcall %} {# Wrap #}
               </div>
             {% endif %}
 
@@ -47,7 +52,7 @@
 
 
 {% block sub %}
-  <section id="work-details" class="work-details" tabindex="-1">
+  <section id="work-details" class="work-details" >
     {% call ContentSection(
       class='WorkSection',
       secondaryColour=false

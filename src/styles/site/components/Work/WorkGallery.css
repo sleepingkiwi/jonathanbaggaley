@@ -1,0 +1,53 @@
+/** Styling the WorkGallery
+ *  ------------------------------------------------------------------------------------------------
+**/
+
+.WorkSection {
+  padding: 0;
+}
+
+.WorkGallery {
+  padding: 0 0 var(--bsu); /* bottom padding for scrollbar */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: var(--colour-primary) var(--colour-background-subtle);
+
+  & > .InlineImage .Wrap,
+  & .WorkGallery__ignore-me > .InlineImage .Wrap {
+    padding: 0;
+  }
+}
+
+.WorkGallery > * {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.WorkGallery > * + * {
+  --flow-space: 0;
+
+  margin-left: var(--bsu);
+}
+
+
+/** scrollbar
+ *  ------------------------------------------------------------------------------------------------
+**/
+.WorkGallery::-webkit-scrollbar {
+  height: 1rem;
+}
+
+.WorkGallery::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 1px solid var(--colour-subtler);
+  border-radius: 0.25rem;
+}
+
+.WorkGallery::-webkit-scrollbar-thumb {
+  background-color: var(--colour-primary);
+  border-radius: 0.25rem;
+}

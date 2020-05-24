@@ -1,32 +1,21 @@
 /** SiteHeader
  *  ------------------------------------------------------------------------------------------------
+ *  SiteHeader uses our u-stacks utility class to sit the nav and logo next to each other when
+ *  it's comfortable to do so.
 **/
 
 .SiteHeader {
   /* the wrap inside already has left/right padding on larger screens */
-  padding: var(--bsu) 0;
+  padding: var(--bsu-l) 0 var(--bsu);
   background-color: var(--colour-background-body);
   color: var(--colour-primary);
   position: relative;
   z-index: var(--z-fixed-header);
 
+  --stack-before: 40rem;
+
   & svg path {
     fill: var(--colour-primary);
-  }
-
-  & .Wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-@media (--menu-floats) {
-
-  .SiteHeader {
-    padding-bottom: var(--bsu);
-    width: 100%;
   }
 }
 
@@ -39,10 +28,9 @@
   padding-right: var(--bsu);
   font-family: var(--ff-heading);
   font-size: var(--s2);
-  padding-bottom: var(--bsu);
-  padding-top: var(--bsu);
 
-  /* push other content to the right (menu is still minimised) */
+  /* logo doesn't grow - give maximum space to the nav */
+  /* this would cause the logo text to break if we didn't include the nowrap rule in the MQ below */
   flex-grow: 0;
 
   & .Logo > .SvgWrap,
@@ -52,12 +40,18 @@
   }
 }
 
+@media (--logo-stops-wrapping) {
+
+  .SiteHeader__logo {
+    white-space: nowrap;
+  }
+}
+
 .SiteHeader__nav {
   /* allow nav to grow but not logo */
   display: block;
   flex-grow: 1;
   font-size: var(--s1);
-  margin-top: 0;
 
   & ul {
     justify-content: flex-end;
@@ -69,13 +63,23 @@
     display: block;
   }
 
-  & a {
-    /* color: inherit; */
+  & a,
+  & .anchor-button {
+    border-bottom: 2px solid var(--colour-background-body);
+    display: inline-block;
+    vertical-align: top;
 
     &:hover,
     &:focus {
       color: var(--colour-highlight);
+
+      /* border-color: var(--colour-highlight); */
     }
+  }
+
+  & .nav__item--current > a,
+  & .nav__item--current > .anchor-button {
+    border-color: var(--colour-subtlest);
   }
 }
 
@@ -95,7 +99,8 @@
   }
 
   .SiteHeader__logo {
-    padding: 0 0 10vh;
+    padding: 0 0 8vh;
+    margin-bottom: 0;
     white-space: nowrap;
   }
 
