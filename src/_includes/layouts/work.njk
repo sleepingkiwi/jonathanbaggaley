@@ -9,7 +9,7 @@
 {% from "components/HeaderText.njk" import HeaderText with context %}
 {% from "components/ContentSection.njk" import ContentSection with context %}
 {% from "components/RichText.njk" import RichText with context %}
-{% from "components/InlineImage.njk" import InlineImage with context %}
+{% from "components/GalleryImage.njk" import GalleryImage with context %}
 {% from "components/Wrap.njk" import Wrap with context %}
 
 
@@ -26,14 +26,15 @@
             {% if contentBlock.image %}
               <div class="WorkGallery__content WorkGallery__content--image">
                 {{
-                  InlineImage(
-                    img=contentBlock.image
+                  GalleryImage(
+                    img=contentBlock.image,
+                    lazy=(loop.index0 > 0)
                   )
                 }}
               </div>
             {% elif contentBlock.embed %}
               <div class="WorkGallery__content WorkGallery__content--embed">
-                {% call Wrap(flavour='content', flows=true) %} {# content width Wrap with flow #}
+                {% call Wrap(flavour='', flows=true) %} {# max width Wrap with flow #}
                   <div class="ResponsiveEmbed">
                     {{
                       contentBlock.embed | safe
@@ -52,44 +53,51 @@
 
 
 {% block sub %}
-  <section id="work-details" class="work-details" >
+  <section id="work-details" class="WorkDetails" >
     {% call ContentSection(
       class='WorkSection',
       secondaryColour=false
     ) %}
-      <div class="work-details__title-and-count">
-        <h2 class="work-details__title">
+      <div class="WorkDetails__details">
+        <h2 class="WorkDetails__title">
           {{title}}
           {% if projectDate %}
             ({{projectDate}})
           {% endif %}
         </h2>
-        <div class="work-details__count">
-          <button class="work-details__count__prev">
+        <div class="WorkDetails__count">
+          <button class="WorkDetails__count__prev anchor-button">
             &lt;
           </button>
-          <span class="work-details__count__current">
+          <span class="WorkDetails__count__current">
             1
           </span>
-          <span class="work-details__count__divider">
+          <span class="WorkDetails__count__divider">
             /
           </span>
-          <span class="work-details__count__total">
+          <span class="WorkDetails__count__total">
             {{projectContent | length}}
           </span>
-          <button class="work-details__count__next">
+          <button class="WorkDetails__count__next anchor-button">
             &gt;
           </button>
         </div>
+        {% if description %}
+          <div class="WorkDetails__information-toggle">
+            <a
+              href="#project-information"
+              class="js--toggler"
+              data-target="project-information"
+            >
+              Project Information
+            </a>
+          </div>
+        {% endif %}
       </div>
 
       {% if description %}
-        <div class="work-details__project-information">
-          <button class="work-details__project-information__show">
-            Project information
-          </button>
-
-          <div class="work-details__project-information__description">
+        <div id="project-information" class="WorkDetails__project-information">
+          <div class="WorkDetails__project-information__description">
             {{
               RichText(
                 content=description,

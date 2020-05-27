@@ -6,31 +6,34 @@
 <link rel="preload" as="script" href="{{rev['/main.modules.js'] or '/main.modules.js'}}" crossorigin>
 
 {#
-  Loading polyfills for older browsers.
-  -
-  make sure this loading method is suitable for the polyfills you want to load.
-  Look at `Loading polyfills` in readme.md for more info
+  Not loading any polyfills for this site - look at sleepinkiwi-eleventy repo to see how it's done
 #}
-<script nomodule src="{{rev['/polyfills.js'] or '/polyfills.js'}}"></script>
 
-{#
-  More details in the readme.
-  Another option is to not load JS at all for sites that don't meet a minimum feature detection
-  see https://github.com/sleepingKiwi/sylvarna for an example of this
-#}
+
 <script>
-  // more modern script for more modern browsers
-  function $loadjs(src, fallback) {
-    s = document.createElement('script');
-    // avoids double loading issues in Safari 10.1 which supports module but not nomodule...
-    if ('noModule' in s) s.type = 'module', s.src = src;
-    else s.src = fallback;
-    document.head.appendChild(s);
+  // we don't load any js in browsers that don't support a subset of features.
+  // for this site we use Element.closest and classList for most of the JS functionality
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
+  // I also want classList support!
+  if (
+    !Element.prototype.closest
+    || !('classList' in document.createElement("_"))
+  ) {
+    document.documentElement.className = document.documentElement.className.replace(/(^|\s)no-js(\s|$)/, ' no-js no-js--hagard');
+  } else {
+    // more modern script for more modern browsers
+    function $loadjs(src, fallback) {
+      s = document.createElement('script');
+      // avoids double loading issues in Safari 10.1 which supports module but not nomodule...
+      if ('noModule' in s) s.type = 'module', s.src = src;
+      else s.src = fallback;
+      document.head.appendChild(s);
+    }
+
+    $loadjs('{{rev['/main.modules.js'] or '/main.modules.js'}}', '{{rev['/main.js'] or '/main.js'}}');
+
+    document.documentElement.className = document.documentElement.className.replace(/(^|\s)no-js(\s|$)/, ' js ');
   }
-
-  $loadjs('{{rev['/main.modules.js'] or '/main.modules.js'}}', '{{rev['/main.js'] or '/main.js'}}');
-
-  document.documentElement.className = document.documentElement.className.replace(/(^|\s)no-js(\s|$)/, ' js ');
 </script>
 
 

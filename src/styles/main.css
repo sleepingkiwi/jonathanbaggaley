@@ -60,6 +60,7 @@
 
 /* work */
 @import 'site/components/Work/WorkGallery.css';
+@import 'site/components/Work/WorkDetails.css';
 
 
 /** Helpers & overrides

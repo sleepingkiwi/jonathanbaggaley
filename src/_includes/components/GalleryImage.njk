@@ -1,0 +1,81 @@
+{#
+  GalleryImage - this is a variation of GalleryImage with wider sizing.
+  See GalleryImage for details
+  ---
+  CMS _data:
+    -
+  ---
+  args:
+    img={}
+      ExtraImageWidget object
+      Shape of: {
+        alt : 'some string',
+        base : https://res.cloudinary.com/coolguy/image/upload/,
+        dominant:[58,49,48],
+        filename : stock%20images/Screenshot_2019-11-07_at_12.38.17_porup4.png,
+        height:804,
+        src : https://res.cloudinary.com/coolguy/image/upload/v1577892372/stock%20images/Screenshot_2019-11-07_at_12.38.17_porup4.png,
+        version : v1577892372,
+        width:964
+      }
+    lazy=false
+      Boolean
+    forcePadding
+      Number
+      Optional
+  ---
+#}
+
+{# import components #}
+{% from "components/PaddedImage.njk" import PaddedImage with context %}
+{% from "components/Wrap.njk" import Wrap with context %}
+
+{% macro GalleryImage(
+  img={},
+  lazy=false,
+  forcePadding,
+  contain=false,
+  wantsIntersection=true
+) %}
+  {# render nothing if there's not src #}
+  {% if img.src %}
+    <div
+      class="InlineImage"
+      style="
+        {% if img.dominant | length === 3 -%}
+        color:rgb(
+          {{ img.dominant[0] }},
+          {{ img.dominant[1] }},
+          {{ img.dominant[2] }}
+        );
+        {%- endif %}
+      "
+    >
+      {% call Wrap(flavour='', flows=true) %} {# content width Wrap with flow #}
+        {# we wrap everything in a padded image container #}
+        {% call PaddedImage(
+          dominant=img.dominant | default([]),
+          baseSixFour=img.baseSixFour | default(''),
+          padding=forcePadding or ((img.height/img.width)*100),
+          maxWidth=img.width,
+          paddingWasForced=true if forcePadding else false,
+          contain=contain,
+          wantsIntersection=wantsIntersection,
+          maxHeight=img.height
+        ) %}
+          <img
+            src="{{ img.base }}w_1800,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }}"
+            srcset="{{ img.base }}w_600,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 600w,
+              {{ img.base }}w_1200,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 1200w,
+              {{ img.base }}w_1800,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 1800w,
+              {{ img.base }}w_2400,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 2400w,
+              {{ img.base }}w_3000,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 3000w"
+            sizes="(min-width: 1920px) 1920px, 100vw"
+            alt="{{ img.alt | default('') }}"
+            {{ 'loading=lazy' if lazy }}
+          >
+        {% endcall %} {# PaddedImage #}
+      {% endcall %} {# Wrap #}
+    </div>
+  {% endif %}
+{% endmacro %}

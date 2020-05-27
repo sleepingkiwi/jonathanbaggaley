@@ -22,3 +22,33 @@
     }
   }
 }
+
+
+/** hiding and showing
+ *  ------------------------------------------------------------------------------------------------
+**/
+.js .js--active.WorkNavigation {
+  max-height: 2000px;
+  transform: translateY(0);
+  opacity: 1;
+  transition:
+    max-height var(--time-transition-slow) var(--ease-default),
+    opacity var(--time-transition) var(--time-transition-snap) var(--ease-default),
+    transform var(--time-transition) var(--ease-default);
+}
+
+.js .js--inactive.WorkNavigation {
+  position: absolute;
+  transform: translateY(calc(var(--bsu-l) * -1));
+  opacity: 0;
+  width: 1px;
+  max-height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  transition: max-height var(--time-transition) var(--ease-default);
+}

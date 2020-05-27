@@ -1,0 +1,69 @@
+/** Details that appear under work pages
+ *  ------------------------------------------------------------------------------------------------
+ *  images in the gallery have a max height of 76vh
+ *  there is 10vh padding at the top
+ *  and 8vh padding at the bottom
+**/
+
+.WorkDetails {
+  padding: calc(var(--s5) * 2) 0 0;
+  padding: 4vh 0 0;
+  margin: 0 auto;
+}
+
+.WorkDetails__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--bsu) 0;
+  max-width: var(--layout-readable);
+  max-width: calc(var(--layout-readable) + var(--bsu) * 2);
+  margin: 0 auto;
+}
+
+.WorkDetails__title {
+  font-size: var(--s2);
+}
+
+.WorkDetails__count__prev,
+.WorkDetails__count__next {
+  font-weight: bold;
+  font-size: var(--s1);
+}
+
+.WorkDetails__information-toggle {
+  display: none;
+}
+
+@media (--nav-break) {
+
+  .WorkDetails {
+    padding: calc(var(--s3) * 2) calc(var(--s4) * 2) 0;
+    padding: 4vh 7vw 0;
+    max-width: none;
+  }
+
+  .WorkDetails__details {
+    max-width: none;
+    padding-right: 0;
+  }
+
+  .WorkDetails__title {
+    font-size: var(--s0);
+    padding-right: var(--bsu);
+  }
+
+  .WorkDetails__information-toggle {
+    display: block;
+    order: -1;
+    flex-grow: 1;
+  }
+
+  .WorkDetails__project-information {
+    padding-top: 4vh;
+
+    & .Wrap {
+      margin: 0;
+    }
+  }
+}

@@ -2,9 +2,12 @@
   /** primary colours
    *  ----------------------------------------------------------------------------------------------
   **/
-  --colour-primary: #363738;
+  --colour-primary: #252525;
   --colour-secondary: #000000;
-  --colour-highlight: #60b0ca;
+  --colour-highlight: #5d606b;
+
+  /* --colour-highlight: #60b0ca; */
+
   --colour-subtle: #5d606b;
   --colour-subtler: #b1c1c7;
   --colour-subtlest: #e0e6e8;

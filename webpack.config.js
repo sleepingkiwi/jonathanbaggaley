@@ -32,7 +32,7 @@ module.exports = (env = {}) => {
 
       entry: {
         main: './src/js/entry.js',
-        polyfills: './src/js/polyfills.js',
+        // polyfills: './src/js/polyfills.js',
       },
 
       output: {

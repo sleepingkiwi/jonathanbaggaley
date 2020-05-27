@@ -42,8 +42,8 @@
 }
 
 .WorkGallery::-webkit-scrollbar-track {
-  background-color: transparent;
-  border: 1px solid var(--colour-subtler);
+  background-color: var(--colour-subtlest);
+  border: 0 solid var(--colour-subtler);
   border-radius: 0.25rem;
 }
 
