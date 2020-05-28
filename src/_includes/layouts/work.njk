@@ -86,7 +86,7 @@
           <div class="WorkDetails__information-toggle">
             <a
               href="#project-information"
-              class="js--toggler"
+              class="js--toggler js--scroll-to-target"
               data-target="project-information"
             >
               Project Information
@@ -96,7 +96,11 @@
       </div>
 
       {% if description %}
-        <div id="project-information" class="WorkDetails__project-information">
+        <div
+          id="project-information"
+          class="WorkDetails__project-information js--inactive js--activate-on-focus"
+          data-target="project-information"
+        >
           <div class="WorkDetails__project-information__description">
             {{
               RichText(

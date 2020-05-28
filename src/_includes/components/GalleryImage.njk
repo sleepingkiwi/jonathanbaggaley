@@ -64,6 +64,8 @@
           maxHeight=img.height
         ) %}
           <img
+            width="{{img.width}}"
+            height="{{img.height}}"
             src="{{ img.base }}w_1800,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }}"
             srcset="{{ img.base }}w_600,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 600w,
               {{ img.base }}w_1200,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 1200w,

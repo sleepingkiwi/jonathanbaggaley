@@ -14,6 +14,12 @@ const handleClasses = (activate, target, trigger = null) => {
   if (trigger) {
     trigger.classList[activate ? 'add' : 'remove']('js--active');
     trigger.classList[activate ? 'remove' : 'add']('js--inactive');
+
+    if (
+      activate && trigger.classList.contains('js--scroll-to-target')
+    ) {
+      target.scrollIntoView();
+    }
   }
   /** Animation class
    *  ----------------------------------------------------------------------------------------------
@@ -30,7 +36,10 @@ const activate = (e) => {
   // we activate the target regardless but only prevent the default for left clicks.
   // means we can still open a new tab or right click if this is an anchor...
   // ref: https://www.jacklmoore.com/notes/click-events/
-  if (!(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)) {
+  if (
+    !e.currentTarget.classList.contains('js--retain-default')
+    && !(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)
+  ) {
     e.preventDefault();
   }
 
@@ -53,7 +62,10 @@ const activateFocus = (e) => {
 
 export const deactivate = (e) => {
   // see notes in activate = (e) => {
-  if (!(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)) {
+  if (
+    !e.currentTarget.classList.contains('js--retain-default')
+    && !(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)
+  ) {
     e.preventDefault();
   }
 
@@ -68,7 +80,10 @@ export const deactivate = (e) => {
 
 const toggle = (e) => {
   // see notes in activate = (e) => {
-  if (!(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)) {
+  if (
+    !e.currentTarget.classList.contains('js--retain-default')
+    && !(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)
+  ) {
     e.preventDefault();
   }
 

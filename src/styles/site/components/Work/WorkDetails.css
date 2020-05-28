@@ -13,6 +13,7 @@
 
 .WorkDetails__details {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--bsu) 0;
@@ -27,8 +28,8 @@
 
 .WorkDetails__count__prev,
 .WorkDetails__count__next {
-  font-weight: bold;
-  font-size: var(--s1);
+  display: inline-block;
+  padding: 0 var(--bsu-s);
 }
 
 .WorkDetails__information-toggle {
@@ -46,6 +47,7 @@
   .WorkDetails__details {
     max-width: none;
     padding-right: 0;
+    height: 2vh;
   }
 
   .WorkDetails__title {
@@ -60,10 +62,32 @@
   }
 
   .WorkDetails__project-information {
-    padding-top: 4vh;
 
     & .Wrap {
       margin: 0;
     }
+  }
+
+  .js .js--active.WorkDetails__project-information {
+    transform: translateY(0);
+    opacity: 1;
+    transition:
+      opacity var(--time-transition) var(--time-transition-snap) var(--ease-default),
+      transform var(--time-transition) var(--ease-default);
+  }
+
+  .js .js--inactive.WorkDetails__project-information {
+    position: absolute;
+    transform: translateY(calc(var(--bsu-l) * -1));
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 }

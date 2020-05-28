@@ -44,6 +44,7 @@ body {
     width: 100%;
     padding: calc(var(--s5) * 2) calc(var(--s4) * 2) 0;
     padding: 10vh 7vw 0;
+    min-height: 86vh; /* 10vh of padding 76vh max gallery height */
   }
 
   .site__one {
