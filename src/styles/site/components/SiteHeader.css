@@ -6,7 +6,7 @@
 
 .SiteHeader {
   /* the wrap inside already has left/right padding on larger screens */
-  padding: var(--bsu-l) 0 var(--bsu);
+  padding: var(--bsu-l) 0 var(--bsu-l);
   background-color: var(--colour-background-body);
   color: var(--colour-primary);
   position: relative;
@@ -25,7 +25,7 @@
 **/
 .SiteHeader__logo {
   /* padding to bump down nav if required */
-  padding-right: var(--bsu);
+  /* padding-right: var(--bsu); */
   font-family: var(--ff-heading);
   font-size: var(--s2);
 

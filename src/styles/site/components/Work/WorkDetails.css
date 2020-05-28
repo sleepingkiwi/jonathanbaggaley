@@ -1,13 +1,12 @@
 /** Details that appear under work pages
  *  ------------------------------------------------------------------------------------------------
- *  images in the gallery have a max height of 76vh
+ *  images in the gallery have a max height of 74vh
  *  there is 10vh padding at the top
  *  and 8vh padding at the bottom
 **/
 
 .WorkDetails {
-  padding: calc(var(--s5) * 2) 0 0;
-  padding: 4vh 0 0;
+  padding: var(--bsu-l) 0 0;
   margin: 0 auto;
 }
 
@@ -24,6 +23,7 @@
 
 .WorkDetails__title {
   font-size: var(--s2);
+  line-height: 2;
 }
 
 .WorkDetails__count__prev,
@@ -40,7 +40,7 @@
 
   .WorkDetails {
     padding: calc(var(--s3) * 2) calc(var(--s4) * 2) 0;
-    padding: 3vh 7vw 0;
+    padding: 5vh 7vw 0;
     max-width: none;
   }
 
@@ -52,6 +52,7 @@
 
   .WorkDetails__title {
     font-size: var(--s0);
+    line-height: 1.5;
     padding-right: var(--bsu);
   }
 

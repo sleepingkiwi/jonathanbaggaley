@@ -53,7 +53,7 @@
 @media (--nav-break) {
 
   .js .WorkGallery {
-    height: 76vh;
+    height: 74vh;
   }
 
   .WorkGallery::-webkit-scrollbar-track {
@@ -71,4 +71,5 @@
 
 .js .WorkGallery {
   overflow: hidden;
+  padding-bottom: 0;
 }

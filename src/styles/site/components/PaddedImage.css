@@ -56,8 +56,16 @@
 @media screen and (min-height: 25em) {
 
   .PaddedImage {
+    /* on smaller screens, use more height */
+    max-height: 85vh;
+  }
+}
+
+@media (--nav-break) and (min-height: 25em) {
+
+  .PaddedImage {
     /* max height based on 10vh of padding at top, 8vh at bottom and then space for footer text. */
-    max-height: 76vh;
+    max-height: 74vh;
   }
 }
 
