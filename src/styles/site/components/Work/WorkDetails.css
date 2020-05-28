@@ -40,14 +40,14 @@
 
   .WorkDetails {
     padding: calc(var(--s3) * 2) calc(var(--s4) * 2) 0;
-    padding: 4vh 7vw 0;
+    padding: 3vh 7vw 0;
     max-width: none;
   }
 
   .WorkDetails__details {
     max-width: none;
     padding-right: 0;
-    height: 2vh;
+    min-height: 3vh;
   }
 
   .WorkDetails__title {
@@ -62,6 +62,7 @@
   }
 
   .WorkDetails__project-information {
+    padding: 0 var(--bsu);
 
     & .Wrap {
       margin: 0;

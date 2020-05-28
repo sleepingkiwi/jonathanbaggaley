@@ -38,7 +38,7 @@
  *  ------------------------------------------------------------------------------------------------
 **/
 .WorkGallery::-webkit-scrollbar {
-  height: 1rem;
+  height: 0.5rem;
 }
 
 .WorkGallery::-webkit-scrollbar-track {
@@ -63,4 +63,12 @@
   .WorkGallery::-webkit-scrollbar-thumb {
     border-radius: 0.25rem;
   }
+}
+
+/** Gallery with js
+ *  ------------------------------------------------------------------------------------------------
+**/
+
+.js .WorkGallery {
+  overflow: hidden;
 }
