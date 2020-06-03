@@ -27,6 +27,13 @@
 <body
   id="top"
 >
+  {% if tags.includes("work") %}
+    <div
+      class="workCarousel js--carousel"
+      data-active-slide="item-1"
+      data-scroll-to-slide="scroll"
+    >
+  {% endif %}
 
   <div class="site__cols">
     <div class="site__one">
@@ -55,6 +62,10 @@
     {% block sub %}
     {% endblock %}
   </div>
+
+  {% if tags.includes("work") %}
+    </div>
+  {% endif %}
 
   {{
     SiteFooter()
