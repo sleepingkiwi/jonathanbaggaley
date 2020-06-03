@@ -47,6 +47,7 @@
   .WorkDetails__details {
     max-width: none;
     padding-right: 0;
+    padding-left: var(--bsu-s);
     min-height: 3vh;
   }
 
