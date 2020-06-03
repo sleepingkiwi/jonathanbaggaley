@@ -18,7 +18,7 @@
   -webkit-overflow-scrolling: touch;
   scrollbar-color: var(--colour-subtle) var(--colour-subtlest);
   scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 
 
   & > .InlineImage .Wrap,
@@ -134,10 +134,10 @@
 /** Displaying slides when JS is enabled
 *  -----------------------------------------------------------------------------------------------
 **/
-/* .js .WorkGallery__content {
+.js .WorkGallery__content {
   opacity: 0;
 }
 
 .WorkGallery__content.js--carousel__slide--trans-in {
   opacity: 1;
-} */
+}
