@@ -6,7 +6,7 @@
  *  this is a silly example - normally it would make more sense to care about breakpoints etc.
 **/
 html {
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   /* the approach below would indefinitely increase size */
   /* font-size: calc(1rem + 0.3vw); */

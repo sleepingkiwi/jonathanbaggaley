@@ -13,4 +13,5 @@ html {
 body {
   min-height: 100vh; /* almost feels too opinionated but I almost never don't want this so... */
   scroll-behavior: smooth;
+  font-size: var(--s-1);
 }

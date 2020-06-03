@@ -27,7 +27,7 @@
   /* padding to bump down nav if required */
   /* padding-right: var(--bsu); */
   font-family: var(--ff-heading);
-  font-size: var(--s0);
+  font-size: var(--s-1);
 
   /* logo doesn't grow - give maximum space to the nav */
   /* this would cause the logo text to break if we didn't include the nowrap rule in the MQ below */
@@ -51,7 +51,7 @@
   /* allow nav to grow but not logo */
   display: block;
   flex-grow: 1;
-  font-size: var(--s0);
+  font-size: var(--s-1);
 
   & ul {
     justify-content: flex-end;

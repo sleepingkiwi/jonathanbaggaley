@@ -22,7 +22,7 @@
 }
 
 .WorkDetails__title {
-  font-size: var(--s2);
+  font-size: var(--s1);
   line-height: 2;
 }
 
@@ -51,7 +51,7 @@
   }
 
   .WorkDetails__title {
-    font-size: var(--s0);
+    font-size: var(--s-1);
     line-height: 1.5;
     padding-right: var(--bsu);
   }
