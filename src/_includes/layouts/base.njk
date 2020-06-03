@@ -27,7 +27,7 @@
 <body
   id="top"
 >
-  {% if tags.includes("work") %}
+  {% if tags and 'work' in tags %}
     <div
       class="workCarousel js--carousel"
       data-active-slide="item-1"
@@ -63,7 +63,7 @@
     {% endblock %}
   </div>
 
-  {% if tags.includes("work") %}
+  {% if tags and 'work' in tags %}
     </div>
   {% endif %}
 
