@@ -1,13 +1,17 @@
 ---
 layout: layouts/work
 tags: work
-title: Screen
+title: Screenz
 projectDate: 2014-2015
-description: The final images from my PhD. Together with the previous project
-  ‘Sitting’ these photographs form the practice element of my research and are
-  integral to my thesis. Please contact me if you would like to access the
-  written thesis which is titled ‘Figuring the photographic portrait studio as a
-  psychic apparatus’
+description: >-
+  The final images from my PhD. Together with the previous project ‘Sitting’
+  these photographs form the practice element of my research and are integral to
+  my thesis. Please contact me if you would like to access the written thesis
+  which is titled ‘Figuring the photographic portrait studio as a psychic
+  apparatus’
+
+
+  *Want to add a second paragraph but not sure about it....*
 projectContent:
   - name: 01.jpg
     image:
@@ -67,18 +71,18 @@ projectContent:
       version: v1591181889
   - name: 05.jpg
     image:
-      src: https://res.cloudinary.com/sleepingkiwi/image/upload/v1591181890/jonathan-baggaley-dev/screen/05.jpg
-      base: https://res.cloudinary.com/sleepingkiwi/image/upload/
-      version: v1591181890
-      filename: jonathan-baggaley-dev/screen/05.jpg
-      width: 2253
-      height: 3003
       dominant:
         - 228
         - 229
         - 231
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAABdUlEQVQ4T62Ti4rCQAxFMz4Q0SqID/z/jxMUSys+WvuY5YTNMLWyIG5gsLaZk5s7Gee99yIiTdMIj8PhUJxzvNKo61oGg4GuOMhlOQBt2wqLeAVUVRUAMZiC7FHAr4hOZav21zfUKaCj7cM/rmka/66/WK6195pHLVeWpR+NRtoniWVZyvP51HZ4xy/9EpPJRJcF/ri6rj3GEQBut5s8Hg99Nve1V+dkOp1KkiTBK4r1PADAoqopMMBsNpPFYtFXYHL5kue5FEWhSUi83+9Ci+Qsl0tZrVYdm13btj42LE1T3UTgBRCbDQDr9ToAwhzEyNPpJNfrNSggCQUE8rfbbWdKewoMYO4DQAHjgoExAJ86pwD6fD6rAqqyyUYZ0Hw+l81m0/WgqiqdAwsDjMdjfWUnQDVOoQeI54ANx+NRLpeLADBz+UUJgN1uF4rpbXw9hcPhIFmWhaMzJQbY7/cKYPPbU/jwLv3Dbfz6On8NwMRP+47zfwC+syJTx+hymgAAAABJRU5ErkJggg==
+      src: https://res.cloudinary.com/sleepingkiwi/image/upload/v1591181890/jonathan-baggaley-dev/screen/05.jpg
+      width: 2253
+      height: 3003
+      filename: jonathan-baggaley-dev/screen/05.jpg
       alt: ""
+      base: https://res.cloudinary.com/sleepingkiwi/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAABdUlEQVQ4T62Ti4rCQAxFMz4Q0SqID/z/jxMUSys+WvuY5YTNMLWyIG5gsLaZk5s7Gee99yIiTdMIj8PhUJxzvNKo61oGg4GuOMhlOQBt2wqLeAVUVRUAMZiC7FHAr4hOZav21zfUKaCj7cM/rmka/66/WK6195pHLVeWpR+NRtoniWVZyvP51HZ4xy/9EpPJRJcF/ri6rj3GEQBut5s8Hg99Nve1V+dkOp1KkiTBK4r1PADAoqopMMBsNpPFYtFXYHL5kue5FEWhSUi83+9Ci+Qsl0tZrVYdm13btj42LE1T3UTgBRCbDQDr9ToAwhzEyNPpJNfrNSggCQUE8rfbbWdKewoMYO4DQAHjgoExAJ86pwD6fD6rAqqyyUYZ0Hw+l81m0/WgqiqdAwsDjMdjfWUnQDVOoQeI54ANx+NRLpeLADBz+UUJgN1uF4rpbXw9hcPhIFmWhaMzJQbY7/cKYPPbU/jwLv3Dbfz6On8NwMRP+47zfwC+syJTx+hymgAAAABJRU5ErkJggg==
+      version: v1591181890
 noNav: false
 noLogo: false
 ---
