@@ -49,7 +49,7 @@
   display: none;
 }
 
-.js .WorkGallery__overlay__prev,
+/* .js .WorkGallery__overlay__prev,
 .js .WorkGallery__overlay__next {
   display: block;
   position: absolute;
@@ -66,7 +66,7 @@
 .js .WorkGallery__overlay__next {
   left: auto;
   right: 0;
-}
+} */
 
 
 /** scrollbar
@@ -87,10 +87,6 @@
 
 @media (--nav-break) {
 
-  .js .WorkGallery {
-    height: 74vh;
-  }
-
   .WorkGallery::-webkit-scrollbar-track {
     border-radius: 0.25rem;
   }
@@ -100,13 +96,32 @@
   }
 }
 
+/* under 25em height we limit embed width - 44.44em maintains 25em height at 16:9 */
+.WorkGallery__content--embed .Wrap {
+  max-width: 44.44em;
+}
+
+@media screen and (min-height: 25em) {
+
+  .WorkGallery__content--embed .Wrap {
+    max-width: none;
+  }
+}
+
+@media (--nav-break) and (min-height: 25em) {
+
+  .js .WorkGallery {
+    height: 74vh;
+  }
+}
+
 /** Gallery with js
  *  ------------------------------------------------------------------------------------------------
 **/
 
 /* TODO hide scrollbars on small screens but still allow scroll (?) */
 /* this requires intersection observers to change slide counter */
-/* .js .WorkGallery {
+.js .WorkGallery {
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding-bottom: 0;
@@ -115,14 +130,14 @@
 .js .WorkGallery::-webkit-scrollbar {
   height: 0;
   background: transparent;
-} */
+}
 
 /* then on larger screens no scrolling at all? */
 
-.js .WorkGallery {
+/* .js .WorkGallery {
   padding-bottom: 0;
   overflow: hidden;
-}
+} */
 
 .WorkGallery__content {
   transition:
@@ -134,10 +149,10 @@
 /** Displaying slides when JS is enabled
 *  -----------------------------------------------------------------------------------------------
 **/
-.js .WorkGallery__content {
+/* .js .WorkGallery__content {
   opacity: 0;
 }
 
 .WorkGallery__content.js--carousel__slide--trans-in {
   opacity: 1;
-}
+} */

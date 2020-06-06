@@ -130,6 +130,46 @@ export const init = () => {
       );
     }
   });
+
+  // draggable WorkGallery carousel
+  const slider = document.querySelector('.WorkGallery');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+  let clickTimer;
+
+  slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    clickTimer = new Date();
+    slider.classList.add('active');
+    slider.style.scrollSnapType = 'none';
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.style.removeProperty('scroll-snap-type');
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.style.removeProperty('scroll-snap-type');
+    slider.classList.remove('active');
+    const curTime = new Date();
+    if (curTime - clickTimer < 200) {
+      carouselPrevNext('next', document.querySelector('.workCarousel'));
+    }
+  });
+  slider.addEventListener('mousemove', (e) => {
+    if (!isDown) {
+      return;
+    }
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk = (x - startX) * 3; // scroll-fast
+    slider.scrollLeft = scrollLeft - walk;
+    console.log(walk);
+  });
 };
 
 export default init;
