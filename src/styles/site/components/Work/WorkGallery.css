@@ -125,6 +125,21 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding-bottom: 0;
+  cursor: pointer;
+}
+
+.js .WorkGallery.dragging {
+  cursor: grabbing;
+}
+
+/* otherwise firefox drags image.... */
+.js .WorkGallery img {
+  pointer-events: none;
+}
+
+/* prevents embeds breaking drag */
+.js .WorkGallery.dragging > * {
+  pointer-events: none;
 }
 
 .js .WorkGallery::-webkit-scrollbar {
@@ -149,10 +164,10 @@
 /** Displaying slides when JS is enabled
 *  -----------------------------------------------------------------------------------------------
 **/
-/* .js .WorkGallery__content {
+.js .WorkGallery__content {
   opacity: 0;
 }
 
 .WorkGallery__content.js--carousel__slide--trans-in {
   opacity: 1;
-} */
+}

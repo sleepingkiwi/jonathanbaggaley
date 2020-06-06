@@ -7,7 +7,7 @@ import { getNextSibling, getPreviousSibling } from './utils/siblings';
 /** Action functions
  *  ------------------------------------------------------------------------------------------------
 **/
-const carouselGoTo = (target, carousel) => {
+const carouselGoTo = (target, carousel, intersected = false) => {
   // remove old active classes.
   const active = carousel.querySelectorAll('.js--carousel__slide--active');
   (active || []).forEach(
@@ -29,10 +29,16 @@ const carouselGoTo = (target, carousel) => {
   // wait a tick for the transition class so that it animates...
   window.setTimeout(() => {
     target.classList.add('js--carousel__slide--trans-in');
-    // scroll to it if required
-    if (carousel.getAttribute('data-scroll-to-slide') === 'scroll') {
-      console.log(target);
-      target.scrollIntoView();
+
+    // scroll to it if required and not mid drag/scroll
+    if (carousel.getAttribute('data-scroll-to-slide') === 'scroll' && !intersected) {
+      // console.log(target);
+      const scroller = target.parentNode;
+
+      // scrollIntoView is great but causes both vertical and horizontal scroll
+      // target.scrollIntoView(false);
+
+      scroller.scrollLeft = target.offsetLeft;
     }
   }, 10);
   carousel.setAttribute('data-active-slide', target.id);
@@ -57,7 +63,7 @@ const carouselGoTo = (target, carousel) => {
 };
 
 const carouselPrevNext = (direction, carousel) => {
-  console.log(direction);
+  // console.log(direction);
   const active = document.getElementById(carousel.getAttribute('data-active-slide'));
   if (active) {
     const target = (
@@ -109,6 +115,17 @@ const carouselAction = (e) => {
   }
 };
 
+const slideScrollIntersection = (entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      if (entry.intersectionRatio >= 0.5) {
+        const carousel = entry.target.closest('.js--carousel');
+        carouselGoTo(entry.target, carousel, true);
+      }
+    }
+  });
+};
+
 
 /** Initialise listeners
  *  ------------------------------------------------------------------------------------------------
@@ -131,45 +148,75 @@ export const init = () => {
     }
   });
 
-  // draggable WorkGallery carousel
-  const slider = document.querySelector('.WorkGallery');
-  let isDown = false;
-  let startX;
-  let scrollLeft;
-  let clickTimer;
 
-  slider.addEventListener('mousedown', (e) => {
-    isDown = true;
-    clickTimer = new Date();
-    slider.classList.add('active');
-    slider.style.scrollSnapType = 'none';
-    startX = e.pageX - slider.offsetLeft;
-    scrollLeft = slider.scrollLeft;
-  });
-  slider.addEventListener('mouseleave', () => {
-    isDown = false;
-    slider.style.removeProperty('scroll-snap-type');
-    slider.classList.remove('active');
-  });
-  slider.addEventListener('mouseup', () => {
-    isDown = false;
-    slider.style.removeProperty('scroll-snap-type');
-    slider.classList.remove('active');
-    const curTime = new Date();
-    if (curTime - clickTimer < 200) {
-      carouselPrevNext('next', document.querySelector('.workCarousel'));
-    }
-  });
-  slider.addEventListener('mousemove', (e) => {
-    if (!isDown) {
-      return;
-    }
-    e.preventDefault();
-    const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 3; // scroll-fast
-    slider.scrollLeft = scrollLeft - walk;
-    console.log(walk);
-  });
+  // draggable carousel section/s
+  const draggable = document.querySelectorAll('.js--carousel__draggable');
+
+  (draggable || []).forEach(
+    (_drag) => {
+      const drag = _drag;
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+      // let clickTimer;
+
+      const intersectionOptions = {
+        root: drag,
+        rootMargin: '0px',
+        threshold: 0.5,
+      };
+      const observer = new IntersectionObserver(slideScrollIntersection, intersectionOptions);
+      (drag.querySelectorAll('.js--carousel__slide') || []).forEach(
+        (slide) => {
+          observer.observe(slide);
+        },
+      );
+
+      drag.addEventListener('mousedown', (e) => {
+        // only left clicks drag
+        if (!(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)) {
+          isDown = true;
+          // clickTimer = new Date();
+          drag.classList.add('dragging');
+          drag.style.scrollSnapType = 'none';
+          startX = e.pageX - drag.offsetLeft;
+          scrollLeft = drag.scrollLeft;
+        }
+      });
+      drag.addEventListener('mouseleave', () => {
+        isDown = false;
+        drag.style.removeProperty('scroll-snap-type');
+        drag.classList.remove('dragging');
+      });
+      drag.addEventListener('mouseup', (e) => {
+        isDown = false;
+        drag.style.removeProperty('scroll-snap-type');
+        drag.classList.remove('dragging');
+        // const curTime = new Date();
+        // if click was super fast or there was 0 drag
+        // if (curTime - clickTimer < 150 || e.pageX - drag.offsetLeft === startX) {
+
+        // if there was no drag and it was a left click
+        if (
+          e.pageX - drag.offsetLeft === startX
+          && !(e.which > 1 || e.shiftKey || e.altKey || e.metaKey || e.ctrlKey)
+        ) {
+          // load next image
+          carouselPrevNext('next', document.querySelector('.workCarousel'));
+        }
+      });
+      drag.addEventListener('mousemove', (e) => {
+        if (!isDown) {
+          return;
+        }
+        e.preventDefault();
+        const x = e.pageX - drag.offsetLeft;
+        const walk = (x - startX) * 3; // scroll-fast
+        drag.scrollLeft = scrollLeft - walk;
+        // console.log(walk);
+      });
+    },
+  );
 };
 
 export default init;
