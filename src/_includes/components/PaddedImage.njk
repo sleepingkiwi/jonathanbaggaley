@@ -44,6 +44,9 @@
         {{ dominant[2] }}
       );
       {%- endif %}
+      {% if baseSixFour | length > 1 -%}
+      background-image: url({{baseSixFour}});
+      {%- endif %}
     "
   >
 

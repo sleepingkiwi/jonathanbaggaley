@@ -7,6 +7,9 @@
   position: relative;
   margin: 0 auto;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
   /* max-height is 25em until the screen is bigger than 25 em high */
   max-height: 25em;
