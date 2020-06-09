@@ -10,21 +10,22 @@
     display: inline-block;
     padding: var(--bsu-s) var(--bsu-l);
     vertical-align: top;
-    background: var(--colour-primary);
-    color: var(--colour-invert);
-    border-radius: var(--radius-default);
+    background: transparent;
+    color: var(--colour-primary);
+    border-radius: 0;
     font-family: var(--ff-body);
-    font-weight: bold;
-    border: 0;
+    font-weight: normal;
+    border: 2px solid var(--colour-primary);
     outline: 0;
     cursor: pointer;
     transition:
       color var(--time-transition) ease-in-out,
+      border var(--time-transition) ease-in-out,
       background var(--time-transition) ease-in-out;
 
     &:hover,
     &:focus {
-      background: var(--colour-highlight);
+      border-color: var(--colour-highlight);
     }
   }
 }
