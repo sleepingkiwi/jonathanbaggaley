@@ -12,7 +12,7 @@
     padding: var(--bsu-xs) var(--bsu-s);
     background: white;
     border: 0;
-    border-bottom: 2px solid var(--colour-subtle);
+    border-bottom: 1px solid var(--colour-subtle);
   }
 
   & textarea {
@@ -45,7 +45,7 @@
     padding: var(--bsu-xs) var(--bsu-s);
     background: white;
     border: 0;
-    border-bottom: 2px solid var(--colour-subtle);
+    border-bottom: 1px solid var(--colour-subtle);
     line-height: 1.5;
   }
 
@@ -71,7 +71,7 @@
     padding: var(--bsu-xs) var(--bsu-s);
     background: white;
     border: 0;
-    border-bottom: 2px solid var(--colour-subtle);
+    border-bottom: 1px solid var(--colour-subtle);
     line-height: 1.5;
   }
 
@@ -136,8 +136,8 @@
     &::after {
       content: 'All form fields are required';
       font-family: var(--ff-body);
-      color: var(--colour-subtler);
-      border-color: var(--colour-subtler);
+      color: var(--colour-primary);
+      border-color: var(--colour-primary);
       font-size: 0.8em;
       position: absolute;
       top: 100%;
@@ -155,8 +155,8 @@
 
   & button[type='submit'] {
     pointer-events: none;
-    color: var(--colour-primary);
-    border-color: var(--colour-primary);
+    color: var(--colour-subtler);
+    border-color: var(--colour-subtler);
     margin-bottom: var(--bsu-s); /* if we want ewxtra space for the message... */
 
     &::after {

@@ -15,7 +15,7 @@
     border-radius: 0;
     font-family: var(--ff-body);
     font-weight: normal;
-    border: 2px solid var(--colour-primary);
+    border: 1px solid var(--colour-primary);
     outline: 0;
     cursor: pointer;
     transition:
