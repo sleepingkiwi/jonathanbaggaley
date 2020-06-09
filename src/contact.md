@@ -2,7 +2,7 @@
 layout: layouts/contact
 title: Contact
 formContentArea:
-  header: Contact
+  header: ""
   labels:
     email: Email
     message: Message
@@ -11,4 +11,3 @@ formContentArea:
     subject: Subject
   text: For details of available editions or general enquiries.
 ---
-
