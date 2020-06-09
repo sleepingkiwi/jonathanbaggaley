@@ -34,22 +34,38 @@ genericContentBlocks:
         textAlign: left
         type: header
       - text: |-
-          1983 Black and White Printer: Colourlabs International\
-          1984 HND Photography: Swansea Institute\
-          1986 Ceramist/Director: Branksome China\
-          1997 Managing Director: Branksome China\
-          2004 Manager: Salisbury  Studios\
-          2006 PQE Photography: Salisbury College\
-          2006 BA(Hons) Photomedia: Bournemouth University\
-          2007 MA Photography: Arts University at Bournemouth\
-          2008 PGCE HE: Arts University at Bournemouth\
-          2009 Visiting Lecturer in Fine Art and Photography: AUB\
-          2009 Consultant: Worlds End Contemporary, Kings Road, London\
-          2009 Manager: Salisbury Photo Imaging and Portrait Studio\
-          2011 Teacher of Photography: Burgate Sixth Form Centre\
-          2011-15 PhD: University of Brighton\
-          2012-15 Visiting Lecturer: University of Brighton\
-          2015 Lecturer: University of Portsmouth\
+          1983 Black and White Printer: Colourlabs International
+
+          1984 HND Photography: Swansea Institute
+
+          1986 Ceramist/Director: Branksome China
+
+          1997 Managing Director: Branksome China
+
+          2004 Manager: Salisbury  Studios
+
+          2006 PQE Photography: Salisbury College
+
+          2006 BA(Hons) Photomedia: Bournemouth University
+
+          2007 MA Photography: Arts University at Bournemouth
+
+          2008 PGCE HE: Arts University at Bournemouth
+
+          2009 Visiting Lecturer in Fine Art and Photography: AUB
+
+          2009 Consultant: Worlds End Contemporary, Kings Road, London
+
+          2009 Manager: Salisbury Photo Imaging and Portrait Studio
+
+          2011 Teacher of Photography: Burgate Sixth Form Centre
+
+          2011-15 PhD: University of Brighton
+
+          2012-15 Visiting Lecturer: University of Brighton
+
+          2015 Lecturer: University of Portsmouth
+
           2018 Course Leader, MA Photography: University of Portsmouth
         textAlign: left
         type: text
@@ -57,20 +73,20 @@ genericContentBlocks:
       - subHeader: Exhibitions and publications
         textAlign: left
         type: header
-      - text: >-
-          2007 'White Room', Dray Walk Gallery, London.\
+      - text: |-
+          2007 'White Room', Dray Walk Gallery, London.
 
-          2008 'Edge', Text &amp; Work Gallery,  Bournemouth.\
+          2008 'Edge', Text &amp; Work Gallery,  Bournemouth.
 
-          2008 British Journal of Photography: 10. 09. 2008.\
+          2008 British Journal of Photography: 10. 09. 2008.
 
-          2009 'Fresh Faced &amp; Wild Eyed', The Photographers' Gallery, London\
+          2009 'Fresh Faced &amp; Wild Eyed', The Photographers' Gallery, London
 
-          2009 'Autumn Collection', Flowers East Gallery, London\
+          2009 'Autumn Collection', Flowers East Gallery, London
 
-          2013 'Surface Exposure', University of Brighton Gallery, Brighton\
+          2013 'Surface Exposure', University of Brighton Gallery, Brighton
 
-          2014 'Mythopoesis', Grand Parade Gallery, Brighton\
+          2014 'Mythopoesis', Grand Parade Gallery, Brighton
 
           2015 'Portrait Studio' solo show, Dorset Place Gallery, Brighton
         textAlign: left
