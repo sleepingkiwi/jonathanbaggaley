@@ -11,8 +11,7 @@
     width: 100%;
     padding: var(--bsu-xs) var(--bsu-s);
     background: white;
-    border: 0;
-    border-bottom: 1px solid var(--colour-subtle);
+    border: 1px solid var(--colour-subtle);
   }
 
   & textarea {
@@ -44,8 +43,7 @@
     display: block;
     padding: var(--bsu-xs) var(--bsu-s);
     background: white;
-    border: 0;
-    border-bottom: 1px solid var(--colour-subtle);
+    border: 1px solid var(--colour-subtle);
     line-height: 1.5;
   }
 
@@ -70,13 +68,12 @@
     flex: 1;
     padding: var(--bsu-xs) var(--bsu-s);
     background: white;
-    border: 0;
-    border-bottom: 1px solid var(--colour-subtle);
+    border: 1px solid var(--colour-subtle);
     line-height: 1.5;
   }
 
   & label {
-    border: 0;
+    border-bottom: 0;
     padding-bottom: 0;
     color: var(--colour-subtle);
   }
