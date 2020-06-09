@@ -10,16 +10,16 @@ genericContentBlocks:
           I am a visual artist, researcher and lecturer based in Hampshire.
 
 
-          My photographic practice started in the 1980's whilst completing a studio based photography HND at Swansea Institute (then WGIHE). After many years working in commercial ceramics I returned to photography in 2006, completing my  MA at the Arts University at Bournemouth in 2009. I have recently completed an AHRC funded <a href="http://arts.brighton.ac.uk/research/doctoral-centre-arts/student/jonathan-baggaley" title="link to research interests">PhD in Photography</a> at the University of Brighton.
+          My photographic practice started in the 1980's whilst completing a studio based photography HND at Swansea Institute (then WGIHE). After many years working in commercial ceramics I returned to photography in 2006, completing my  MA at the Arts University at Bournemouth in 2009. I have recently completed an AHRC funded PhD in Photography at the University of Brighton.
 
 
           Typically my photographic work reflects an interest in the conventions of visual display and representation and how these might become usefully incorporated as subject matter within a medium that itself forms part of these conventions. My current research centres on the traditional photographic portrait studio as a space of modernity and desire and how this might offer insights into photography as a psychic apparatus.
 
 
-          My work has recently been exhibited at the Flowers East Gallery and <a href="http://ffwe2009.thephotographersgallery.org.uk/final.php?step=1&view=1039" title="link to Fresh Faced and Wild Eyed 2009 gallery">The Photographers' Gallery in London and at Grand Parade and The Dorset Place Gallery in Brighton.</a>
+          My work has recently been exhibited at the Flowers East Gallery and The Photographers' Gallery in London and at Grand Parade and The Dorset Place Gallery in Brighton.
 
 
-          I currently combine my <a href="http://arts.brighton.ac.uk/research/doctoral-centre-arts/student/jonathan-baggaley" title="link to research interests">photographic practice and research</a> with a career in teaching.
+          I currently combine my photographic practice and research with a career in teaching.
         textAlign: left
         type: text
     type: oneColumn
