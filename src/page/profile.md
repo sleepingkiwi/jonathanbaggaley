@@ -13,62 +13,11 @@ genericContentBlocks:
       - text: >-
           I am a visual artist, researcher and lecturer based in Hampshire.
 
+          My photographic practice started in the 1980's whilst completing a studio based photography HND at Swansea Institute (then WGIHE). After many years working in commercial ceramics I returned to photography in 2006, completing my  MA at the Arts University at Bournemouth in 2009. I have recently completed an AHRC funded <a href="http://arts.brighton.ac.uk/research/doctoral-centre-arts/student/jonathan-baggaley" title="link to research interests">PhD in Photography</a> at the University of Brighton.
 
-          Consectetur adipiscing elit pellentesque habitant morbi tristique
-          senectus. Aliquam sem et tortor consequat id porta. Ac ut consequat
-          semper viverra. Viverra justo nec ultrices dui. Dolor sed viverra
-          ipsum nunc aliquet bibendum enim facilisis gravida. Curabitur vitae
-          nunc sed velit. Massa massa ultricies mi quis hendrerit dolor magna
-          eget. Aliquet risus feugiat in ante. Eget felis eget nunc lobortis
-          mattis aliquam faucibus. Commodo odio aenean sed adipiscing diam donec
-          adipiscing. Sed augue lacus viverra vitae congue eu consequat ac.
-          Lectus mauris ultrices eros in cursus turpis massa. Pharetra magna ac
-          placerat vestibulum lectus mauris ultrices eros. Nulla pellentesque
-          dignissim enim sit amet venenatis urna cursus eget.
+          Typically my photographic work reflects an interest in the conventions of visual display and representation and how these might become usefully incorporated as subject matter within a medium that itself forms part of these conventions. My current research centres on the traditional photographic portrait studio as a space of modernity and desire and how this might offer insights into photography as a psychic apparatus.
 
-
-          Enim sed faucibus turpis in eu mi bibendum neque egestas. Urna nunc id
-          cursus metus. Lacinia quis vel eros donec ac odio tempor orci. Amet
-          nulla facilisi morbi tempus iaculis. Non diam phasellus vestibulum
-          lorem sed risus ultricies. Posuere morbi leo urna molestie at
-          elementum eu. Feugiat vivamus at augue eget arcu dictum varius duis
-          at. Montes nascetur ridiculus mus mauris. Est sit amet facilisis magna
-          etiam. Arcu dui vivamus arcu felis bibendum ut tristique et. In
-          hendrerit gravida rutrum quisque non. Ut venenatis tellus in metus
-          vulputate eu scelerisque. Sed risus ultricies tristique nulla aliquet
-          enim tortor at. Fermentum odio eu feugiat pretium nibh ipsum consequat
-          nisl.
-        textAlign: left
-        type: text
-      - quoteAttribution: ''
-        quoteText: Jon's a good bloke and he takes a nice picture
-        textAlign: left
-        type: quote
-      - text: >-
-          Consectetur adipiscing elit pellentesque habitant morbi tristique
-          senectus. Aliquam sem et tortor consequat id porta. Ac ut consequat
-          semper viverra. Viverra justo nec ultrices dui. Dolor sed viverra
-          ipsum nunc aliquet bibendum enim facilisis gravida. Curabitur vitae
-          nunc sed velit. Massa massa ultricies mi quis hendrerit dolor magna
-          eget. Aliquet risus feugiat in ante. Eget felis eget nunc lobortis
-          mattis aliquam faucibus. Commodo odio aenean sed adipiscing diam donec
-          adipiscing. Sed augue lacus viverra vitae congue eu consequat ac.
-          Lectus mauris ultrices eros in cursus turpis massa. Pharetra magna ac
-          placerat vestibulum lectus mauris ultrices eros. Nulla pellentesque
-          dignissim enim sit amet venenatis urna cursus eget.
-
-
-          Enim sed faucibus turpis in eu mi bibendum neque egestas. Urna nunc id
-          cursus metus. Lacinia quis vel eros donec ac odio tempor orci. Amet
-          nulla facilisi morbi tempus iaculis. Non diam phasellus vestibulum
-          lorem sed risus ultricies. Posuere morbi leo urna molestie at
-          elementum eu. Feugiat vivamus at augue eget arcu dictum varius duis
-          at. Montes nascetur ridiculus mus mauris. Est sit amet facilisis magna
-          etiam. Arcu dui vivamus arcu felis bibendum ut tristique et. In
-          hendrerit gravida rutrum quisque non. Ut venenatis tellus in metus
-          vulputate eu scelerisque. Sed risus ultricies tristique nulla aliquet
-          enim tortor at. Fermentum odio eu feugiat pretium nibh ipsum consequat
-          nisl.
+          My work has recently been exhibited at the Flowers East Gallery and <a href="http://ffwe2009.thephotographersgallery.org.uk/final.php?step=1&view=1039" title="link to Fresh Faced and Wild Eyed 2009 gallery">The Photographers' Gallery in London and at Grand Parade and The Dorset Place Gallery in Brighton.</a>. I currently combine my <a href="http://arts.brighton.ac.uk/research/doctoral-centre-arts/student/jonathan-baggaley" title="link to research interests">photographic practice and research</a> with a career in teaching.
         textAlign: left
         type: text
     type: oneColumn
@@ -83,12 +32,23 @@ genericContentBlocks:
         textAlign: left
         type: header
       - text: |-
-          One\
-          Two\
-          Three\
-          Four\
-          Five\
-          Six
+          1983 Black and White Printer: Colourlabs International\
+          1984 HND Photography: Swansea Institute\
+          1986 Ceramist/Director: Branksome China\
+          1997 Managing Director: Branksome China\
+          2004 Manager: Salisbury  Studios\
+          2006 PQE Photography: Salisbury College\
+          2006 BA(Hons) Photomedia: Bournemouth University\
+          2007 MA Photography: Arts University at Bournemouth\
+          2008 PGCE HE: Arts University at Bournemouth\
+          2009 Visiting Lecturer in Fine Art and Photography: AUB\
+          2009 Consultant: Worlds End Contemporary, Kings Road, London\
+          2009 Manager: Salisbury Photo Imaging and Portrait Studio\
+          2011 Teacher of Photography: Burgate Sixth Form Centre\
+          2011-15 PhD: University of Brighton\
+          2012-15 Visiting Lecturer: University of Brighton\
+          2015 Lecturer: University of Portsmouth\
+          2018 Course Leader, MA Photography: University of Portsmouth
         textAlign: left
         type: text
     rightColumnContent:
@@ -96,14 +56,14 @@ genericContentBlocks:
         textAlign: left
         type: header
       - text: |-
-          One\
-          Two\
-          Three\
-          Four\
-          Five\
-          Six\
-          Seven\
-          Eight
+          2007 'White Room', Dray Walk Gallery, London.\
+          2008 'Edge', Text &amp; Work Gallery,  Bournemouth.\
+          2008 British Journal of Photography: 10. 09. 2008.\
+          2009 'Fresh Faced &amp; Wild Eyed', The Photographers' Gallery, London\
+          2009 'Autumn Collection', Flowers East Gallery, London\
+          2013 'Surface Exposure', University of Brighton Gallery, Brighton\
+          2014 'Mythopoesis', Grand Parade Gallery, Brighton\
+          2015 'Portrait Studio' solo show, Dorset Place Gallery, Brighton
         textAlign: left
         type: text
     type: twoColumns
