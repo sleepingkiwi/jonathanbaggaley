@@ -1,4 +1,19 @@
 {
   "title": "Jonathan Baggaley",
-  "description": "Visual artist, researcher and lecturer based in Hampshire."
+  "description": "Visual artist, researcher and lecturer based in Hampshire.",
+  "socialImage": {
+    "src": "https://res.cloudinary.com/jonathanbaggaley/image/upload/v1591798781/screen/03_yfgvvt.jpg",
+    "base": "https://res.cloudinary.com/jonathanbaggaley/image/upload/",
+    "version": "v1591798781",
+    "filename": "screen/03_yfgvvt.jpg",
+    "width": 2400,
+    "height": 3000,
+    "dominant": [
+      63,
+      63,
+      63
+    ],
+    "baseSixFour": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAACmElEQVQ4T0WUyU5yQRCFq0VmRBwASZTAAoe48QFMfAM1LjTEFSGEx/AlWbFQmYKADIKA4NB/viLN38lN471Vp845VaV5enqyg8FA/v7+JBgM6rO7uyv7+/vi8/mk1+uJMUZGo5HMZjP5/f2Vfr8vm5ubksvlxBSLRTsej2VjY0MikYh4vV69t7a2NLHT6ei3j48P+fz8lMViIe/v7xp3cnIi5uHhwc7ncwkEAprk8Xj0o9/v12okU40igEynU+l2u8ru7OxMzOPjo10ulxIOhyUajWpVEgBwsgh2AJPJRNrtthZRgHw+b7+/v9cAVCQZQH7jCQDQB4S71WoJ5/j4+D8A9GFAEnK2t7fXUmBEIlK/vr6k2WwKrNPp9EoCVEngQQIVAYMmgfgCwM/Pj8pqNBrKJplMrkwkidbFYjGx1moCErhDoZCyAoBDLAxoJTmmUCjYt7c3SaVSCkB1bseE3jsgJ4PZIOfg4EBMuVy2uAoatKkYj8eVPixomTMTMGTw7vX1VYfNlEoly7Ds7OxoAgYCwsDAZm9vb20e0wgw+pGx9oABIdDpZVien5/VwJeXF/WFTtDS09NTLTQcDiWTyYi5ubmxaIMB1dHLblQqFa3MIdmN+Pn5uUqigDK4u7uzjhqBzAP0CQAMYJjgOjPA8ABQr9clm82Kub+/t5jCRwzS1hijLrNUV1dXqrlareoEHh0daRy/kaMAdAEfcJkWMiwE0BX8QDsFqHxxcaF3rVZbjTKDhFEAoBPD2A3AWBw30rzjYXw5rLQyuL6+tvQUmiwR6KwxPmAuvtBOt+L8E6EIDA4PD8VcXl5aDCHYdYEK6KQLbrQBoc0OANaJRELM7e2tZTnQCgAMOCTCgndQ52+YaZIx2hUM/QfIyrlscsk0YQAAAABJRU5ErkJggg==",
+    "alt": ""
+  }
 }
