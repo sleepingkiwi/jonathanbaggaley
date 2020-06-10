@@ -7,6 +7,7 @@ module.exports = (eleventyConfig) => {
   // copy these things to dist even though they are not templates!
   eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/fonts');
+  eleventyConfig.addPassthroughCopy({ 'src/root': '/' });
 
   // for use in our previews.
   // uses the same version as eleventy. Maybe a bit fragile...
