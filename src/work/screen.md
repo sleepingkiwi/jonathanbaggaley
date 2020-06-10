@@ -3,15 +3,11 @@ layout: layouts/work
 tags: work
 title: Screen
 projectDate: 2014-2015
-description: >-
-  The final images from my PhD. Together with the previous project ‘Sitting’
-  these photographs form the practice element of my research and are integral to
-  my thesis. Please contact me if you would like to access the written thesis
-  which is titled ‘Figuring the photographic portrait studio as a psychic
-  apparatus’
-
-
-  *Want to add a second paragraph but not sure about it....*
+description: The final images from my PhD. Together with the previous project
+  ‘Sitting’ these photographs form the practice element of my research and are
+  integral to my thesis. Please contact me if you would like to access the
+  written thesis which is titled ‘Figuring the photographic portrait studio as a
+  psychic apparatus’
 projectContent:
   - name: "01"
     image:
