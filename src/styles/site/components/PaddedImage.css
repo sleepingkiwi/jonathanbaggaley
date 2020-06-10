@@ -122,7 +122,7 @@
   }
 
   .InlineImage .Wrap {
-    padding: 0 var(--bsu);
+    /* padding: 0 var(--bsu); */
   }
 }
 
