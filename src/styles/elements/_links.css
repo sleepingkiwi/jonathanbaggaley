@@ -11,6 +11,8 @@ a,
     color var(--time-transition) var(--ease-default),
     background var(--time-transition) var(--ease-default),
     border-color var(--time-transition) var(--ease-default);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 
   &:hover,
   &:focus {
@@ -27,6 +29,7 @@ a,
 
   &:link {
     /* highlights links on iOS, basically works like the :hover selector for mobile devices. */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
   }
 }

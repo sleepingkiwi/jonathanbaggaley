@@ -39,8 +39,9 @@
     /* background-color: currentColor; */
 
     & .PaddedImage__padder {
-      background-color: currentColor;
+      background: var(--colour-background-body);
       opacity: 0;
+      transition: opacity var(--time-transition-slow) var(--time-transition) var(--ease-default);
 
       /* forcing ratio */
       /* padding-bottom: 66.666666666%; */
@@ -74,10 +75,14 @@
 
 .js .PaddedImage.js--wants-intersection img {
   opacity: 0;
-  transition: opacity var(--time-transition-slow) var(--time-transition) ease-in-out;
+  transition: opacity var(--time-transition) var(--time-transition-fast) ease-in-out;
 }
 
 .js .PaddedImage.js--has-intersected img {
+  opacity: 1;
+}
+
+.js .PaddedImage.js--has-intersected .PaddedImage__padder {
   opacity: 1;
 }
 

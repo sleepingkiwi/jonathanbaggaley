@@ -126,6 +126,8 @@
   -ms-overflow-style: none;
   padding-bottom: 0;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .js .WorkGallery.dragging {

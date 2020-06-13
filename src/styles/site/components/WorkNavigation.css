@@ -5,6 +5,7 @@
 
 .WorkNavigation {
   font-size: var(--s-1);
+  font-style: italic;
   order: 999; /* force self to bottom on narrow screens */
 
   & ul {

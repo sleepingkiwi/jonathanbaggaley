@@ -57,6 +57,10 @@
     padding-right: var(--bsu);
   }
 
+  .WorkDetails__title__title {
+    font-style: italic;
+  }
+
   .WorkDetails__information-toggle {
     display: block;
     order: -1;

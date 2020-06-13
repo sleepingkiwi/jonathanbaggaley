@@ -81,7 +81,11 @@
     ) %}
       <div class="WorkDetails__details">
         <h2 class="WorkDetails__title">
-          {{title}}
+          <span
+            class="WorkDetails__title__title"
+          >
+            {{title}}
+          </span>
           {% if projectDate %}
             ({{projectDate}})
           {% endif %}
