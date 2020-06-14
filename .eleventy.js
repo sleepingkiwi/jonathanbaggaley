@@ -8,6 +8,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/fonts');
   eleventyConfig.addPassthroughCopy({ 'src/root': '/' });
+  eleventyConfig.addPassthroughCopy('src/thesis');
 
   // for use in our previews.
   // uses the same version as eleventy. Maybe a bit fragile...
