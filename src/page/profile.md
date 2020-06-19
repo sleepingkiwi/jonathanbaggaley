@@ -30,7 +30,7 @@ genericContentBlocks:
     columnWidth: text
     leftColumnContent:
       - header: ""
-        subHeader: Work and qualifications
+        subHeader: Curriculum vitae
         textAlign: left
         type: header
       - text: |-
