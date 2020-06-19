@@ -41,7 +41,7 @@
     & .PaddedImage__padder {
       background: var(--colour-background-body);
       opacity: 0;
-      transition: opacity var(--time-transition-slow) var(--time-transition) var(--ease-default);
+      transition: opacity var(--time-transition) var(--ease-default);
 
       /* forcing ratio */
       /* padding-bottom: 66.666666666%; */
@@ -75,19 +75,15 @@
 
 .js .PaddedImage.js--wants-intersection img {
   opacity: 0;
-  transition: opacity var(--time-transition) var(--time-transition-fast) ease-in-out;
+  transition: opacity var(--time-transition) var(--ease-default);
 }
 
-.js .PaddedImage.js--has-intersected img {
+.js .PaddedImage.js--has-intersected .js--has-loaded {
   opacity: 1;
 }
 
-.js .PaddedImage.js--has-intersected .PaddedImage__padder {
+.js .PaddedImage.js--has-loaded-image .PaddedImage__padder {
   opacity: 1;
-}
-
-.js .PaddedImage.js--has-intersected .PaddedImage__back {
-  opacity: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -96,8 +92,8 @@
     opacity: 1;
   }
 
-  .js .PaddedImage.js--has-intersected .PaddedImage__back {
-    opacity: 0;
+  .js .PaddedImage.js--wants-intersected .PaddedImage__padder {
+    opacity: 1;
   }
 }
 

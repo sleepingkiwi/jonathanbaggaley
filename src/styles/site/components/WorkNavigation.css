@@ -5,7 +5,8 @@
 
 .WorkNavigation {
   font-size: var(--s-1);
-  font-style: italic;
+
+  /* font-style: italic; */
   order: 999; /* force self to bottom on narrow screens */
 
   & ul {
@@ -16,10 +17,11 @@
 @media (--nav-break) {
 
   .WorkNavigation {
+    font-size: var(--s-2);
     order: initial; /* back in-line for wider screens */
 
     & ul {
-      --gap: var(--bsu-xs);
+      --gap: var(--bsu-s);
     }
   }
 }

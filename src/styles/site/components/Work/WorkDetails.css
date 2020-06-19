@@ -26,6 +26,10 @@
   line-height: 2;
 }
 
+.WorkDetails__title__title {
+  font-style: italic;
+}
+
 .WorkDetails__count__prev,
 .WorkDetails__count__next {
   display: inline-block;
@@ -55,10 +59,6 @@
     font-size: var(--s-1);
     line-height: 1.5;
     padding-right: var(--bsu);
-  }
-
-  .WorkDetails__title__title {
-    font-style: italic;
   }
 
   .WorkDetails__information-toggle {
