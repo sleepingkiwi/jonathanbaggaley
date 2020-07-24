@@ -6,10 +6,9 @@ projectDate: "2020"
 description: Peony is a six hour VHS film.
 projectContent:
   - name: You Tube Video
-    embed: <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/A1aKVX2fqTo" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
+    embed: <iframe
+      src="https://drive.google.com/file/d/1q0Alwr9uxZKqJqkHxCmuZTAOyNhnePw7/preview"
+      width="640" height="480"></iframe>
 meta:
   title: Peony (2020) | Jonathan Baggaley
   description: Peony is a six hour VHS film.
