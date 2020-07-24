@@ -41,10 +41,17 @@
                 }}"
                 id="item-{{loop.index}}"
               >
+                {#
+                  to lazy load images:
+                  lazy=(loop.index0 > 0)
+
+                  we have disabled because loading the images is the whole point of the site and we want them on screen asap.
+
+                  Could look at preload + lazy loading potentially...
+                #}
                 {{
                   GalleryImage(
-                    img=contentBlock.image,
-                    lazy=(loop.index0 > 0)
+                    img=contentBlock.image
                   )
                 }}
               </div>
@@ -56,7 +63,10 @@
                 id="item-{{loop.index}}"
               >
                 {% call Wrap(flavour='', flows=true) %} {# max width Wrap with flow #}
-                  <div class="ResponsiveEmbed">
+                  <div
+                    class="ResponsiveEmbed"
+                    style="padding-bottom:{{ contentBlock.embedRatio | default('56.25') }}%;"
+                  >
                     {{
                       contentBlock.embed | safe
                     }}

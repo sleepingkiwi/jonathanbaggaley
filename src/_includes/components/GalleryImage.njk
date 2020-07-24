@@ -63,6 +63,11 @@
           wantsIntersection=wantsIntersection,
           maxHeight=img.height
         ) %}
+          {#
+            sizes:
+            before 1970px images are close enough to the full width.
+            After that they are fixed at 1970px because that's the biggest the gallery wrap allows
+          #}
           <img
             width="{{img.width}}"
             height="{{img.height}}"
@@ -72,7 +77,7 @@
               {{ img.base }}w_1800,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 1800w,
               {{ img.base }}w_2400,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 2400w,
               {{ img.base }}w_3000,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 3000w"
-            sizes="(min-width: 1920px) 1920px, 100vw"
+            sizes="(max-width: 1970px) 100vw, 1970px"
             alt="{{ img.alt | default('') }}"
             {{ 'loading=lazy' if lazy }}
           >

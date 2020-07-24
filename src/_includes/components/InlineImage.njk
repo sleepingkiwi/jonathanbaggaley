@@ -90,7 +90,7 @@
               {{ img.base }}w_1200,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 1200w,
               {{ img.base }}w_1800,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 1800w,
               {{ img.base }}w_2400,c_limit,q_auto:best/{{ img.version }}/{{ img.filename }} 2400w"
-            sizes="(min-width: 1200px) 1200px, 100vw"
+            sizes="(max-width: 1200px) 100vw, 1200px"
             alt="{{ img.alt | default('') }}"
             {{ 'loading=lazy' if lazy }}
           >
