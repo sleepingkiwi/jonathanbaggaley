@@ -114,6 +114,7 @@ const workConfig = [
         widget: 'number',
         required: false,
         default: 56.25,
+        valueType: 'float',
         step: 0.001,
         hint: 'this defines the content ratio. It is a percentage value for height versus width. 16:9 is 56.25, 4:3 is 75',
       },
