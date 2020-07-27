@@ -5,15 +5,13 @@ title: Peony
 projectDate: "2020"
 description: "*Peony* is a moving image work lasting 6hrs 42minutes. It consists
   of a single, static and continuous view of a Peony plant in flower, recorded
-  onto VHS tape using a domestic camcorder. The piece is designed to provide a
+  onto VHS tape, using a domestic camcorder. The piece is designed to provide a
   meditation on the passing of time in relation to objects and on the act of
-  filming itself. Standard VHS is used here as a form of Brechtian device, that,
+  filming itself. Standard VHS is used here as a form of Brechtian device which,
   on account of its relatively low quality, never allows an illusion of reality
   to become convincing or complete. It is intended that, through prolonged
   viewing, the obvious disparities between representation and reality, become
-  entwined to the extent that, rather than continually oscillating between an
-  awareness of object and apparatus, the viewer accepts this as a given form of
-  aesthetic abstraction, a thing in itself."
+  accepted as a given form of aesthetic abstraction; a thing in itself."
 projectContent:
   - name: Youtube Video
     embed: <iframe width="560" height="315"
