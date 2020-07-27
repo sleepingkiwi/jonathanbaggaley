@@ -15,6 +15,19 @@ description: "*Peony* is a moving image work lasting 6hrs 42minutes. It consists
 projectContent:
   - embedRatio: 56.25
     name: Still
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1595857883/peony/peony_still_fxyslr.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1595857883
+      filename: peony/peony_still_fxyslr.jpg
+      width: 2000
+      height: 1518
+      dominant:
+        - 145
+        - 139
+        - 102
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAACiElEQVQ4Tx3QzW/bZACA8ed17PgrsePQNnWrtqudrSUr0g4g/p79AUicEOLAidO4ckA7dBLihMRhB04DMbQdNjaYmEZXku6jqdKPtEnaOLWTOPaL1MNz/R0eUbaWpVPRiSdn+EslkuEZVcvCVS0+ufUxny6scG7PKDUWkVaONkmxxwpZLJlb8BHBtXVZcg1MG7a2AjbCa9TcCpPzS2zdYvl1n3heQ9uc4ywdQj7D1UtcDGOkWkR8+cVtadpFZGFGFA2Y9yqINMNARxUq7i+vEWseWqNGTySUvDJhcJ0onV4l7t39XGqmTjKZ8PTv51TdCoVcob4aUDZs3v/wB1FZgWWPiISFqke4HhBnUxKZIba/uy2nuaQfXbLTbFHf2MS1nCsojkbs/dOmPeyRuya6ViSozrPhLyGExK6WEb/f/0aO05TW/iEvXu2gWQaKolAQOdNxQqJV2Ds+RBo6nlGm8YHPzcUlLEultlpDvHjwvbycpDx7uUOzfcAwjnC8EkKZ4ToGw1NJu9dnKHOSwYiabhH6PlJLMaoG4tcf78j9zhEPHj9BsS2cuQrB9RU6nT2m6Yha32Egc0ZKgc5hF8+0aGyFzIwZYz1F/Hz3K5kh2f2vhVOd5/iky5v9NpuNm/TPh1yMB/j+Mrv/tnAcD7KMlVWfqlei1z9F/PbTHTmTOc3WGzTT4u279tXM9bDO4OKC1foia2shfz1/yWSckYxiHKeMUDLieIS4v/21RFE5Oe1StGzetw9ovXvLehCSTCdo5piNGx/x+NEzDtpdotEUVVXp9XooBRDb334mNV0nzWbYrkPn6Jij0y5BPaRQ1Dg8ecWHm7d4+PBPmrsHKAUby3Rp7rUwTZP/ARmmHAd8QVQ9AAAAAElFTkSuQmCC
+      alt: ""
   - name: Youtube Video
     embed: <iframe width="560" height="315"
       src="https://www.youtube-nocookie.com/embed/A1aKVX2fqTo?rel=0"
