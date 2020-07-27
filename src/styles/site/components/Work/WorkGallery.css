@@ -167,7 +167,7 @@
 *  -----------------------------------------------------------------------------------------------
 **/
 .js .WorkGallery__content {
-  opacity: 0;
+  opacity: 0.1;
 }
 
 .WorkGallery__content.js--carousel__slide--trans-in {

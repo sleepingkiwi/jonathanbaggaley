@@ -62,7 +62,16 @@
                 }}"
                 id="item-{{loop.index}}"
               >
-                {% call Wrap(flavour='', flows=true) %} {# max width Wrap with flow #}
+                {#
+                  The WorkGallery has a max height of 74vh
+                  We set a max width on wrap that would allow for 74vh of height based on
+                  the padding value...
+                #}
+                {% call Wrap(
+                  flavour='',
+                  flows=true,
+                  style='max-width:' + 74 * (100/(contentBlock.embedRatio | default('56.25'))) + 'vh;'
+                ) %} {# max width Wrap with flow #}
                   <div
                     class="ResponsiveEmbed"
                     style="padding-bottom:{{ contentBlock.embedRatio | default('56.25') }}%;"

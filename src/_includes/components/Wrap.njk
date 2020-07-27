@@ -28,10 +28,14 @@
 {% macro Wrap(
   flavour='',
   flows=false,
-  gaps=false
+  gaps=false,
+  style=''
 ) %}
 {% set content = caller() %} {# ref: https://github.com/mozilla/nunjucks/issues/664 #}
-<div class="Wrap{{ ' Wrap--' if flavour }}{{ flavour }}{{ ' u-flows' if flows }}{{ ' u-gaps' if gaps }}">
+<div
+  class="Wrap{{ ' Wrap--' if flavour }}{{ flavour }}{{ ' u-flows' if flows }}{{ ' u-gaps' if gaps }}"
+  style="{{ style }}"
+>
   {{ content }}
 </div>
 {% endmacro %}
