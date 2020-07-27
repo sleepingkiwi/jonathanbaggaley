@@ -5,7 +5,7 @@ title: Grain
 projectDate: "2018"
 description: In his 1966 film *Blow Up*, director Michelangelo Antonioni
   contrasts photographer Thomas's quest for truth in images with that of artist
-  Bill whose abstract expressionist paintings bear more than a passing a
+  Bill whose abstract expressionist paintings bear more than a passing
   resemblance to the grain that frustrates Thomas's search for clarity. In the
   film, Thomas seems trapped in the world of appearances and the analogy escapes
   him. Antonioni's genius lies in his ability to suggest that the solace that
