@@ -3,6 +3,10 @@
   "bottom": false,
   "items": [
     {
+      "text": "Peony",
+      "url": "https://jonathanbaggaley.com/peony/"
+    },
+    {
       "text": "Frontier",
       "url": "/frontier/",
       "external": false
