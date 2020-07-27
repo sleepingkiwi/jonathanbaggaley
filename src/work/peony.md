@@ -3,7 +3,7 @@ layout: layouts/work
 tags: work
 title: Peony
 projectDate: "2020"
-description: Peony is a six hour VHS film.
+description: Peony is a six hour VHS film
 projectContent:
   - name: Video
     embed: <iframe
