@@ -13,6 +13,8 @@ description: "*Peony* is a moving image work lasting 6hrs 42minutes. It consists
   viewing, the obvious disparities between representation and reality, become
   accepted as a given form of aesthetic abstraction; a thing in itself."
 projectContent:
+  - embedRatio: 56.25
+    name: Still
   - name: Youtube Video
     embed: <iframe width="560" height="315"
       src="https://www.youtube-nocookie.com/embed/A1aKVX2fqTo?rel=0"
