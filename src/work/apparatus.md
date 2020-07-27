@@ -3,12 +3,12 @@ layout: layouts/work
 tags: work
 title: Apparatus
 projectDate: "2019"
-description: Apparatus comprises 3d anaglyph images (displayed as 24"x20"
+description: '*Apparatus* comprises 3d anaglyph images (displayed as 24"x20"
   pigment prints) made from stereoscopic photographs of human anatomy from the
   Edinburgh Stereoscopic Atlas of Anatomy (1906). For best results view through
   anaglyph 3D glasses. Cyan right, magenta left. The title *Apparatus* refers to
   both the photographic and the bodily apparatus, the latter being
-  simultaneously pictured and engaged in the process of viewing.
+  simultaneously pictured and engaged in the process of viewing.'
 projectContent:
   - embedRatio: 56.25
     name: "1"
