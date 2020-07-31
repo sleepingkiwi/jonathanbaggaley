@@ -4,10 +4,10 @@ tags: work
 title: Likeness
 projectDate: "2012"
 description: "*Likeness* is a series of commissioned portraits of myself (as a
-  photographer) by professional photographers. The portraits are paired with the
-  images captured by my own camera (a Mamiya C330) which is positioned in
-  accordance with the photographers directions, it's shutter left open to record
-  a simultaneous, reciprocal image."
+  photographer) by a variety of professional photographers. The portraits are
+  paired with the images captured by my own camera (a Mamiya C330) which is
+  positioned in accordance with the photographers directions, it's shutter left
+  open to record a simultaneous, reciprocal image."
 projectContent:
   - embedRatio: 56.25
     name: "01"
@@ -87,18 +87,18 @@ projectContent:
   - embedRatio: 56.25
     name: "07"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596226139/Likeness/07a_ekoegi.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1596226139
-      filename: Likeness/07a_ekoegi.jpg
-      width: 3000
-      height: 1804
       dominant:
         - 166
         - 183
         - 191
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAACQ0lEQVQoUyWQTUiTAQCGn28/7ttPc7rlFqmlJIkmOySodFGI8CZ4LSrwFlFUCEF06mKlhrHAH7xJBjIj3XJMUki66HTkxWo/CjZWubnNLd2P2xd+vff34X0fofduv3TReobz5ipUGhWBvSjR2C+2VtcJrfsRTSJqtZpkMkllZSXpdJp4PI7NZqOvrw/h/sCI1NHUjHgsodaoyWqU/NgOsjTnwr/8mb/FDC0tLYTDYU5iNptliCAI/wEjTpfUfLaWO9dvE03sMTzmoEyvZWzwFendiAxQKpXkcjm5vLOzg0KhwGAwYLfbEV5Oz0oXLFZ6r13lclsHzVfauHnrBqPDI0S3vqPSCnR3d9PZ2Ul9fT0TExN4PB5CoRBNTU0IHze/S8f7Kd68GMLrXeDL1ia70Z98mnPjnXEyOvaa1tZWnE4nwWCQTCZDIpFgZWWFnp4ehKH3bulSdS1mlYjWZOCgmCeWTjA9Oon77TsqzHqGhoewVlnl2eHtMKlkiqmpKURRRHg+80Gyn6tDeZjnqJBFaTaSOcrw5EE/ifA2uewB7e3tdHV1ydIikQgNDQ0sLS/hWfAgDM66pLoKC/WnrRwWshwIRQ5zhzy+95CjaJTk/m9KpZL8d3x8HIvFQk1NDfOuefwbfoTJaackGkyU6XQIChVasYyvvlW+bW7gdbugVCCVSpHP51lcXJRlnggMBAIMDAwgPHr6TLLYqjGYTBSKEnqdhnQ8RlXFKdKxP+h1Ij6fj7W1NRwOB+Xl5TKosbERo9HIP4r1/Z0SACv+AAAAAElFTkSuQmCC
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596226139/Likeness/07a_ekoegi.jpg
+      width: 3000
+      height: 1804
+      filename: Likeness/07a_ekoegi.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAACQ0lEQVQoUyWQTUiTAQCGn28/7ttPc7rlFqmlJIkmOySodFGI8CZ4LSrwFlFUCEF06mKlhrHAH7xJBjIj3XJMUki66HTkxWo/CjZWubnNLd2P2xd+vff34X0fofduv3TReobz5ipUGhWBvSjR2C+2VtcJrfsRTSJqtZpkMkllZSXpdJp4PI7NZqOvrw/h/sCI1NHUjHgsodaoyWqU/NgOsjTnwr/8mb/FDC0tLYTDYU5iNptliCAI/wEjTpfUfLaWO9dvE03sMTzmoEyvZWzwFendiAxQKpXkcjm5vLOzg0KhwGAwYLfbEV5Oz0oXLFZ6r13lclsHzVfauHnrBqPDI0S3vqPSCnR3d9PZ2Ul9fT0TExN4PB5CoRBNTU0IHze/S8f7Kd68GMLrXeDL1ia70Z98mnPjnXEyOvaa1tZWnE4nwWCQTCZDIpFgZWWFnp4ehKH3bulSdS1mlYjWZOCgmCeWTjA9Oon77TsqzHqGhoewVlnl2eHtMKlkiqmpKURRRHg+80Gyn6tDeZjnqJBFaTaSOcrw5EE/ifA2uewB7e3tdHV1ydIikQgNDQ0sLS/hWfAgDM66pLoKC/WnrRwWshwIRQ5zhzy+95CjaJTk/m9KpZL8d3x8HIvFQk1NDfOuefwbfoTJaackGkyU6XQIChVasYyvvlW+bW7gdbugVCCVSpHP51lcXJRlnggMBAIMDAwgPHr6TLLYqjGYTBSKEnqdhnQ8RlXFKdKxP+h1Ij6fj7W1NRwOB+Xl5TKosbERo9HIP4r1/Z0SACv+AAAAAElFTkSuQmCC
+      version: v1596226139
   - embedRatio: 56.25
     name: "08"
     image:
