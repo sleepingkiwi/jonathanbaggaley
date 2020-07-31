@@ -3,6 +3,8 @@ layout: layouts/work
 tags: work
 title: Likeness
 projectDate: "2012"
+description: "*Likeness* is a series of commissioned portraits of myself by
+  professional photographers."
 projectContent:
   - embedRatio: 56.25
     name: "01"
