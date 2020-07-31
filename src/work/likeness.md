@@ -3,8 +3,11 @@ layout: layouts/work
 tags: work
 title: Likeness
 projectDate: "2012"
-description: "*Likeness* is a series of commissioned portraits of myself by
-  professional photographers."
+description: "*Likeness* is a series of commissioned portraits of myself (as a
+  photographer) by professional photographers. The portraits are paired with the
+  images captured by my own camera (a Mamiya C330) which is positioned in
+  accordance with the photographers directions, it's shutter left open to record
+  a simultaneous, reciprocal image."
 projectContent:
   - embedRatio: 56.25
     name: "01"
