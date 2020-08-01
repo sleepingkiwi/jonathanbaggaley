@@ -30,7 +30,7 @@ projectContent:
       version: v1595857883
   - name: Youtube Video
     embed: <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/BMzTpEVqTJc" frameborder="0"
+      src="https://www.youtube.com/embed/BMzTpEVqTJc?rel=0" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
     embedRatio: 76
