@@ -36,7 +36,9 @@ projectContent:
     embedRatio: 76
 meta:
   title: Peony (2020) | Jonathan Baggaley
-  description: Peony is a six hour VHS film.
+  description: "*Peony* is a moving image work lasting 6hrs 42minutes. It consists
+    of a single, static and continuous view of a Peony plant in flower, recorded
+    onto VHS tape, using a domestic camcorder."
 noNav: false
 noLogo: false
 ---
