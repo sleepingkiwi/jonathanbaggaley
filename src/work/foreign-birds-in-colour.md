@@ -3,8 +3,30 @@ layout: layouts/work
 tags: work
 title: Foreign Birds in Colour
 projectDate: 2010
-description: Photographs of reproductions of photographs of birds from the book
-  of the same name.
+description: >-
+  Photographs of reproductions of photographs of birds from the book of the same
+  name.
+
+
+  Here is the text from the promotional poster; also appropriated from the book:
+
+
+  FOREIGN BIRDS
+
+  *in colour*
+
+
+  UNNECESSARY DISAPPOINTMENTS MIGHT WELL BRING TO A 
+
+  PREMATURE END A HOBBY THAT WAS STARTED WITH ENTHUSIASM
+
+
+  IN NATURE, THE MOST INTIMATE DETAILS OF 
+
+  BIRD LIFE ARE UNSEEN
+
+
+  MAN HAS ALWAYS FOUND INTEREST AND PLEASURE IN DOMESTIC PETS. BIRDS HAVE PROVED AN ESPECIAL SOURCE OF DELIGHT TO MANY PEOPLE. TODAY THERE ARE A VAST NUMBER OF BIRD KEEPERS AND FANCIERS ALL OVER THE WORLD. FORTUNATELY BIRD KEEPING IS NOW CARRIED OUT UNDER MUCH HAPPIER CONDITIONS WHERE THEY ARE ABLE TO FLY FREELY.
 projectContent:
   - name: "01"
     image:
@@ -121,33 +143,18 @@ projectContent:
   - embedRatio: 56.25
     name: poster1
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596299337/foreign%20birds%20in%20colour/poster1_vh8xz7.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1596299337
-      filename: foreign%20birds%20in%20colour/poster1_vh8xz7.jpg
-      width: 2325
-      height: 3000
       dominant:
         - 167
         - 160
         - 110
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAAEJElEQVQ4Tz2T228UVRzHP2dmdmZ2Zi/s0ou1oiSCxSLxxYRaEJTQQtGC+EQECfCE/gO+aEnwyQejQqJ4CTHxxRcTMKIxtBRaia1YUOTSXS6BVmpot9vupdvduR2zU+J5OjnJ+fy+v2++X/Hlx/vkwkIRO2Zg2QauW8MwIlh2kkq5yujIGNnsdQp5n3hcpa19LVte2cLyxmVkMjcQX3+6XzrOIlHLRNdVJB7RqIUMBNPTOYaHfqW26FMoFKguuqxavZKu7i5aV7Tw8OEU4uTxg1JVBJGICopE0xQsO05+Js/4zdtcGfsL04gzNTVFoSDp3NDOtp5u0g1x5ufydcABGTWjCBHg+z62HUM3TG5l7jDy2yXmZsuUSmXGx6ssT8P+A7vpfGk91WqZubkc4ptje6Vt20gp8X1JMpEi8BQujV7m/OAQmmrwz2SRf+dgc0cLBw8dWpI//QDPW0R8e3yPrE/1vQAhdJLJ5RTyFS4MDnNx+A8UoTI/79PcHOW1XTvZsLETz69SLudJJGOI7z7fI03DxvMCTD1OItHA5P2HDJy9wOVL1xAooT8dnS+G5tV3L5byKIoklrAQp07slZoRJXAklp0mGWskk71H/8+DXL+RJWpEsewYXVu30rmpA4FPpVbGNBQc30Gc+eLQI4BANxLEo2n+vHqT/p8GuD8xxcbOTbzQsZ6EbXJ38g4RJSDVlKJaLjExdR9x5sRh2dDYjKElUBWTcrHGuf4hTn3/I5NFj7de304qlaRUnGdi8i41t4yUHvXw1RwHcfLom1JRNHLTJYrFRaoVyfiNDLezE1i2RWauTIMC9ZjUfFAEPNGqsWNHL707dyG62lUZBDA744OERDzJ7EyJSi1g5YoWenf20tLaiB0zyedz/H31CmNjvyOEoH3tOsSaNLKtrZmnnlxFU2MrriMYHRklm7lHU3OM94/0YdqRMGi6oWHoBjPTs2QyN5nNzSLefXuLbF+zjpbHn8StBVy/Ns4Pp08z9SDHc8+v5L2+PvxgMQxOsVgglU5jW3HKpQUWShXEV58dlvH4MpyaT25mjkzmFiMjF4loCpte3syz7U/T+FgaQ9dw/RoyUKlWa9QqDqoaQRz75IA0DBNNNUkuS6EpJtlsJnT5mbbVNDWnqXoLLJQLeGFTY3iOj+t62Ha8ruAdaVkWKBHsWAxN0xBS4ZeBs3R1bUMISUC9aE4YHNd18FwvLF4QBIiPPtwnbcvGlwLLstG0CPXTP3ie7u4eTMsikG74wfMcqp6L57n4gRsWUHxw5A1pmiaeLzHNKKqqoSgKA+eH2L79VSzbJpBeOK0OqAV1gBe+hYCjfbulYRg4ro+uGyFAVVUGh4bp6elFKAqSJblefY1gCVZX9T9A1/VHAD10tq7g3IWhEOB6HlIsAaT0ceWjO0sK/gPymhj5Pa6v5AAAAABJRU5ErkJggg==
-      alt: ""
-  - embedRatio: 56.25
-    name: poster2
-    image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596299335/foreign%20birds%20in%20colour/poster2_dj85w3.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1596299335
-      filename: foreign%20birds%20in%20colour/poster2_dj85w3.jpg
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596299337/foreign%20birds%20in%20colour/poster1_vh8xz7.jpg
       width: 2325
       height: 3000
-      dominant:
-        - 113
-        - 92
-        - 66
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAAEBklEQVQ4T02Uy29UZRjGf9+532ZahJaWWoql0AAtVDDUpCsEgnFjkK0udGF0pXFn4g7jzpVrV/pHGBfGS+IlKkYMQUMp2E470047lzPnzLl855zPdFau3uTJm+d93svzirvvXFedTp/GTo9Wa49Xb9/G9G36YZf19ac8ftJgc6vF6VPTvHB1hVpgkGVDZK7R74WIQwIpKzpdyfrGBmtra6BDpSt6vYhCamxsbjI9eYyli4voWk4U90kTRb/bR9x9+7oqSo1OL+XR48esrq4iDIFbc5GlxoP7j9jaajA5dYSLK+cwDUUyjBClThwliE/evaV63QF7eyGb2y1u3LqBG7j4gUsqFd998xNb2zvMzE6ycvkCjq1RljmW5iKzAvHZB3dUuxOy1w7Zae1x7eY1TNugVvcp0fj5x3tsN5pMn5jk/NIZdCFJsxgDhzxTiM8/ekOlacEgqmhs77B8ZZk4DamPj+H7AV99/QOtZpOZmSnOXVhEVTFxFKErmzyrEF/cfVMN43xEsNtus3x5md6gi+EIbNPn2+9/Yb99wMJzJ1m+dB5URhzHaMIhzyXiy4/fUo1mm+7+kCiJuXbzJaI0JMkjBsOUe78+oHPQ5cz8HMuXllBVwmAQgzLJD2fw4etr6t7vv1HmFpcuX2F+cR63ZpGXKeEwptnokRcVjqUxdqSG7+hIWZLHFWUhEJ++/5p6+u8W8SDj5OnTLCzOY/sGvahHnCbEoaQqdRQ5AkVVZSRRRO8gYRAOEe/deVEJpdEb5IwfPcrKlQt4Yw773TZSVQhcNGGQpDHhwT6DuEsaZ7RbfZrNFuKVpSk1NXOSfjhEtwyev7pCMO6w222hGzauOYbr1Shkyn57d0RQZpJmo8OTJ1uIW+dn1amFs/TDmEEcs3BuDsu3aHdaWK6DpQVMHJ+m5gekaUySxcT9iH8ePuXBXw8RqzPH1Iln58gKGAxDxifrOIFOJhNcL0DmgqnJGSaOT2BZBjIbsrPd4s8//ub+w3XESdNUXlDDMnwKJSn1HNvX8cctbK+Gho2hu9iOiWlqlHlOe++AzY09dsM+YiEI1OFaXH+MsshpDjoIARPHPRzH4ejkDAftDr3OATLPqYoKWYJSGqYwEXOepWzbJo4zYikRQKIUJeBp4JoaunmIQp5XZIXCEFCv1ajX64hZz1Cee2iMYpRgGBpJJknKElfXsG3wXGukRghBUVaj6Dg+ju0hxgWq5moIoWFoJvX6kVE1WWQ4rkUc9fEDnyCoYVgapVTkeU5ZgiYEYtYXyrEtyqJCN0yeGZ/AMA0Om/A8m263g/0/BVmajh5JMkyQRYV4+epZVZTFyDDDKMX1/JFEpRSu61CUOZrOCKvKiiyXo0tMUznyxH+6EiCqrV3StwAAAABJRU5ErkJggg==
+      filename: foreign%20birds%20in%20colour/poster1_vh8xz7.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAAEJElEQVQ4Tz2T228UVRzHP2dmdmZ2Zi/s0ou1oiSCxSLxxYRaEJTQQtGC+EQECfCE/gO+aEnwyQejQqJ4CTHxxRcTMKIxtBRaia1YUOTSXS6BVmpot9vupdvduR2zU+J5OjnJ+fy+v2++X/Hlx/vkwkIRO2Zg2QauW8MwIlh2kkq5yujIGNnsdQp5n3hcpa19LVte2cLyxmVkMjcQX3+6XzrOIlHLRNdVJB7RqIUMBNPTOYaHfqW26FMoFKguuqxavZKu7i5aV7Tw8OEU4uTxg1JVBJGICopE0xQsO05+Js/4zdtcGfsL04gzNTVFoSDp3NDOtp5u0g1x5ufydcABGTWjCBHg+z62HUM3TG5l7jDy2yXmZsuUSmXGx6ssT8P+A7vpfGk91WqZubkc4ptje6Vt20gp8X1JMpEi8BQujV7m/OAQmmrwz2SRf+dgc0cLBw8dWpI//QDPW0R8e3yPrE/1vQAhdJLJ5RTyFS4MDnNx+A8UoTI/79PcHOW1XTvZsLETz69SLudJJGOI7z7fI03DxvMCTD1OItHA5P2HDJy9wOVL1xAooT8dnS+G5tV3L5byKIoklrAQp07slZoRJXAklp0mGWskk71H/8+DXL+RJWpEsewYXVu30rmpA4FPpVbGNBQc30Gc+eLQI4BANxLEo2n+vHqT/p8GuD8xxcbOTbzQsZ6EbXJ38g4RJSDVlKJaLjExdR9x5sRh2dDYjKElUBWTcrHGuf4hTn3/I5NFj7de304qlaRUnGdi8i41t4yUHvXw1RwHcfLom1JRNHLTJYrFRaoVyfiNDLezE1i2RWauTIMC9ZjUfFAEPNGqsWNHL707dyG62lUZBDA744OERDzJ7EyJSi1g5YoWenf20tLaiB0zyedz/H31CmNjvyOEoH3tOsSaNLKtrZmnnlxFU2MrriMYHRklm7lHU3OM94/0YdqRMGi6oWHoBjPTs2QyN5nNzSLefXuLbF+zjpbHn8StBVy/Ns4Pp08z9SDHc8+v5L2+PvxgMQxOsVgglU5jW3HKpQUWShXEV58dlvH4MpyaT25mjkzmFiMjF4loCpte3syz7U/T+FgaQ9dw/RoyUKlWa9QqDqoaQRz75IA0DBNNNUkuS6EpJtlsJnT5mbbVNDWnqXoLLJQLeGFTY3iOj+t62Ha8ruAdaVkWKBHsWAxN0xBS4ZeBs3R1bUMISUC9aE4YHNd18FwvLF4QBIiPPtwnbcvGlwLLstG0CPXTP3ie7u4eTMsikG74wfMcqp6L57n4gRsWUHxw5A1pmiaeLzHNKKqqoSgKA+eH2L79VSzbJpBeOK0OqAV1gBe+hYCjfbulYRg4ro+uGyFAVVUGh4bp6elFKAqSJblefY1gCVZX9T9A1/VHAD10tq7g3IWhEOB6HlIsAaT0ceWjO0sK/gPymhj5Pa6v5AAAAABJRU5ErkJggg==
+      version: v1596299337
 meta:
   title: Foreign Birds in Colour (2010) | Jonathan Baggaley
   description: Photographs of reproductions of photographs of birds from the book
