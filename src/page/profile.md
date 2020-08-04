@@ -8,17 +8,17 @@ genericContentBlocks:
     content:
       - type: image
         image:
-          src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596570846/profile%20pic/passport_me_web2_twu3ey.jpg
+          src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1596571295/profile%20pic/passport_me_web3_ggbgke.jpg
           base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-          version: v1596570846
-          filename: profile%20pic/passport_me_web2_twu3ey.jpg
+          version: v1596571295
+          filename: profile%20pic/passport_me_web3_ggbgke.jpg
           width: 3000
-          height: 2000
+          height: 1765
           dominant:
             - 40
-            - 24
-            - 16
-          baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABCklEQVQoU5WRXUvDMBSG35OkTZvpxIF4MRBhIA6LwhBBQQbe+3+9VfCjc5uTCf4UZW1yJBlW6kXLcndIzsv7PKHsYI8tJPLpAlGniyRNUTtUH/9PdDu+4JUF7u4fAVLhnhkoixKAQ6TjxgQ6PdyvGiizDZ0kmzW4ygZcssBTPoNIOiAh1gEMwNdvQ7g5P+HCER5epoDSFYKzDkQMoWQzwrDfCwiT2TvirR2kxmyGcH12VCFA/y2zQ2gA0cxAvw6eJ3OQNsGB/wXvgLyONgfH/R6vHDBffsJ0dwEVBQRFrbvhHY1HQ/4qLPK3JSBjWP/7vA5w1kLKFomX2YC/S4fXxQekNrUAz0LUzPAD7/Ne4P/6QlIAAAAASUVORK5CYII=
+            - 25
+            - 17
+          baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAVUlEQVQoU2O00df8LyEjy7B641YGBmYWhl///jMwMzEyMDH8Y/j//w8DEyMbAz7AOGoAw3AIAytd9f9ScvLwdPDz7z8GFmYmcDpgZPjHwMDAgjcdAABLtmDmeXIEfQAAAABJRU5ErkJggg==
           alt: ""
       - text: >-
           
