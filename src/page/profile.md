@@ -82,7 +82,7 @@ genericContentBlocks:
           2015 Lecturer: University of Portsmouth
 
 
-          2018 Course Leader, MA Photography: [University of Portsmouth](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/jonathan-baggaley)
+          2018 Senior Lecturer and MA Photography course leader: [University of Portsmouth](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/jonathan-baggaley)
         textAlign: left
         type: text
     rightColumnContent:
