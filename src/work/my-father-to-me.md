@@ -10,7 +10,7 @@ description: >-
   Themes include: love reclaimed, being observed but not seen, photography as intrusion, the camera as metaphor for emotional barriers, framing and reframing, and the family photograph as evidence. The aim is to reinterpret and question familial mythologies and to reveal layers of emotional significance inherent in seemingly prosaic images and objects. 
 
 
-  [Fresh Faced and Wild Eyed '09, TPG website.](http://ffwe2009.thephotographersgallery.org.uk/final.php?step=1&view=1039)
+  [Fresh Faced and Wild Eyed '09, TPG website.](https://web.archive.org/web/20160411053351/http://ffwe2009.thephotographersgallery.org.uk/final.php?step=1&view=1039)
 projectContent:
   - name: "01"
     image:
