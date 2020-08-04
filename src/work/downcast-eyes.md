@@ -24,7 +24,7 @@ description: >-
 
   \
 
-  *For the duration of the Autumn and Winter months; from the beginning of October until the end of March, the statues of Apollo and Hermes, on the lawns at the front of the house, will be kept covered.*
+  *For the duration of the Autumn and Winter months, from the beginning of October until the end of March, the statues of Apollo and Hermes on the lawns to the front of the house, will be kept covered.*
 projectContent:
   - embedRatio: 56.25
     name: "01"
