@@ -126,6 +126,8 @@ genericContentBlocks:
           2014 'Mythopoesis', Grand Parade Gallery, Brighton
 
           2015 'Portrait Studio' solo show, Dorset Place Gallery, Brighton
+
+          2018 *['This'](http://thisresearch.group/)* Research Group
         textAlign: left
         type: text
     type: twoColumns
