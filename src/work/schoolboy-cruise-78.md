@@ -13,9 +13,7 @@ description: >-
   invite a questioning of how we view photographic images from distinct genres.
 
 
-
-
-  This work was prefigured, by some 20 years, by a project documenting sculptural works produced in the mid 1980's. This project: *Excess* can be viewed [here](https://jonathanbaggaley.com/excess/).
+  This work was prefigured, by some 20 years, in a project documenting sculptural works produced during the mid 1980's. This project: *Excess* can be viewed [here](https://jonathanbaggaley.com/excess/).
 projectContent:
   - name: "01"
     image:
