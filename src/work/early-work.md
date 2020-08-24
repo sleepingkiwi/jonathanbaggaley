@@ -8,6 +8,8 @@ description: |-
 
   For more complete earlier projects click the following links:
 
+  [East Avenue (1985)](https://jonathanbaggaley.com/east-avenue/)
+
   [Music Portfolio (1986)](https://jonathanbaggaley.com/music-portfolio/)
 projectContent:
   - name: "01"
