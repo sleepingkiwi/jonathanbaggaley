@@ -3,7 +3,10 @@ layout: layouts/work
 tags: work
 title: Portfolio pt1
 projectDate: "1986"
-description: A portfolio of personal work from 1986.
+description: |-
+  Part one of a portfolio of personal work from 1986.
+
+  For the second part click [here](https://jonathanbaggaley.com/portfolio-pt2/).
 projectContent:
   - embedRatio: 56.25
     name: "01"
