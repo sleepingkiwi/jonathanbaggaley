@@ -13,6 +13,8 @@ description: |-
   [Music Project (1986)](https://jonathanbaggaley.com/music-portfolio/)
 
   [Portfolio (1986) pt1](https://jonathanbaggaley.com/portfolio/)
+
+  [Portfolio (1986) pt2](https://jonathanbaggaley.com/portfolio-pt2/)
 projectContent:
   - name: "01"
     image:
