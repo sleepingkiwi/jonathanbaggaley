@@ -1,7 +1,7 @@
 ---
 layout: layouts/work
 tags: work
-title: Portfolio
+title: Portfolio pt1
 projectDate: "1986"
 description: A portfolio of personal work from 1986.
 projectContent:
