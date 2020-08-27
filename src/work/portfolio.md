@@ -173,167 +173,362 @@ projectContent:
   - embedRatio: 56.25
     name: "12"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563790/portfolio/12_uvgymq.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563790
-      filename: portfolio/12_uvgymq.jpg
-      width: 2500
-      height: 1647
       dominant:
         - 50
         - 50
         - 36
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACWElEQVQoUz2Sz0vTYRzHX49u6mbT+dua+QOR5jZokD9KEQQvYU1x0qlDoSSd/AcC69CpgygU5OoQJFaiFLOD1M21Qr1M1A42B4K/hs05ppvbHE98n0MPPJfn+Xze79fnh5j+MCcDgQB3XXfQ6/W0td0gEjmmtNRMJpMhP5NGO9FolOPjYxUTDocxmUzYnU7EwKBbbm1tUVJSgtvtpr6+np2dHZqamigqKsKIJBgMKjHNSEs8PDyktbWViooKxMTEc7m09INkMoX1mo3a2jo8nreMPHpMc7MdsklSqRQGgwGLxUIoFMJoNCqSvLw8xKuXz+T8/Gf0OgOmS2ba2zv56f9Ff/8gt252srLiY3FxUWFXVVXhcrlUok6nUyWJ799m5MzMR2IncWpq6rhyuRaH/Tqzs3NYLFfZ2Aj8xx8bG8PhcKhyJycnKS4uRkx5Xkiv9yv5eQVkMllaWtpottrxeN4gpSB+ElUC2rXZbAwNDbG6usra2hqNjY2I+S+fpN/vVwGbm5sMDAzg8/lUzbFYjGQ8wfn5ufo3m8309fWhNf3o6IjKykrEu+n3cjv0B6/XS2Ghga6uLqamXtPR0cHB4R7bv4PKeXR0VPVCcx0fH6enp4fq6mrEg4f35e7uLvv7+6TTaYQQXFxckM1mycnJIfI3TG9vL8PDwywsLLC8vKwInE4n5eXliMF7t6W2JKenp+Tm5qokDVkbnZSSg/09Ghoa6O7uZn19Xe1IJBJRVNq7ePJ0RJ6dnSlXNVchSCQSikYTKzQWkEwmKSsrU6LxeFzFapOwWq38A7YjFxg8Pb9zAAAAAElFTkSuQmCC
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563790/portfolio/12_uvgymq.jpg
+      width: 2500
+      height: 1647
+      filename: portfolio/12_uvgymq.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACWElEQVQoUz2Sz0vTYRzHX49u6mbT+dua+QOR5jZokD9KEQQvYU1x0qlDoSSd/AcC69CpgygU5OoQJFaiFLOD1M21Qr1M1A42B4K/hs05ppvbHE98n0MPPJfn+Xze79fnh5j+MCcDgQB3XXfQ6/W0td0gEjmmtNRMJpMhP5NGO9FolOPjYxUTDocxmUzYnU7EwKBbbm1tUVJSgtvtpr6+np2dHZqamigqKsKIJBgMKjHNSEs8PDyktbWViooKxMTEc7m09INkMoX1mo3a2jo8nreMPHpMc7MdsklSqRQGgwGLxUIoFMJoNCqSvLw8xKuXz+T8/Gf0OgOmS2ba2zv56f9Ff/8gt252srLiY3FxUWFXVVXhcrlUok6nUyWJ799m5MzMR2IncWpq6rhyuRaH/Tqzs3NYLFfZ2Aj8xx8bG8PhcKhyJycnKS4uRkx5Xkiv9yv5eQVkMllaWtpottrxeN4gpSB+ElUC2rXZbAwNDbG6usra2hqNjY2I+S+fpN/vVwGbm5sMDAzg8/lUzbFYjGQ8wfn5ufo3m8309fWhNf3o6IjKykrEu+n3cjv0B6/XS2Ghga6uLqamXtPR0cHB4R7bv4PKeXR0VPVCcx0fH6enp4fq6mrEg4f35e7uLvv7+6TTaYQQXFxckM1mycnJIfI3TG9vL8PDwywsLLC8vKwInE4n5eXliMF7t6W2JKenp+Tm5qokDVkbnZSSg/09Ghoa6O7uZn19Xe1IJBJRVNq7ePJ0RJ6dnSlXNVchSCQSikYTKzQWkEwmKSsrU6LxeFzFapOwWq38A7YjFxg8Pb9zAAAAAElFTkSuQmCC
+      version: v1598563790
   - embedRatio: 56.25
     name: "13"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563781/portfolio/13_ieerc9.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563781
-      filename: portfolio/13_ieerc9.jpg
-      width: 2029
-      height: 1862
       dominant:
         - 64
         - 66
         - 55
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAADJUlEQVQ4TyXTTVNbZRjG8f+Tc5IckhCSIIEmhUoJWiQBDFMYSwfYufAD6NY66qgdx41+hnbRjZu2DrUWZeF0oY4bLHREHLtoSy0v1tFSS0kgDSFp3t9OznmcOezu1W+u+5r7Fn89eixzuQw2xeTa118Rj8eJRcdo9/ipVOoc5BLYFCfBnl4Mw0BzKNhlhRcH/9HfG0TcWlqR2ewBwmYwd+2qBUSHR3G7OiiXaxzk9jBMG30nBjEMiU02UalQL6SIvdaPuHd/XWYyz5HoVoLx8XEL0JweCoUyT3a2ub28gk1pIxQKMXVmguFIiKfbf+JxCsT6xt8ynd7HlE2ufzPH5OSkBTjsLnK5AktLi/z08yI+fxfBYDcT8RHeOB2lVtgn0h9C3F/bkKlU0gLmv73O1NQUI7HXURWNTCbH76u/cmN+gQ5/F22am9HoKd568yyynuXVSC9ic+sfube3i2E2+G7hBtPT04yNjiOwk04fsnZvlQsXL+Fy+1Bsds6eOc2H596meJigw6MedZBI7KC3ahYwOzvL6Egc07Cxv5/m9i83+f7mD0RjcTKZLN2dXj449w6KLDPQ13ME7O4+palXLWBmZsZawWgJkskU6w+WuXx1gb4TYdLPMwye7OWz8++SST7GbFUQi4s/yrt371AsZanWSthsCgF/D0JqaM52fltdZunWCn29A6iqA61NYWj4OLqZ5VjYh/j4k/fk+sYaLaMCwkBVVbztfpoNUBQH5coL7vyxhc/rRdM8eDwasdEB/J0ORsYGEZ9/8anc2HyA3qpimHXrHjRNo1yqIqUA0WJzY4fIyQgBfzemaVoppKgSjb2C+Oj8+/LhwyNA0kC1S3x+L7pet9I09TrZwyLDQ3HCoX4qlSqpVIp8PsupoQjiwqWLFlCv16g3yjT1GqrdJF/IYJot8vk8tZpOOPQyx7r7UFWNUqmE2+1mYmIC8eWVK3Jr8xGGYdJoNCiV81SrRZ4l/rXmrpeCVnlOhxu/P2A9WbPZojPQZf2NuDw3L59sP8Pt8uF2eVHtCqoK6YOklUhvSgKdPgt3OBx4PB5KxYqFhsPH+R8rK3ugxd7AvAAAAABJRU5ErkJggg==
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563781/portfolio/13_ieerc9.jpg
+      width: 2029
+      height: 1862
+      filename: portfolio/13_ieerc9.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAADJUlEQVQ4TyXTTVNbZRjG8f+Tc5IckhCSIIEmhUoJWiQBDFMYSwfYufAD6NY66qgdx41+hnbRjZu2DrUWZeF0oY4bLHREHLtoSy0v1tFSS0kgDSFp3t9OznmcOezu1W+u+5r7Fn89eixzuQw2xeTa118Rj8eJRcdo9/ipVOoc5BLYFCfBnl4Mw0BzKNhlhRcH/9HfG0TcWlqR2ewBwmYwd+2qBUSHR3G7OiiXaxzk9jBMG30nBjEMiU02UalQL6SIvdaPuHd/XWYyz5HoVoLx8XEL0JweCoUyT3a2ub28gk1pIxQKMXVmguFIiKfbf+JxCsT6xt8ynd7HlE2ufzPH5OSkBTjsLnK5AktLi/z08yI+fxfBYDcT8RHeOB2lVtgn0h9C3F/bkKlU0gLmv73O1NQUI7HXURWNTCbH76u/cmN+gQ5/F22am9HoKd568yyynuXVSC9ic+sfube3i2E2+G7hBtPT04yNjiOwk04fsnZvlQsXL+Fy+1Bsds6eOc2H596meJigw6MedZBI7KC3ahYwOzvL6Egc07Cxv5/m9i83+f7mD0RjcTKZLN2dXj449w6KLDPQ13ME7O4+palXLWBmZsZawWgJkskU6w+WuXx1gb4TYdLPMwye7OWz8++SST7GbFUQi4s/yrt371AsZanWSthsCgF/D0JqaM52fltdZunWCn29A6iqA61NYWj4OLqZ5VjYh/j4k/fk+sYaLaMCwkBVVbztfpoNUBQH5coL7vyxhc/rRdM8eDwasdEB/J0ORsYGEZ9/8anc2HyA3qpimHXrHjRNo1yqIqUA0WJzY4fIyQgBfzemaVoppKgSjb2C+Oj8+/LhwyNA0kC1S3x+L7pet9I09TrZwyLDQ3HCoX4qlSqpVIp8PsupoQjiwqWLFlCv16g3yjT1GqrdJF/IYJot8vk8tZpOOPQyx7r7UFWNUqmE2+1mYmIC8eWVK3Jr8xGGYdJoNCiV81SrRZ4l/rXmrpeCVnlOhxu/P2A9WbPZojPQZf2NuDw3L59sP8Pt8uF2eVHtCqoK6YOklUhvSgKdPgt3OBx4PB5KxYqFhsPH+R8rK3ugxd7AvAAAAABJRU5ErkJggg==
+      version: v1598563781
   - embedRatio: 56.25
     name: "14"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563787/portfolio/14_kpztsd.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563787
-      filename: portfolio/14_kpztsd.jpg
-      width: 2000
-      height: 1991
       dominant:
         - 60
         - 61
         - 54
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACbklEQVQ4T1WTS09aURSF9xEVQUVQiKIixoQQRv6bTuygdlCbTmoH1Un7D5r0kdKB7aT9BZ20U0adtIkaDNFgQHn6CEYEFBDlNN9ObpOe5Obce8/ea6+19j4m+emdbTQa0ul0pNvtSjwel0gkIgcHB3J6eiqDg4MyNzcnMzMz+n5/f6/78PCwGGPEvP/wxrbbbRkYGNCDRCIhoVBIdnZ2pFgsisfjEb/fL16vV1wul4yPj+s5371eT8zH5FvroLZaLfH5fOJ2u+X4+Fju7u6UlZM8NDQk4XBYFhcXhferqysxP35+t/l8XiqVipydnUkgEJCJiQmp1WoyMjKi1cbGxpQyD9/IoSgx5vefXzaVSsne3p5WXF5elunpaTk8PFRfYIMMRzM7jFicm6/fvtijoyOlCq1gMKgH2WxWk6kCsLVWTaMyO6zwxmxsvrC3t7cyNTWlRt7c3EipVNIOLC0tKcjl5aUCIA+jiSd5YWFBzKvXmzaXy2kVqAEEyMnJiczOzkqz2ZTz83MFisViajJmExuNRsU8Wl2xtIvqmHdxcaG08QEGAPf7fX1GR0e1jTDgP/Fm5eEDWygUVBcUaQ0gUGSA0EwCs0JXSOIfgAqw9vTxPwmTk5MaWK/X1XkA0c6kAop+YlgwVhOfrK3aTCajQdAD3WkflJGCpGq1+p+RDph5vv7M7u7uagBtpCKLNsECUwEol8uqmyJUx1SGStu4vb0t+EB1AACCHpoZHHyhrQ4z9HMGO/NyY92m02m9OI67JDl3AiASmQX8cSYQBphstj4n7f7+vt4FbhcTiT4kOJJgxjwAQMz19bVKmJ+fl78FundD17lb1QAAAABJRU5ErkJggg==
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563787/portfolio/14_kpztsd.jpg
+      width: 2000
+      height: 1991
+      filename: portfolio/14_kpztsd.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACbklEQVQ4T1WTS09aURSF9xEVQUVQiKIixoQQRv6bTuygdlCbTmoH1Un7D5r0kdKB7aT9BZ20U0adtIkaDNFgQHn6CEYEFBDlNN9ObpOe5Obce8/ea6+19j4m+emdbTQa0ul0pNvtSjwel0gkIgcHB3J6eiqDg4MyNzcnMzMz+n5/f6/78PCwGGPEvP/wxrbbbRkYGNCDRCIhoVBIdnZ2pFgsisfjEb/fL16vV1wul4yPj+s5371eT8zH5FvroLZaLfH5fOJ2u+X4+Fju7u6UlZM8NDQk4XBYFhcXhferqysxP35+t/l8XiqVipydnUkgEJCJiQmp1WoyMjKi1cbGxpQyD9/IoSgx5vefXzaVSsne3p5WXF5elunpaTk8PFRfYIMMRzM7jFicm6/fvtijoyOlCq1gMKgH2WxWk6kCsLVWTaMyO6zwxmxsvrC3t7cyNTWlRt7c3EipVNIOLC0tKcjl5aUCIA+jiSd5YWFBzKvXmzaXy2kVqAEEyMnJiczOzkqz2ZTz83MFisViajJmExuNRsU8Wl2xtIvqmHdxcaG08QEGAPf7fX1GR0e1jTDgP/Fm5eEDWygUVBcUaQ0gUGSA0EwCs0JXSOIfgAqw9vTxPwmTk5MaWK/X1XkA0c6kAop+YlgwVhOfrK3aTCajQdAD3WkflJGCpGq1+p+RDph5vv7M7u7uagBtpCKLNsECUwEol8uqmyJUx1SGStu4vb0t+EB1AACCHpoZHHyhrQ4z9HMGO/NyY92m02m9OI67JDl3AiASmQX8cSYQBphstj4n7f7+vt4FbhcTiT4kOJJgxjwAQMz19bVKmJ+fl78FundD17lb1QAAAABJRU5ErkJggg==
+      version: v1598563787
   - embedRatio: 56.25
     name: "15"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563791/portfolio/15_pawtyh.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563791
-      filename: portfolio/15_pawtyh.jpg
-      width: 2000
-      height: 1983
       dominant:
         - 63
         - 64
         - 58
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACpElEQVQ4T02Tx0ucURTFz7Nir4hdVCwLceNGEHEpuHHhym0IpKyySVlEIRgSE0j5A7JJ/opBmEAczExQkVhmbIhiH7GiY/eF3w2EfJvvzTf3nnPuuee5N29f+dLSUp2dnWljY0MnJydKJBLKzc1Vc3Oz1tfXNT4+ruvra+3s7Kivr0+rq6uam5tTV1eX3IePw762tla3t7daW1vT3t6eDg4OlJmZqcbGRi0tLWl2dlZJSUkG0t/fr8XFRQUCAdXU1Mh9+vzew5ScnGxs29vbxuS9V1VVlQFOTk7q8vLSVLa3t+v4+FgLCwuqrq6W+/rti4cJBhqPjo60u7trRVlZWcY6OjqqtLQ0Azg8PFRGRoYqKipUV1cn9zP8w1dWVurq6kr7+/sGhA+ogRWwUCik1tZWUxQMBpWSkqL6+no55+Sisd++qKjImAHIyckxVozCCzxAQVNTk7q7uxUOh3V+fq67uzsbz0V+hXxhYaHi8bg2NzeVnZ0tHs6Abm1taWJiwlT19vbq9PTURo3FYkpPT5cLfg/44uJi+7iysqLU1FQbA3TWSSMgU1NT6unpEbVsZWRkRC0tLX9NxBzmYRMXFxcm7+bmxozkN8XI7uzsVFlZmZaXl20LKHTD74Y8B5owhzcqONPMOsfGxoygo6ND+fn5FiJGQJ17OfDcs3tUIJ1CfCCJnHnm5+eVl5dnGeAbyYxGo+aHG3o96JHEzLABQjOzYhLrxYPy8nK1tbUZEYpQgEduYPCFBw0TaUY6MktKSixIsAAOAKbhSyQSsfUyonv0+L7HVYpo4A4gFwBGwTwUANrQ0GCs09PT/4LmHjy852dmZiyiBQUF1kRUaQAMQxkRdVye/y8dSXVPnz0xADZBoGhmnbzJPylFIXKJPP8ROuoB+AOhCr+yNS5HUwAAAABJRU5ErkJggg==
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563791/portfolio/15_pawtyh.jpg
+      width: 2000
+      height: 1983
+      filename: portfolio/15_pawtyh.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACpElEQVQ4T02Tx0ucURTFz7Nir4hdVCwLceNGEHEpuHHhym0IpKyySVlEIRgSE0j5A7JJ/opBmEAczExQkVhmbIhiH7GiY/eF3w2EfJvvzTf3nnPuuee5N29f+dLSUp2dnWljY0MnJydKJBLKzc1Vc3Oz1tfXNT4+ruvra+3s7Kivr0+rq6uam5tTV1eX3IePw762tla3t7daW1vT3t6eDg4OlJmZqcbGRi0tLWl2dlZJSUkG0t/fr8XFRQUCAdXU1Mh9+vzew5ScnGxs29vbxuS9V1VVlQFOTk7q8vLSVLa3t+v4+FgLCwuqrq6W+/rti4cJBhqPjo60u7trRVlZWcY6OjqqtLQ0Azg8PFRGRoYqKipUV1cn9zP8w1dWVurq6kr7+/sGhA+ogRWwUCik1tZWUxQMBpWSkqL6+no55+Sisd++qKjImAHIyckxVozCCzxAQVNTk7q7uxUOh3V+fq67uzsbz0V+hXxhYaHi8bg2NzeVnZ0tHs6Abm1taWJiwlT19vbq9PTURo3FYkpPT5cLfg/44uJi+7iysqLU1FQbA3TWSSMgU1NT6unpEbVsZWRkRC0tLX9NxBzmYRMXFxcm7+bmxozkN8XI7uzsVFlZmZaXl20LKHTD74Y8B5owhzcqONPMOsfGxoygo6ND+fn5FiJGQJ17OfDcs3tUIJ1CfCCJnHnm5+eVl5dnGeAbyYxGo+aHG3o96JHEzLABQjOzYhLrxYPy8nK1tbUZEYpQgEduYPCFBw0TaUY6MktKSixIsAAOAKbhSyQSsfUyonv0+L7HVYpo4A4gFwBGwTwUANrQ0GCs09PT/4LmHjy852dmZiyiBQUF1kRUaQAMQxkRdVye/y8dSXVPnz0xADZBoGhmnbzJPylFIXKJPP8ROuoB+AOhCr+yNS5HUwAAAABJRU5ErkJggg==
+      version: v1598563791
   - embedRatio: 56.25
     name: "16"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563801/portfolio/16_li9h2p.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563801
-      filename: portfolio/16_li9h2p.jpg
-      width: 1992
-      height: 1991
       dominant:
         - 44
         - 45
         - 39
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACn0lEQVQ4Tz2TR0tcYRSG38869jYWLCiKbQRHQREUFV2IAymomJiE5F8ki5hFNmZhFiaQ8nfciiKoIPZewN7Hgn7hOYtcuNw735xz3nau+zz80cfFxen6+tru8/Nzra2t6ezsTLm5uXp8fFROTo6Ki4t1eXmpw8NDFRYWqqysTIFAQI4BT09Purm50cPDgw4ODjQxMaHj42OVl5drZ2fHCvPz85WZmamCggK1tLSopqZGsbGxciPfvnomg0whg8bHx7WxsWEDjo6OdHd3p/j4eFVVVamrq0uRSEShUEi3t7dyYz9GPU1QY0BSUpKmpqY0OzurrKwsJScnmxwY1dbWqre3V52dnSotLbUz9+v3mEfrycmJTk9P5b3X3NycZmZmrDk9Pd2Qdnd3bQAMYIIU5Lo/f3/6pqYmRaNRLSwsaH9/X5OTk1peXjbdMTExSktLM4Dm5mZ1dHSYqcFg0Fi74S+ffGNjo6Fsb28bXUxcXV1VZWWlSKikpMQAuru71d7eLuecsdvb25N78TLiieXi4kJcOD09Pa3FxUVVV1dbYUVFhQH09PSotbXVDEcqIO7V6z4PMofowkia2Qk0kxCOE3VbW9v/M2Thi+vrf+a3traMQV5enhITE7W0tGSUYUBCZA6DcDhsZ8QK0Pr6utzbd4N+c3PTGJAGy8Ef9/f3Rp3BMGEAXnCGLwCxscaAFwrJHW1sH08aMLW+vt62lKbs7GxD5zYT+wee+5WVFdNK5tAjX1DwBGYNDQ0WJ75wwZKFQ54bejPgMe3q6soc55CFogA0tq2urs52AVlECJOUlBQlJCTIvf8w5FkgBkALKbxTACMWq6ioyOTRkJGRYUB8G6mpqXKj30f8/Py80WMymmEBIgUMgA1NPNlCmkmJ3/8Ap8qCKczrzpYAAAAASUVORK5CYII=
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563801/portfolio/16_li9h2p.jpg
+      width: 1992
+      height: 1991
+      filename: portfolio/16_li9h2p.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACn0lEQVQ4Tz2TR0tcYRSG38869jYWLCiKbQRHQREUFV2IAymomJiE5F8ki5hFNmZhFiaQ8nfciiKoIPZewN7Hgn7hOYtcuNw735xz3nau+zz80cfFxen6+tru8/Nzra2t6ezsTLm5uXp8fFROTo6Ki4t1eXmpw8NDFRYWqqysTIFAQI4BT09Purm50cPDgw4ODjQxMaHj42OVl5drZ2fHCvPz85WZmamCggK1tLSopqZGsbGxciPfvnomg0whg8bHx7WxsWEDjo6OdHd3p/j4eFVVVamrq0uRSEShUEi3t7dyYz9GPU1QY0BSUpKmpqY0OzurrKwsJScnmxwY1dbWqre3V52dnSotLbUz9+v3mEfrycmJTk9P5b3X3NycZmZmrDk9Pd2Qdnd3bQAMYIIU5Lo/f3/6pqYmRaNRLSwsaH9/X5OTk1peXjbdMTExSktLM4Dm5mZ1dHSYqcFg0Fi74S+ffGNjo6Fsb28bXUxcXV1VZWWlSKikpMQAuru71d7eLuecsdvb25N78TLiieXi4kJcOD09Pa3FxUVVV1dbYUVFhQH09PSotbXVDEcqIO7V6z4PMofowkia2Qk0kxCOE3VbW9v/M2Thi+vrf+a3traMQV5enhITE7W0tGSUYUBCZA6DcDhsZ8QK0Pr6utzbd4N+c3PTGJAGy8Ef9/f3Rp3BMGEAXnCGLwCxscaAFwrJHW1sH08aMLW+vt62lKbs7GxD5zYT+wee+5WVFdNK5tAjX1DwBGYNDQ0WJ75wwZKFQ54bejPgMe3q6soc55CFogA0tq2urs52AVlECJOUlBQlJCTIvf8w5FkgBkALKbxTACMWq6ioyOTRkJGRYUB8G6mpqXKj30f8/Py80WMymmEBIgUMgA1NPNlCmkmJ3/8Ap8qCKczrzpYAAAAASUVORK5CYII=
+      version: v1598563801
   - embedRatio: 56.25
     name: "17"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563801/portfolio/17_xdlu48.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563801
-      filename: portfolio/17_xdlu48.jpg
-      width: 2273
-      height: 1656
       dominant:
         - 37
         - 37
         - 32
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAACJElEQVQ4TzVSW0uiURRdJ6+IMt4vk6ZZ+mAwzKBlA+ZDvQTz4IxvMS8zIPgDfPdP9G96ip6DVLALgreo1EoKy+x6hrVhDmy+8x3OXmvttY76+m1F2+12vLy8wOv1otlsIhKJIJFI4OLiAm9vb3h8fATXYDBAIBBAqVTC/v4+er0e1EZ+XXe7XXg8HjgcDlxeXiIUCkmzy+XC+/s7Xl9fsbS0hOfnZ/maTCY4nU4hVZ+cNp3NZuF2uwWkXq/j6upKGKPRqLCfnJxAa43FxUUp/geDQTw8PED9+ftbn56eClur1cLq6ip2dnZQrVZhNpthNBrx9PQk32QyiVqtJuC8H4vFoHIbWZ3JZNBut9HpdETm/Pw8rFYr1tbWMDc3h8PDQxgMBgGZTCbI5/M4OjpCv9+H+vnrh76/v4ff75cD7n0+n4xSqVRwfHyM6+trFAoF7O3tyZ1wOCyq6Jda/57WZKOjlM9Zz87OMJvNkEqlhPnm5gabm5uikElQ/sLCguxVMOTRdJSIlE7T6DoXAQhEcxktG3d3d6GUwvb2tkSt0pkvejgcwmazYXl5WeROp1PE43GZN5fLiQ8cq9Fo4ODgAOPxGOVyWc5UOBLQdJtvgPnf3t6KZLIRYGtrC6PRSN4D38v5+bkoYFLsUy63XVMKWVjMlg2cnYmQhYAEYPEODS8Wi7BYLFDR2GedTqfBMWgKG8n88fEhTP+Bec66u7uTiKmMT/8fPNoPYOZj1SIAAAAASUVORK5CYII=
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563801/portfolio/17_xdlu48.jpg
+      width: 2273
+      height: 1656
+      filename: portfolio/17_xdlu48.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAACJElEQVQ4TzVSW0uiURRdJ6+IMt4vk6ZZ+mAwzKBlA+ZDvQTz4IxvMS8zIPgDfPdP9G96ip6DVLALgreo1EoKy+x6hrVhDmy+8x3OXmvttY76+m1F2+12vLy8wOv1otlsIhKJIJFI4OLiAm9vb3h8fATXYDBAIBBAqVTC/v4+er0e1EZ+XXe7XXg8HjgcDlxeXiIUCkmzy+XC+/s7Xl9fsbS0hOfnZ/maTCY4nU4hVZ+cNp3NZuF2uwWkXq/j6upKGKPRqLCfnJxAa43FxUUp/geDQTw8PED9+ftbn56eClur1cLq6ip2dnZQrVZhNpthNBrx9PQk32QyiVqtJuC8H4vFoHIbWZ3JZNBut9HpdETm/Pw8rFYr1tbWMDc3h8PDQxgMBgGZTCbI5/M4OjpCv9+H+vnrh76/v4ff75cD7n0+n4xSqVRwfHyM6+trFAoF7O3tyZ1wOCyq6Jda/57WZKOjlM9Zz87OMJvNkEqlhPnm5gabm5uikElQ/sLCguxVMOTRdJSIlE7T6DoXAQhEcxktG3d3d6GUwvb2tkSt0pkvejgcwmazYXl5WeROp1PE43GZN5fLiQ8cq9Fo4ODgAOPxGOVyWc5UOBLQdJtvgPnf3t6KZLIRYGtrC6PRSN4D38v5+bkoYFLsUy63XVMKWVjMlg2cnYmQhYAEYPEODS8Wi7BYLFDR2GedTqfBMWgKG8n88fEhTP+Bec66u7uTiKmMT/8fPNoPYOZj1SIAAAAASUVORK5CYII=
+      version: v1598563801
   - embedRatio: 56.25
     name: "18"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563796/portfolio/18_etisak.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563796
-      filename: portfolio/18_etisak.jpg
-      width: 2266
-      height: 1656
       dominant:
         - 30
         - 30
         - 24
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAACCklEQVQ4T02SyYpaURCG/+M8tjNI0lG7tZuko8G0vQi4UBQSdO/CjQ/j0gdw4RP4MIrgKhhQklwEZyXqHbz2CVUQyAE53GPVV3/9VSL36VFGIhF4vV4sFgvMZjPQCYfDsNvt2Gw28Hg8uLm5QSgU4m+LxYL9fo9arQbx8JiQFECPl8sFpmnyres6DMNgGB2n08lv9H88Hsf1ekUymYT4+q0kKVBRFBwOBzgcDk6kAFJB93K5RDqdhtvths1mw/F45BhVVSGePqYlJc3nc+z3B/j9Pg4ieqVS4ZaGwyHq9ToKhQLO5zP6/T6DpZQQn5+fpN/vx263w3a7ZYmkJBaLoVwuw+fzYTAYoNlsolgsYjqdot1ucxv0E3f3b6QQgmURkcwkCPmSyWS44ul0QqvVQi6Xw2g0QqfTQSqVYmNFqfxFrlYrrNdrluVyuUBAglmtVgaRmkajgWw2i/F4jG63C1JNPoj3H+4kyadkqk5GEeRfKzTKQCCAUqnEHkwmE/R6PYbTVEQyFZeUZBgmNE2D3e7g6oZu8mj/HA8MCwYDbO7LyzMmP77z1ChPZB7eMUDTDO7XYrGyGvWscysXU+c9iEYjbFoicYvfyk8GEJABJPl/AC0SAegIi2QlBMjn83h9NaEbKk+K3sXb2yhvIrVAPdlsdlagqQYrIADdtB/VahWK8guBoJ+rkz9/AT0VGAq048dZAAAAAElFTkSuQmCC
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563796/portfolio/18_etisak.jpg
+      width: 2266
+      height: 1656
+      filename: portfolio/18_etisak.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAACCklEQVQ4T02SyYpaURCG/+M8tjNI0lG7tZuko8G0vQi4UBQSdO/CjQ/j0gdw4RP4MIrgKhhQklwEZyXqHbz2CVUQyAE53GPVV3/9VSL36VFGIhF4vV4sFgvMZjPQCYfDsNvt2Gw28Hg8uLm5QSgU4m+LxYL9fo9arQbx8JiQFECPl8sFpmnyres6DMNgGB2n08lv9H88Hsf1ekUymYT4+q0kKVBRFBwOBzgcDk6kAFJB93K5RDqdhtvths1mw/F45BhVVSGePqYlJc3nc+z3B/j9Pg4ieqVS4ZaGwyHq9ToKhQLO5zP6/T6DpZQQn5+fpN/vx263w3a7ZYmkJBaLoVwuw+fzYTAYoNlsolgsYjqdot1ucxv0E3f3b6QQgmURkcwkCPmSyWS44ul0QqvVQi6Xw2g0QqfTQSqVYmNFqfxFrlYrrNdrluVyuUBAglmtVgaRmkajgWw2i/F4jG63C1JNPoj3H+4kyadkqk5GEeRfKzTKQCCAUqnEHkwmE/R6PYbTVEQyFZeUZBgmNE2D3e7g6oZu8mj/HA8MCwYDbO7LyzMmP77z1ChPZB7eMUDTDO7XYrGyGvWscysXU+c9iEYjbFoicYvfyk8GEJABJPl/AC0SAegIi2QlBMjn83h9NaEbKk+K3sXb2yhvIrVAPdlsdlagqQYrIADdtB/VahWK8guBoJ+rkz9/AT0VGAq048dZAAAAAElFTkSuQmCC
+      version: v1598563796
   - embedRatio: 56.25
     name: "19"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563842/portfolio/19_nsgfmj.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563842
-      filename: portfolio/19_nsgfmj.jpg
-      width: 2486
-      height: 1656
       dominant:
         - 194
         - 194
         - 191
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABxklEQVQoUz1SyWpiURSs4zziPCwERReKIOI6m+4vaPIDvUl2Tf6iN50vaPIdIYuQVZOFIAiaRRsEUXBAVBDn+TZ1QvrB5d13b52qOnWevL//NR6PBxaLBTabDYvFAufzGcFgUPcOh0P3u90Oq9UKPp9PF/F2ux3y9tYwLBQRbDYbGGPgdDr1m4DL5YJwOIzT6YT1eg2XywW32613FJbX1z/meDxqYbfbRSAQ0ILhcIhUKqXKsVhMFSnANxeLo9Eo5OXl2dAalRqNBpLJpBbU63UUCgW1n0gkVHm/34NiXH6/H+l0GvL09GjITMvNZlMJ6KBarSKXy/0n8Hq9mg2xy+VSz/P5POTh4be2QIJ+v68tENxqtRAKhVQ5EolocMTQ7XQ6VYJSqQS5u/th2D/ZGRJBn0BazmazSkoCBkf10WikZ+VyGXJ9/c0AUGt8CDgcDjqJ8XiMYrGoxXTFM94PBgPNoFKpQL58vTLz+Vz/gU/L3NMNlViUyWT0fjaboVaraU4ksFqtkJvb74ZK/OBYWKAXIthut5hMJjoFjo7OOKl4PK6umI/8uv9pOp2OZsCw+Gbv/Fk4616v9wEU0Tba7bYGyD1z+AcUQ97dZD/atwAAAABJRU5ErkJggg==
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563842/portfolio/19_nsgfmj.jpg
+      width: 2486
+      height: 1656
+      filename: portfolio/19_nsgfmj.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABxklEQVQoUz1SyWpiURSs4zziPCwERReKIOI6m+4vaPIDvUl2Tf6iN50vaPIdIYuQVZOFIAiaRRsEUXBAVBDn+TZ1QvrB5d13b52qOnWevL//NR6PBxaLBTabDYvFAufzGcFgUPcOh0P3u90Oq9UKPp9PF/F2ux3y9tYwLBQRbDYbGGPgdDr1m4DL5YJwOIzT6YT1eg2XywW32613FJbX1z/meDxqYbfbRSAQ0ILhcIhUKqXKsVhMFSnANxeLo9Eo5OXl2dAalRqNBpLJpBbU63UUCgW1n0gkVHm/34NiXH6/H+l0GvL09GjITMvNZlMJ6KBarSKXy/0n8Hq9mg2xy+VSz/P5POTh4be2QIJ+v68tENxqtRAKhVQ5EolocMTQ7XQ6VYJSqQS5u/th2D/ZGRJBn0BazmazSkoCBkf10WikZ+VyGXJ9/c0AUGt8CDgcDjqJ8XiMYrGoxXTFM94PBgPNoFKpQL58vTLz+Vz/gU/L3NMNlViUyWT0fjaboVaraU4ksFqtkJvb74ZK/OBYWKAXIthut5hMJjoFjo7OOKl4PK6umI/8uv9pOp2OZsCw+Gbv/Fk4616v9wEU0Tba7bYGyD1z+AcUQ97dZD/atwAAAABJRU5ErkJggg==
+      version: v1598563842
   - embedRatio: 56.25
     name: "20"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563811/portfolio/20_iu5449.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563811
-      filename: portfolio/20_iu5449.jpg
-      width: 2491
-      height: 1656
       dominant:
         - 143
         - 144
         - 138
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABzElEQVQoUz1Sx2pbURScq95RAVVQQRshhJb6AWEtbIxNYu/jhR2wF042yY9543xBQMhbgYRABVVUUO/cMAecC4/Hue+cmTkzT1U+/moAOJ1O8thsNrjdbpjNZhyPR5hMJmy3W/R6PSyXS1SrVUQiEfj9fni9Xqj3P296vV7jcDjAbrcjEAjA6XTifD5jt9thMpnIndVqhcvlwmAwQDKZlF6DwQD16/dPTRZesImsPOFwGPF4HBaLBR6PR5r5vdlsIhQKwWg0Sp96fPqmWZCVzVSjlEIul0OhUEC9XpfVtNaihAAOh0N6uYZ6fnnUs9nsPyvRyUgFsVgMlUoF0+lU2PP5PFqtFhaLhZCkUimoL1+vNQuiJRIJBINBaSYDmebzuQxxtUwmg0ajIYD8ns1moe7ubzRdpTE+n0+k0jzKJnC73ZYB3lERaxIwgXQ6DfX0/UHTQLLxTWQmwti63S72+71Ey1g5RAWsmRLNV68/njWbedhA42hUrVaTN82lMhpIRYx1OBzKv8Fa3dxe6n6/L2jRaBTFYlH2Ho1GGI/HMkBgAjDKT4DNZiNRqsurC93pdEQBdyyVSoK+Wq0k0nK5LABMhz8SB5kaPeK6/wBTkeNHDldILgAAAABJRU5ErkJggg==
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563811/portfolio/20_iu5449.jpg
+      width: 2491
+      height: 1656
+      filename: portfolio/20_iu5449.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABzElEQVQoUz1Sx2pbURScq95RAVVQQRshhJb6AWEtbIxNYu/jhR2wF042yY9543xBQMhbgYRABVVUUO/cMAecC4/Hue+cmTkzT1U+/moAOJ1O8thsNrjdbpjNZhyPR5hMJmy3W/R6PSyXS1SrVUQiEfj9fni9Xqj3P296vV7jcDjAbrcjEAjA6XTifD5jt9thMpnIndVqhcvlwmAwQDKZlF6DwQD16/dPTRZesImsPOFwGPF4HBaLBR6PR5r5vdlsIhQKwWg0Sp96fPqmWZCVzVSjlEIul0OhUEC9XpfVtNaihAAOh0N6uYZ6fnnUs9nsPyvRyUgFsVgMlUoF0+lU2PP5PFqtFhaLhZCkUimoL1+vNQuiJRIJBINBaSYDmebzuQxxtUwmg0ajIYD8ns1moe7ubzRdpTE+n0+k0jzKJnC73ZYB3lERaxIwgXQ6DfX0/UHTQLLxTWQmwti63S72+71Ey1g5RAWsmRLNV68/njWbedhA42hUrVaTN82lMhpIRYx1OBzKv8Fa3dxe6n6/L2jRaBTFYlH2Ho1GGI/HMkBgAjDKT4DNZiNRqsurC93pdEQBdyyVSoK+Wq0k0nK5LABMhz8SB5kaPeK6/wBTkeNHDldILgAAAABJRU5ErkJggg==
+      version: v1598563811
   - embedRatio: 56.25
     name: "21"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563807/portfolio/21_pgtszg.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563807
-      filename: portfolio/21_pgtszg.jpg
-      width: 2000
-      height: 2004
       dominant:
         - 86
         - 88
         - 78
-      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5UlEQVQ4T02SSWuiQRCGq913cbkoehEEzzMJGY1ZzEzCzP8/CooHFfWguO89PGUqpKHp7+vud6m32j2273wwGJRQKCThcFii0agkk0lJpVISj8f1m7NIJKLn3nu5Xq8Chj3XevzpDRiLxXQTIJNvCDKZjDjnZLvdqkAul5Pj8SiTyURcs/XDA0QxkUjoBQhRRQUizvkPBAJKyjqfz28EOACYzWaVxC6gyIBgt9upi1KppC663a6sVqubs/bTvTebRmBgVtQvl4uWwvdwOJRer6dijUZDXOetpSXgwurGuk1KSqfTcjqdZDAYyHQ61f9arSblclnc+8ezhmgpW6AA2WNAtlgsZDQa6V69XpdKpaL77u+/jicUUyQsax/O9vu9jMdjDY2aUSYLiM7n880BtQJEFTArhIzZbKYZcIe6C4WCBm5vwv3+0/5yYLYB82AA9vt9BRSLRV1R5ozJ0BCtBFj5Boh1HgvBEVa1WtVOsE8rIeC+e3n99UUAmGdK35fLpV4EkM/ndVLGer1WYnvy7vnlQTMAzKBdPBJC22w22l6UKAtyzhmUAok60B0RtYWiEaAGgQl8F7Ic3Gun6e2H2g+HgxLQdxzQStzZ1OA+HbNqiFhj0lcIAFoGOLDyOEeElhMoZ/8BJRf/calijqEAAAAASUVORK5CYII=
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563807/portfolio/21_pgtszg.jpg
+      width: 2000
+      height: 2004
+      filename: portfolio/21_pgtszg.jpg
       alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5UlEQVQ4T02SSWuiQRCGq913cbkoehEEzzMJGY1ZzEzCzP8/CooHFfWguO89PGUqpKHp7+vud6m32j2273wwGJRQKCThcFii0agkk0lJpVISj8f1m7NIJKLn3nu5Xq8Chj3XevzpDRiLxXQTIJNvCDKZjDjnZLvdqkAul5Pj8SiTyURcs/XDA0QxkUjoBQhRRQUizvkPBAJKyjqfz28EOACYzWaVxC6gyIBgt9upi1KppC663a6sVqubs/bTvTebRmBgVtQvl4uWwvdwOJRer6dijUZDXOetpSXgwurGuk1KSqfTcjqdZDAYyHQ61f9arSblclnc+8ezhmgpW6AA2WNAtlgsZDQa6V69XpdKpaL77u+/jicUUyQsax/O9vu9jMdjDY2aUSYLiM7n880BtQJEFTArhIzZbKYZcIe6C4WCBm5vwv3+0/5yYLYB82AA9vt9BRSLRV1R5ozJ0BCtBFj5Boh1HgvBEVa1WtVOsE8rIeC+e3n99UUAmGdK35fLpV4EkM/ndVLGer1WYnvy7vnlQTMAzKBdPBJC22w22l6UKAtyzhmUAok60B0RtYWiEaAGgQl8F7Ic3Gun6e2H2g+HgxLQdxzQStzZ1OA+HbNqiFhj0lcIAFoGOLDyOEeElhMoZ/8BJRf/calijqEAAAAASUVORK5CYII=
+      version: v1598563807
   - embedRatio: 56.25
     name: "22"
     image:
-      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563828/portfolio/22_r9yjzz.jpg
-      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
-      version: v1598563828
-      filename: portfolio/22_r9yjzz.jpg
-      width: 2004
-      height: 2000
       dominant:
         - 40
         - 42
         - 31
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563828/portfolio/22_r9yjzz.jpg
+      width: 2004
+      height: 2000
+      filename: portfolio/22_r9yjzz.jpg
+      alt: ""
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
       baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABYElEQVQ4T42S3U7CQBBGZ+kPVGO1WCqEKKLEGA3x/Z8KLrihLaw5o7NZJFE32bTZ3TnzzTfjrqvcO+ckTVMZDAZyOBx053kuRVFI3/d6zuYdi/8kSXS728mFjw/5996HR3ZnACBxQnc3K/3xeFQyWdk8JrNlD9m+gwFwplAASGaNRiMpy1KGw6G0bSu73U6zGYAAFmehrLq5DAqoua5rhez3e9lut6oCf8wj88EgwQPKQEHTNDIej6XrOtlsNgoiOMuyL9OcU4/MC9dMr9READxAAZuyAAACgDcxwEpxs/mNpx4esqqqUgBASuBrAL7WpQC4X9QeSSyTilxrm8k108z90NaHx0kAcElwDIhdj7sRAItlcwYwxwm2umMFYQaYi+XzVAFsU/AXIB5tt3qZBwAXyAcQz7313DKfKHh9W+gg2fzb0Pwb8L5+OgNY3daZXxWsP1YnAILjEigpBvxs4yej95rSyzUhAAAAAABJRU5ErkJggg==
+      version: v1598563828
+  - embedRatio: 56.25
+    name: "23"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563817/portfolio/23_uovlzw.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563817
+      filename: portfolio/23_uovlzw.jpg
+      width: 2004
+      height: 2000
+      dominant:
+        - 14
+        - 14
+        - 12
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiElEQVQ4T02T0U/aYBTFz1fAUkonUIEE1E1FccmW4fCRsJdlLON/NvHFBx988YGoBH0gUWkZ1RZKoe233Atu+15KGr7fPefcU5FKpaSu64jjEIVCAb+6P9HtdvHy4uDs7Az39/e4vr6G47wgn89DEUl4nocwjCGlhFBVVWYyGUgZYXNzEz8639HpdBhwfn6Oh4cH9Pt9uK4HTdMQhRK+7yOOgTAMIdLpNANIASlpf2uh3W4z4OLiAsPhEKPRCPN5ADr+LFhdFAksFguINwukQFVVfG020Gw2MZn8xuXlJRzHwWw2QxTFWC6X8NwZhBBIpVTM53P6LaRhGFAUYGNjA8cfj1Cv1zEe27i6uuJLQRBACAVRFDEgkUhAVbWVAgCSvGcyaZCV/YMP2N3dhW1bHB4BXNeFoiSQTCYxm84ZRAriOF4BTNNEsWhyynv771GtVllBr9fDZDLB09MTpASy2SxnQFsAFCiKsgKUy2Vsb1dAT1JQqVQ4g9vbWw6RVkkZ5HI5BozHY0SRZEUMoHRzuXc4PT3FVrHAnj3P5fAeHx95Im2BLlAPyLvvr7dhmqYkIp3j4yMc1WtsxXEmGAwGDHl9fcV0ukr/DRAES74jDMOQFBIdTVPxpfEZJycnLOzm5gbPz8+cAzWRwoNUuAdkgQH0TwoDiLldpXIBrVYLOzvbsG0bd3d3/LTtMVsjAIGkFKyIAdRAYrjulJGNxifUagd8gexRE0cjiyssY8HfAG2B+vA3RCHAq0qmgMPDQ1SrlXVY/n+A5TpyVv9vjexFAMXiFvSsxuvK53M8gRRYlgXLshEEIQNoEAdKPdB1XVKnS6UtbmAsQ55sGFn+OinEtwzoPWWwns+AP4tIh/QQZ19wAAAAAElFTkSuQmCC
+      alt: ""
+  - embedRatio: 56.25
+    name: "24"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563813/portfolio/24_xmxyh7.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563813
+      filename: portfolio/24_xmxyh7.jpg
+      width: 2000
+      height: 2009
+      dominant:
+        - 18
+        - 18
+        - 17
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACyUlEQVQ4T2WT/UtTcRTGP/duu266Mcs30pmNXkwbObG2WpgEClFEZYI/+ecV2csqkt5EEDSxRUWglUIKlk1x6qZ70d1db3zPMom+cH+4B85znuc5z9Hcbre9s7ODeobhxMbCNG1aWhoZGhqis7OTqqoq0ukM8XicJ/FnlEoWfn816XQaDbClG3C5HJQsC9uGs2fbGBwcJBAI4PV6yWZzjIyMEH/8FMuy8fl8bG9vlwEcDge6jiArNL+/iljsIn19fVRWVgoD0ywxOjrK8P2H7O2B6rEsqwxgGAa2rahbuAyNUCjEhQtRWltbZZLH40HTdKamprh39z7r65sCoN5fgGKxKIVDh3309vYSDndQUVEhnxrg9fqYm5vjwfAjvn2bx+12S13TNE0klEolAWg+eoT+/n7a29vIZDIkk0mZVl/fwMbGBiPPXzAz8+WP6UaZgaZp2Mo54OSpIAMDA7S1nWZtbY3FxUXR2tQUkCGvXr5hejqx7/vBFpxOXYrHTwSFQSh0hlQqhWmaqDU3NjYpurx88VrM3NzMoOv6vx44HBrnI110dHRw7FgLwWCQ5eVlXC4XuVxeGK2nNllaWhIZ6l8kKKN2d3dRAJHoOcLhMIFAE83NzaysrIgHhcIOq6ur/Pzxi4WFBb5/XySbzZYBlKOKpsrCxVhU0tfQUE9tba1IUE9lRE38+mWO2dlZkslVCoXCvwCaBpd7LtHV1UV1tV9CpDKgVux0uiR57xMfSCQSpFIbBznYZ6AAevuuEIlE8HjcshkVY7U+j6dSGqbeTjM+Pk42mz8A2PdASbh2/SqxWAxd18jn83IL8/PzGEaFRPrd9HvGxsbI5Qr/J1GZePPWDbq7u9nbs2SykjMxMSG3UFNTw6ePn4XB1lYWp9NZ9kCtSZmlAO4M3KanpwfTLIpp0WhUrnBra5u6ujpmZ74yOTlJsViSXPwG/qdPiKrF1B0AAAAASUVORK5CYII=
+      alt: ""
+  - embedRatio: 56.25
+    name: "25"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563820/portfolio/25_zcptut.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563820
+      filename: portfolio/25_zcptut.jpg
+      width: 2000
+      height: 2005
+      dominant:
+        - 17
+        - 17
+        - 17
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC80lEQVQ4T1WTSyilYRjH/+93O3fn4jiOCR2XHEwpUXYSipXJzJHIarKVhQVJNiSi2FkpnWahCadsRBSaFU2S6RhKmthwbm7HnW96npOmeTdf31vv//k/v//zCKczXU8kErBYTEgmkxBCoLW1FWlpVqyvr2NoaAi5ubkQQsbb2xtWV1cxPT2NaDQOi8UCAUg6AGRkpCMWiyE/Px9NTU2w220wGAwoLCyE3W6Homj8XVtbw/j4OCKRGEwmE4TNZtcdDgeKigrx+vqK8vJy+Hw+hMO/+HFZWRmenp6gaUYWJ1eDg4O4uIimBMiB2+1Gc/MnSJKEh4cH3N7e4ujoN2pqatDe3o5IJAJVNaC0tBTLy8vo7+9HPH75rwVN09Dd3YWbmxvMzs6yCJ1A4DN6enq4NYPBhJycHMzPz2NkZAR3dw+wWq0QBPH6+hotLV+QmZmJzc1NxONxWK1meDwedHV1gQrYbHYGPDMzg2AwyILkWMiyqlPvDkcaqqqqkJeXB7PZjPv7JKLRKDPw+/3wej/g7OwMU1NT2N7eZkFyzAyI7tVVgm1nZ2czfY/HjaysLDidTlRXV8Pny8f+/j5GR0dZyOlMB8XPAmTNZrOAWiG7RN1gUDE2NoZQKMT0/f4ShtbX18fzQlDpnRBC1nVdhywLjpGqPz8/s+Dw8DAODw+50snJH9TV1WFvbw9LS0ss8PLyAmE0mnWiLkngSSOBx8dHqKqM3t5eeL1e7O7uYm7uOxobG1FZWYmJiQkkk/ecltA0o54aFIUVVVVlATqdnV9RUVHBLra2fuDy8hIdHR1YWVnBzs7PVAvvo0wVyQFdkhDF2NbWhoKCApyennJsk5OTaGhoYBYLCyEoivK/APX+fmg36uvrUVxcjOPjY5SUfOTFcrlcqK2tRTD4DbIspxhQZWLwPoEkYjRqvAuBQADn5+dwudzY2NhAOBzmZTs4OORYhSQpvI2UAjmgFmjCKBFFkTAwMMD/sViC411cXGSYbreHx/4v3q89bgZ3MvQAAAAASUVORK5CYII=
+      alt: ""
+  - embedRatio: 56.25
+    name: "26"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563837/portfolio/26_mlu9x2.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563837
+      filename: portfolio/26_mlu9x2.jpg
+      width: 2500
+      height: 1632
+      dominant:
+        - 210
+        - 206
+        - 191
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAACLUlEQVQoUz2QXU9SAQCGn3M6IAJHwY8kbZofiY48Jmo2a6215YX33flPat3U1g9o9Qda687cNLO5PiynKYXTcppDU4E05AAih3NQ8DRo8/0Bz97nEYyDGVPMJ0CPshfeILi8Tn3rTQypBbu7jdaWTvRclnLZSSSyS7m9jLamJpJ7++gZDSH++40pnKiY2QjRnXUCwVU8zYMlgFzjpbOjGwQBo5BD0zNYJBGbKHKUTKGlDhEOtiZMjuMUMrtEtteYX1ymtnGAY2sbbo8Pr1eh3GFHTScoFApYrRInmkZez3Ks6Qip8Dvz1IidAWbng1Rf7Md0dFLX2EN7RzeiJKEmVTY2QzjtNtyyk1Qsht1ShqBuT5oF/W9Jofjgy9x3qhr6kFwKjZev43I3cJjNEN2PMjo2SmWFk6u+LtZXVqh1VyEkdt6eAYoNZmYDuOt7sdX4ae+6TavXj3qYYmk5yMTkOM2XmvC1d/Dr5w9cDhkhHZ0289l9TrVwKeLHzwtUenpw1PXj89+lIFaSN/O8ePWSjJ7hWq8fI31EWo2Ty2T/NzjR9kqAosL7T/PI57uRLwxwpXcIU3Jjkx08eHgfpUfh1o1BpqemsJ+zsL0ZQkgcfDCPkn/AUNlYXWJxYQlPgwLWeu4M3cM4rSAUCvHk8SMqZAfDw8PU1VTz/NlTFEVBSCfnzFwmjl3UCW+t8S2wguxqIaU76BsYIhzLUtz42GsMXUOSJCyiQGDxKyMjI/wDdl4O/wVpcT8AAAAASUVORK5CYII=
+      alt: ""
+  - embedRatio: 56.25
+    name: "27"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563831/portfolio/27_bcwvki.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563831
+      filename: portfolio/27_bcwvki.jpg
+      width: 2500
+      height: 1623
+      dominant:
+        - 198
+        - 177
+        - 163
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAACS0lEQVQoUx3QT0iTcQDG8e9vW25urlfTteYfrFmOqTi8zIMeYpIM9LAOgZcgPHQxQupSTEIosltBmAcFw4MHByY5rDQDwUNQklNJV7gZaqW16dx0bnN7o/f+8PB8HvFp1i+XmEsZHvWRU+cT2thif+8AU1Ehx8kkt29eQ5IkRkZGcLlcCCEoKCggGo1SU1ODmJsck2OJJN7ex2jyJQwFhcTjcbLpFJE/Ozztu4fFYmFwcJDm5mZ2d3epqKhQMg0NDYj5KZ8cS6S4e7+HnNBiPldGeD2EnMmgy9Nw59YN6urqGBoawu12s7y8TH19PZubm1itVsTM2Es5K9Q8ePiErDhFlfUSK4sBCo16qi9aud5xFbPZjNfrpaWlhUAgQEdHh0IoLy9HzE2MyvuJI3of9SGElqamJkLfv2G7UEldrZ1SSwkGg4Genh7a29sJBoN0dnYqFK1Wi/j41ifHD1M8e/6CSPQAW3U14bU1XJebcP43qmSMRiP9/f20traytLSEx+MhnU6j1+sRs75hOSOreDUxyfavHc6cllhZXMDjvkLV+UrOWkoxmUyMj49js9nw+/00NjYqPzgcDsTih9dyJLrP1PR7kDXK7FBwlUZHLQfRv7yZmaWtrY1cLofT6WRgYIDj42PFb7fbEZ/f+eRELIZGTnNydESeRkMsfsj6xk+MksT0/ALFxcWUlVnInKQIh8Oo1SpUKuju7kb8Xl2QD/aiZNOHxCMRkolDfmxt8yXwFU2ejhO1Dp1OR1GRRDaXUc4zGPRKQVdXF/8A8vvz6lO3gHYAAAAASUVORK5CYII=
+      alt: ""
+  - embedRatio: 56.25
+    name: "28"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563836/portfolio/28_jiwggs.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563836
+      filename: portfolio/28_jiwggs.jpg
+      width: 2500
+      height: 1692
+      dominant:
+        - 214
+        - 208
+        - 205
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACg0lEQVQoUx3R2UsUAQDA4d/M7LrjHjOTx5ZaUYGVWhqaJwSxWkRE9FKkYSE9Sk8dFPUSUT0kROGDVFRoRkWXYFCRm9HhYNf6YKaZjqnrlaya7qp7TOC/8H1Cb0+/6fP5iLPaSElLRdFUdF1nyO9Hlu0EpydJUDVUl4bdJvPbMHBqKg5FJXGFG+HenUbzbkM9iqKwfsNGCooKqamp4ZPeDrEYa1enQjQGMQFnvJ3h0VES3MmEFsPkbM1FaHn12rzXcB+XpuLxlFFYVMzFy5doqG9EkiQWQjO47A7ibXZkaxyDfj/u1BSGR8c4fLQK4UZtreltfUskEqPySBVr1qzjbes7Tp85iyiK2KwgxEyi4RiaSyEhOZnM7M00Nb9gx+5dCI13b5ktLS3Ey04OVhzCvWIlbZ90jp88RTRiIklhVKcLwRSxihIZmzaRk5dLfeN9srZkI1w4d8L0elvZs3cf69MzkCwyV6/V8sbbSrxsJzQfIElLwCJakRDYXlrKhqxMXrx8hZaciHD9ynlT19uprj5GMBSl3xiiru4mPb0Gy90pzAYnlhBFpKWNispKXMs0PrTpTM39Q2h6eNt8/+EjHs9ORscn6fB18btvAL39G4HANII4T0lhEUUFxZiRKMuSkvja4QPJQnrmRoS5oR6zrf0z/cYgE5MBfnb34XAqPHj0FNFiYS68QH5eHocrylkMzmEYfxgemyAwE2T/gXKEbt1rfvnuwz8yTmD6Hz2/DByqxuMnTdhsMlPBWValpbGrrBQzvEgotMBMcJ6hkQk8pTsRAgM/zM7OLv5OTjETDNHd3Y9T1Xj2vBnZ7kCyWdEUhZKCfGKLC1gscUQQMQZHKC7Zxn9O2AfrBILkSgAAAABJRU5ErkJggg==
+      alt: ""
+  - embedRatio: 56.25
+    name: "29"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563847/portfolio/29_imqqm6.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563847
+      filename: portfolio/29_imqqm6.jpg
+      width: 2002
+      height: 2000
+      dominant:
+        - 55
+        - 57
+        - 47
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC6UlEQVQ4Tz1TSUgbYRT+xj2KGPddXEA8iIqKHrQQIbVB0EtvbZF6SsDe6kFITwHRKojpVWmREgMNBUkbDYq0SF2IpYKaiIKKC2644r7+5XsHB4Zh3vzvW973RnthMqioqCiYTCZUVlZia2sLu7u7cLlcuLu7w8XFBfg9LCwMV1dXqK2tRUNDA2ZnZ+H1eqEZnz9T+fn5qK+vR3R0NIaGhgRgYmJCGo+Pj5GcnIyUlBTs7e3Jk2d5BQIBaGbLW1VeXg6j0YiVlRV0d3fj/PwcGxsbiI2Nleb7+3tERkbi6OgIOp0OVVVViImJEbXax06bKigoQEVFBXw+H9rb2+UQmUNCQqS+vb2N1dVVnJycICcnBzx/enqK5eVlaO9b3qnU1FRUV1eLgq6urifpZC4qKkJeXh4WFhbEFi0UFhbi7OwMfr8f2qvXL1VwcDDq6upEKgFub2+FITQ0VObS2tqKh4cH9PX1YXNzE2VlZWJtcXERmvVDiyI6fSUkJKCnp0fkc+JJSUnC2NTUJCqmpqYwPj4uNaoeHR2F5v7hUv39/cjIyEBmZiZ6e3uF/fHxUfyazWaEh4eLbDYRhASXl5ew2+3Q/IF/ipnPz88jKysLaWlpGBwchM/3F42Nb9Dc3CwAh4eHSE9Ph1IKDocDjJ6WtQHnFzU5OSkZk5FM3IOdnR3U1NQgNzf3KUIuE9k9Hg8MBoPUNfunTsWYiBYXFydWgoKCsL+/L3Hq9XqZDYdIaxwct9BisQih9s31VbE5IiJCtuvm5gbX19dYX1+X7Ck7OzsbiYmJ8j4yMoK1tTW0tbWhpKQE2q/fXkV0Rkl/zJdP/geMjOoIwuVZWlqC0+mUGuOmXe2n57uiNK4lgegzPj5eJs5Jc8AELC0tlUEODw8LeEdHh9jVHAOfFVd0ZmZG5LPInLnrBwcHcLvdkhDZ+HPRGs/YbDZJR1Ig8/T0tDAVFxeLAlqZm5uTe2zsD/R6nTTyoner1SrL9h+m4J0tHSWWowAAAABJRU5ErkJggg==
+      alt: ""
+  - embedRatio: 56.25
+    name: "30"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563862/portfolio/30_hkjwht.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563862
+      filename: portfolio/30_hkjwht.jpg
+      width: 2500
+      height: 1659
+      dominant:
+        - 173
+        - 174
+        - 168
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABjUlEQVQoU02SS0tCURSF9/F1VXxdH4gOBME/2KiaFM0KCrJpg4KgIgdFA4P6N6KgIgo+8O2Ob8MFNxzOOfuus/ZaS13751tVVXK5nEQiEVmtVpLNZu3c6/UklUpJMpkU55z1PM+T7XZrKx6Pi/v9aysXQKFQSGazmUSjUQmHwzIejwXydDotsVjMHoCjB2EmkxH3+dVSpvIR0GKxkP1+b3eAlE06UsB3BuTzeXFv7y+6Xq/tMeycWZyxlUgkTO58Ppfdbmfq2FFbKBTEfbRelQaMTDocDgbGa6VSsR5W+v2+EUFIQVQsFsU9PT8qFyQGNpbLpQVWrVZtHw6H0u12LeBgCAPK5bK4++atEhIEEBHMZrMx/6VSyaxNJhMZDAYCMX12lNRqNXHNhzv1fd98IR8yJgEiAwjIZDqdGnGQB7hGoyHu+uZKkUMGEFAEhCLS7nQ6lkfwK6ASFfxXTMHF5ani6xjEVAgBEiCFKlRCRKG6Xq+LOzs/UfywCIwJnNkpHmBhNBqZDVTRIx8s/ANlj9p2jkGoGwAAAABJRU5ErkJggg==
+      alt: ""
+  - embedRatio: 56.25
+    name: "31"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563858/portfolio/31_i8pbdt.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563858
+      filename: portfolio/31_i8pbdt.jpg
+      width: 2500
+      height: 1659
+      dominant:
+        - 207
+        - 207
+        - 203
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABe0lEQVQoU1WRTU4CQRCFq/mHAQIjG0gggKz0Km70FO70EG70Pm70Ai7URCMm47gmhEAghJ8wMLT5KnYClVS6Z6rfe/WqTPj7bROJhLg0xshh7Pd74Z+ru5q1VkgT/HzZTCYjyWRSdrudRFGkbwqFguZ4PD4ihOwoPz5fLaDtdqskuVxOIEQZQkhQIlTxn4CO9P72/qJVwNlsVsEEhBBD4iwc2kOAME/Pj7ZYLIrnefpjtVopCLJ8Pi9xHCt5KpXSky6cVWoGC/P5XBaLhT4qlUoKpIP1eq2ktAuYE2U6c7bN/cOdnU6nSoD/Wq2m6rPZTCaTiXQ6HVUlUUSd5K4bury6sO12W1qtlqoNh0OdPIpYYyYANpuNJne3Wp3Bze21BTAajbRYLpelUqloF6iyBQJQOp2WMAyl2Wzq28FgIObs/NTyGO++70u1WtWBMg/CnQCIIAiEjukQi8Y/8Wyj0ZBeryf1el0H6Nblhse3W2m/35dut6uCy+VS/gA1D99a1SodbQAAAABJRU5ErkJggg==
+      alt: ""
+  - embedRatio: 56.25
+    name: "32"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563857/portfolio/32_y7wz78.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563857
+      filename: portfolio/32_y7wz78.jpg
+      width: 2500
+      height: 1670
+      dominant:
+        - 160
+        - 161
+        - 154
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABo0lEQVQoU01SSWoCQRR95aw4tzSC4FJyDslVXDS9l9hBNJqgIQajK8W9p/AgLiMBcenU4lzhfeiQhqJreP8Nv0o1mo6+3+8Yj8fQWiMcDmO328k8l8vBtm2k02n4/X7ZC4VCuF6vuN1uSCQSUJ1uS/NgMplAKYVIJILNZoPL5YJMJoNKpSL/YDAIfh4Ba4Sg+97WPCABVUiwXq9xPB6RTCZhWRYMwxACCvwnSKVSUK9vDU07o9FIANFoVBycTichqFarQsBCqgYCAYlALKNJBKoNh0MBkGC/3wuICvV6XQi8QrrkGdfZbBbqa/ChXddFv9+XxsRiMXBNEBUcxxGgz+fD+XwWZU/INE2owbCnD4eDEPA24vG43ALBnNdqNWkiC7lHIrpgvEKhANX77AgBI/Bj0Xa7FRd0wwgeAftC62woXRWLRahG80mucTqd4vv7B6ZpiAPXPSOfN2BZtpCSjC5IQHXGY7/US8vRtDWbzbBcLsFcJGQc7pfLj9JM3jmL+dC4/iNotZ81M83nc6xWKzkgmKqLxQKl0oNE4KAiBzEcfDO//t7ds6NEa9sAAAAASUVORK5CYII=
+      alt: ""
+  - embedRatio: 56.25
+    name: "33"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563868/portfolio/33_pgayt8.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563868
+      filename: portfolio/33_pgayt8.jpg
+      width: 2500
+      height: 1670
+      dominant:
+        - 208
+        - 209
+        - 205
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAB8UlEQVQoU01Sy2qTQRg98zf3e1IiufiXCppAaAwEahdCLc2q1LjOshJFd7pTmgeoYH2FuNC3cZNocdMsmqDWCmkS8+d+GTlfCTgwzDBzzjfnnG/U129ftGVZ2NjYxGw2g2GsYblcYj0SRbPZRPTWOjqdDux2O/x+P8bjMYhfDfXq9UudzWaxvb2DYDAIu90Bl8sFqz9EPB7H76tfQnY6nZhMJuj1esJ1OByYz+dQ+4WHmod7e/sol8vweLxS6OePS4RCIczmE2itsVgsbghKCZlnVKMe7OR0Pp/H2dl3uTg6eopisYi/PUsA/oBXVtrjPedoNMJ0OoXb7Ya6e8/U4XAYhmFDLBbDcqml+ts3x8hkMrj6c4lAICC5kMS13++LGipUm3fiOpfL4eKiheFwiN3dR+L38eETJJNJrNkU+ABJDC8SiYgN2jYMA+q2GdUMZ2vrvkg6P29I2s+fvUCpVMJoPJBX2+22EIhptVoYDAZIp9M3BRKJBA4ODkX69XUHhUIBo+EEqVQKLrdDMuDweDyo1WqoVqtiq1KpQL0/PdGrZOmLMtk2r9crPtlSyuegkkajgXq9LnvTNKE+ff6obTYbfD6fgJgDC5DI5FmQ0okhqdvtylwpUqcf3mmCGRRbRLkE//9xKJdnbB+LrD4Rlf0D6mABc9cNrP4AAAAASUVORK5CYII=
+      alt: ""
+  - embedRatio: 56.25
+    name: "34"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563883/portfolio/34_ocnicl.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563883
+      filename: portfolio/34_ocnicl.jpg
+      width: 2500
+      height: 1659
+      dominant:
+        - 199
+        - 200
+        - 194
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABt0lEQVQoU1VSWWsaURT+7sy4O+q4DNKAv8CGPPjsc0J/Yh/aX1BoQySYrU1oKaEkEPKoD4L7Qse4jOJyw3eCITkwzF3O+ZZzrjq/ONXBYBCu60IpBc/zEI1G5RuPxwiHwzAMA4vFAoFAANvtVvasaTabUCeV7zoWiyGdTsOyLPi+L0kEYxHvTNPEcrmUIgb3kUgErVYLqnpW0YlEQg4IsNlsMBqNhJ2J2WxWmAlANYxQKCTAnU4H6vrmUtu2Da21SGM0Gg10u13E43EUCgUBWK1W7wBY0+v1oK5+nomFnTeyttttDAYDMCmXywkjlfHPICBV9/t9qMurqqY0yudHgOl0ivl8/mqJ9qiQeSQiwKuCX9cXmoVUQQv0Srb1eo3JZCLr3R0nQyCSvANgx3lA9OFwKEn0zDFxvLwjCXvCu91aesAx8iCTSQuy78/wNPEwm82kD97/JxSLRZhmAI7jwLJeGuqkMtIr9eP4m6anVCop8h8fH3B3/w/1el3GdHT4CaVSCbadFDVvAeQdfPn6WVPa3t4HadLt7V/8/nODWq0mzdz/eIByuQzXzSOfz8MwXh5VMuGIxWchAObQfhXxpwAAAABJRU5ErkJggg==
+      alt: ""
+  - embedRatio: 56.25
+    name: "35"
+    image:
+      src: https://res.cloudinary.com/jonathanbaggaley/image/upload/v1598563862/portfolio/35_sddt2y.jpg
+      base: https://res.cloudinary.com/jonathanbaggaley/image/upload/
+      version: v1598563862
+      filename: portfolio/35_sddt2y.jpg
+      width: 2484
+      height: 1656
+      dominant:
+        - 67
+        - 68
+        - 60
+      baseSixFour: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAABmElEQVQoUz2SyUqDQRCEe7Lv+4IJSTwk+COigstNFDU+the96EOEHAIhC9n3beRrSQaaTGZqqqqrf/Pz+20DgYDMZjMtr9crLpdLWOFwWOLxuJ63Wi05HA4Si8Wk2+1Kr9eTZDIp5uv7045GIxkOh+LxeMTn8+meVSqVZLvdyn6/l/l8LsYYiUajescKhUL/BFwOBgMFoIASLjKZjKpvNhv9D9l0OlUhHoMzr29PNp/Py2KxUJJCoSC1Wk1BEOOI31wup5aPQtlsVjHmrJCxxWLxZBPb1WpVFVFzHEfa7bakUimtRqMhzWZT3G635mVubi8t/WAnkUioEnuKACORyMlBuVyW9XqtIXLv9/vFvNefLYe73U4VeISytVbbgYBcsEsFg0FZrVbS7/dluVyKqX+8WEAkTQFmrIA5H4/H2gaKZFGpVCSdTkun09FRmofHa0v69ERgKJAw9iBhbDyGlO+CSUAKnpbN3f2VBYBlFuEdPyTOAHIPMcVIJ5OJYmjXXDjn+hIXxz7Z84iWdFTGqCOKvMgIAlr8A0tP4QfudGdHAAAAAElFTkSuQmCC
       alt: ""
 noNav: false
 noLogo: false
