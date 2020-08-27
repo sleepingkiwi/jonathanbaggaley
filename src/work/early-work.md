@@ -10,7 +10,7 @@ description: |-
 
   [East Avenue (1985)](https://jonathanbaggaley.com/east-avenue/)
 
-  [Music Portfolio (1986)](https://jonathanbaggaley.com/music-portfolio/)
+  [Music Project (1986)](https://jonathanbaggaley.com/music-portfolio/)
 
   [Portfolio (1986) pt1](https://jonathanbaggaley.com/portfolio/)
 projectContent:
