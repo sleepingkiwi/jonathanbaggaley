@@ -29,6 +29,8 @@
       top: 0;
       left: 0;
       transform: none;
+      max-height: none;
+      max-width: none;
       object-fit: contain;
       height: 100%;
       width: 100%;
