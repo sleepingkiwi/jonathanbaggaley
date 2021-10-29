@@ -14,6 +14,10 @@
 
   --stack-before: 40rem;
 
+  & span {
+    font-weight: bold;
+  }
+
   & svg path {
     fill: var(--colour-primary);
   }
